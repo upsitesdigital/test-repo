@@ -1,0 +1,451 @@
+[2023-05-09 10:17:15][WARN] Token not found, generating new one.
+[2023-05-09 10:17:15][WARN] 
+[2023-05-09 10:17:15][INFO] Getting token...
+[2023-05-09 10:17:16][INFO] RESPONSE:
+[2023-05-09 10:17:16][INFO] Array
+(
+    [access_token] => sa18BDPWgORZleGLCT3FDatnQS0rIX
+    [expires_in] => 86400
+    [token_type] => Bearer
+    [scope] => read write
+    [refresh_token] => 8MzKVWYBO5Z4Ad73kEJ5y1Da1KRroF
+)
+
+[2023-05-09 10:17:16][INFO] Token generated successfully.
+[2023-05-09 10:17:16][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-09 10:17:16][INFO] Cron Sync Routine - BEGIN
+[2023-05-09 10:17:16][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-09 10:17:16][INFO] Getting jobs page: 1
+[2023-05-09 10:17:16][INFO] JobconvoApiClient - Request method
+[2023-05-09 10:17:16][INFO] METHOD - GET
+[2023-05-09 10:17:16][INFO] URL - https://api.jobconvo.com//api/job?page=1
+[2023-05-09 10:17:16][INFO] GET Methods enter: GET
+[2023-05-09 10:17:21][WARN] Retry request attempt 1
+[2023-05-09 10:17:21][INFO] Found 50 jobs on page 1
+[2023-05-09 10:17:21][INFO] Getting jobs page: 2
+[2023-05-09 10:17:21][INFO] JobconvoApiClient - Request method
+[2023-05-09 10:17:21][INFO] METHOD - GET
+[2023-05-09 10:17:21][INFO] URL - https://api.jobconvo.com//api/job?page=2
+[2023-05-09 10:17:21][INFO] GET Methods enter: GET
+[2023-05-09 10:17:26][WARN] Retry request attempt 1
+[2023-05-09 10:17:26][INFO] Found 50 jobs on page 2
+[2023-05-09 10:17:26][INFO] Getting jobs page: 3
+[2023-05-09 10:17:26][INFO] JobconvoApiClient - Request method
+[2023-05-09 10:17:26][INFO] METHOD - GET
+[2023-05-09 10:17:26][INFO] URL - https://api.jobconvo.com//api/job?page=3
+[2023-05-09 10:17:26][INFO] GET Methods enter: GET
+[2023-05-09 10:17:32][WARN] Retry request attempt 1
+[2023-05-09 10:17:32][WARN] Request timeout. Retrying in 5 seconds...
+[2023-05-09 10:17:33][WARN] Retry request attempt 2
+[2023-05-09 10:17:33][WARN] Request timeout. Retrying in 5 seconds...
+[2023-05-09 10:17:34][INFO] Request error:
+[2023-05-09 10:17:34][ERROR] Can't acess Jobconvo API, error:
+[2023-05-09 10:17:34][ERROR] http_request_failed - cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[2023-05-09 10:17:34][INFO] Jobs found: 100
+[2023-05-09 10:17:34][INFO] Jobs not past deadline: 38
+[2023-05-09 10:17:34][INFO] Job 864cdd27-97a4-439c-8d85-7f3fc73deb05
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7965
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job c3e586e4-711b-453d-bd8c-d983fb1f7d71
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7967
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job f76d153a-cc4e-42c5-8007-ff4dbe0bdf62
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7969
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job 7e2757be-7084-4914-884b-338e28d23f48
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7971
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job 075a5cbf-23db-44a4-859c-07a5226d19a2
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7973
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job 5ed6486e-46ef-4c63-93a6-e72bd8a327c8
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7975
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job 891b8805-fbf9-4484-98a0-2b9a20f293ec
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7977
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job 95d4a4a3-5e3a-4fa9-a9f8-7f11b81da1a4
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7979
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job dde1ab0d-048f-4301-9c1f-3875b80a2fdd
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7981
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 14
+    [term_taxonomy_id] => 14
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job f26d5ee9-1ef3-40bd-98c7-4e868ea16781
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7960
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 13
+    [term_taxonomy_id] => 13
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job a9b47f7c-6397-4bbc-a456-17784809281c
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7888
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 105
+    [term_taxonomy_id] => 105
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 106
+    [term_taxonomy_id] => 106
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 13
+    [term_taxonomy_id] => 13
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job 2efde02c-ded4-4fa0-93a5-6f87c40689a8
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7890
+[2023-05-09 10:17:34][INFO] Setting job terms, councilArray
+(
+    [term_id] => 8
+    [term_taxonomy_id] => 8
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtArray
+(
+    [term_id] => 5
+    [term_taxonomy_id] => 5
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationArray
+(
+    [term_id] => 95
+    [term_taxonomy_id] => 95
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 13
+    [term_taxonomy_id] => 13
+)
+
+[2023-05-09 10:17:34][INFO] No changes in this job, skipping...
+[2023-05-09 10:17:34][INFO] Job 796763af-097d-46cb-a4e3-57083776bf36
+[2023-05-09 10:17:34][INFO] Setting job terms for ID7892
+[2023-05-09 10:17:34][INFO] Setting job terms, councilWP_Error Object
+(
+    [errors] => Array
+        (
+            [empty_term_name] => Array
+                (
+                    [0] => É obrigatório um nome para este termo.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, districtWP_Error Object
+(
+    [errors] => Array
+        (
+            [empty_term_name] => Array
+                (
+                    [0] => É obrigatório um nome para este termo.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, locationWP_Error Object
+(
+    [errors] => Array
+        (
+            [empty_term_name] => Array
+                (
+                    [0] => É obrigatório um nome para este termo.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-05-09 10:17:34][INFO] Setting job terms, categoryArray
+(
+    [term_id] => 13
+    [term_taxonomy_id] => 13
+)
+
+[09-May-2023 10:17:34 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/JobconvoApi.php:340
+Stack trace:
+#0 /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/JobconvoApi.php(152): JobconvoAPI->update_job('7892', Array)
+#1 /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/JobconvoApi.php(81): JobconvoAPI->sync_jobs(NULL)
+#2 /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php(758): JobconvoAPI->sync()
+#3 /home/knowerpt/public_html/wp-includes/class-wp-hook.php(308): AlfasoftJobconvo::sync()
+#4 /home/knowerpt/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /home/knowerpt/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#6 /home/knowerpt/public_html/wp-cron.php(188): do_action_ref_array('as_cron_full_sy...', Array)
+#7 {main}
+  thrown in /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/JobconvoApi.php on line 340

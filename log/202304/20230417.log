@@ -1,0 +1,5 @@
+[2023-04-17 19:35:57][INFO] Post ID 1 saved, status is publish , parent is 0
+[17-Apr-2023 19:36:18 UTC] PHP Notice:  Undefined index: knower-jobconvo-api-wordpress-plugin_partner_company in /home/cpahosti/public_html/kn0wer4sversion/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php on line 277
+[17-Apr-2023 19:36:29 UTC] PHP Notice:  Undefined index: knower-jobconvo-api-wordpress-plugin_partner_company in /home/cpahosti/public_html/kn0wer4sversion/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php on line 277
+[17-Apr-2023 19:36:31 UTC] PHP Notice:  Undefined index: knower-jobconvo-api-wordpress-plugin_partner_company in /home/cpahosti/public_html/kn0wer4sversion/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php on line 277
+[17-Apr-2023 19:36:35 UTC] PHP Notice:  Undefined index: knower-jobconvo-api-wordpress-plugin_partner_company in /home/cpahosti/public_html/kn0wer4sversion/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php on line 277

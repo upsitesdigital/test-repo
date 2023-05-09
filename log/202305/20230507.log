@@ -1,0 +1,2338 @@
+[2023-05-07 02:05:42][INFO] New user registered with ID: 107
+[2023-05-07 02:05:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:05:42][INFO] User Create/Update routine started
+[2023-05-07 02:05:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:05:42][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:05:42][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:05:42][INFO] METHOD - GET
+[2023-05-07 02:05:42][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:05:42][INFO] GET Methods enter: GET
+[2023-05-07 02:05:43][WARN] Retry request attempt 1
+[2023-05-07 02:05:43][ERROR] Can't acess Jobconvo API, error:
+[2023-05-07 02:05:43][ERROR] Code: 404
+[2023-05-07 02:05:43][ERROR] Message: Not Found
+[2023-05-07 02:05:43][ERROR] Body details: {"detail":"Não encontrado."}
+[2023-05-07 02:05:43][INFO] User - ajccardoso2014@hotmail.com not found on JobConvo, creating new one...
+[2023-05-07 02:05:43][INFO] Candidate - Creating...
+[2023-05-07 02:05:43][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:05:43][INFO] METHOD - POST
+[2023-05-07 02:05:43][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/
+[2023-05-07 02:05:43][INFO] wp_json_encode: {"profile":{"first_name":"Ant\u00f3nio","last_name":"Jos\u00e9 Cardoso Coelho","email":"ajccardoso2014@hotmail.com"}}
+[2023-05-07 02:05:44][WARN] Retry request attempt 1
+[2023-05-07 02:05:44][INFO] Candidate created.
+[2023-05-07 02:05:44][INFO] Array
+(
+    [pk] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [date] => 2023-05-06T23:05:45.215742-03:00
+    [source] => Página de Carreiras
+    [favorite] => 
+    [blacklist] => 
+    [by_recruiter] => 
+    [referral] => Array
+        (
+            [by_name] => 
+            [by_email] => 
+            [confirmed] => 
+            [answer_date] => 
+            [answer_comments] => 
+        )
+
+    [profile] => Array
+        (
+            [first_name] => António
+            [last_name] => José Cardoso Coelho
+            [full_name] => António José Cardoso Coelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 
+            [social_status] => 
+            [gender] => 
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 
+            [area_code] => 
+            [phone1] => 
+            [phone2] => 
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => 
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => 
+            [latitude] => 
+            [longitude] => 
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [skills] => Array
+        (
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [website] => Array
+        (
+        )
+
+    [applications] => Array
+        (
+        )
+
+    [resume_file] => 
+)
+
+[2023-05-07 02:05:44][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:05:44][INFO] User Create/Update routine finished
+[2023-05-07 02:05:44][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:45][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:45][INFO] User Create/Update routine started
+[2023-05-07 02:10:45][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:45][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:10:45][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:45][INFO] METHOD - GET
+[2023-05-07 02:10:45][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:10:45][INFO] GET Methods enter: GET
+[2023-05-07 02:10:45][WARN] Retry request attempt 1
+[2023-05-07 02:10:45][INFO] User - ajccardoso2014@hotmail.com and pk - 863c3b0c-0629-454a-b277-a55ad6481be6 found on JobConvo, updating...
+[2023-05-07 02:10:45][INFO] Checking User Educations
+[2023-05-07 02:10:45][INFO] Educations found on Wordpress:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Educations Now:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Checking User Work Experiences
+[2023-05-07 02:10:45][INFO] Work Experiences found on Wordpress:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Work Experiences Now:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Checking User Languages
+[2023-05-07 02:10:45][INFO] Languages found on Wordpress:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Languages Now:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Checking User Websites
+[2023-05-07 02:10:45][INFO] Websites found on Wordpress:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Websites Now:
+[2023-05-07 02:10:45][INFO] Array
+(
+)
+
+[2023-05-07 02:10:45][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:10:45][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:45][INFO] METHOD - PATCH
+[2023-05-07 02:10:45][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:10:45][INFO] wp_json_encode: {"profile":{"email":"ajccardoso2014@hotmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":null,"not_brazilian":true}}
+[2023-05-07 02:10:46][WARN] Retry request attempt 1
+[2023-05-07 02:10:46][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:10:46][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:46][INFO] METHOD - PATCH
+[2023-05-07 02:10:46][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:10:46][INFO] wp_json_encode: {"first_name":"Antnio","last_name":"JosCardosoCoelho","full_name":"ajccardoso2014hotmailcom","country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-05-07 02:10:47][WARN] Retry request attempt 1
+[2023-05-07 02:10:47][INFO] Candidate updated.
+[2023-05-07 02:10:47][INFO] Array
+(
+    [id] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [profile] => Array
+        (
+            [first_name] => Antnio
+            [last_name] => JosCardosoCoelho
+            [full_name] => Antnio JosCardosoCoelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 00000000000
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2023-05-06T23:05:45-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3480496
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-07 02:10:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:47][INFO] User Create/Update routine finished
+[2023-05-07 02:10:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:47][INFO] User Create/Update routine started
+[2023-05-07 02:10:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:47][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:10:47][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:47][INFO] METHOD - GET
+[2023-05-07 02:10:47][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:10:47][INFO] GET Methods enter: GET
+[2023-05-07 02:10:47][WARN] Retry request attempt 1
+[2023-05-07 02:10:47][INFO] User - ajccardoso2014@hotmail.com and pk - 863c3b0c-0629-454a-b277-a55ad6481be6 found on JobConvo, updating...
+[2023-05-07 02:10:47][INFO] Checking User Educations
+[2023-05-07 02:10:47][INFO] Educations found on Wordpress:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Educations Now:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Checking User Work Experiences
+[2023-05-07 02:10:47][INFO] Work Experiences found on Wordpress:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Work Experiences Now:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Checking User Languages
+[2023-05-07 02:10:47][INFO] Languages found on Wordpress:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Languages Now:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Checking User Websites
+[2023-05-07 02:10:47][INFO] Websites found on Wordpress:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Websites Now:
+[2023-05-07 02:10:47][INFO] Array
+(
+)
+
+[2023-05-07 02:10:47][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:10:47][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:47][INFO] METHOD - PATCH
+[2023-05-07 02:10:47][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:10:47][INFO] wp_json_encode: {"profile":{"email":"ajccardoso2014@hotmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":null,"not_brazilian":true}}
+[2023-05-07 02:10:48][WARN] Retry request attempt 1
+[2023-05-07 02:10:48][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:10:48][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:48][INFO] METHOD - PATCH
+[2023-05-07 02:10:48][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:10:48][INFO] wp_json_encode: {"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"ajccardoso2014hotmailcom","country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-05-07 02:10:49][WARN] Retry request attempt 1
+[2023-05-07 02:10:49][INFO] Candidate updated.
+[2023-05-07 02:10:49][INFO] Array
+(
+    [id] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [profile] => Array
+        (
+            [first_name] => Antnio
+            [last_name] => JosCardosoCoelho
+            [full_name] => Antnio JosCardosoCoelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 00000000000
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2023-05-06T23:05:45-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3480496
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-07 02:10:49][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:49][INFO] User Create/Update routine finished
+[2023-05-07 02:10:49][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:49][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:49][INFO] User Create/Update routine started
+[2023-05-07 02:10:49][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:49][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:10:49][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:49][INFO] METHOD - GET
+[2023-05-07 02:10:49][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:10:49][INFO] GET Methods enter: GET
+[2023-05-07 02:10:50][WARN] Retry request attempt 1
+[2023-05-07 02:10:50][INFO] User - ajccardoso2014@hotmail.com and pk - 863c3b0c-0629-454a-b277-a55ad6481be6 found on JobConvo, updating...
+[2023-05-07 02:10:50][INFO] Checking User Educations
+[2023-05-07 02:10:50][INFO] Educations found on Wordpress:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Educations Now:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Checking User Work Experiences
+[2023-05-07 02:10:50][INFO] Work Experiences found on Wordpress:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Work Experiences Now:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Checking User Languages
+[2023-05-07 02:10:50][INFO] Languages found on Wordpress:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Languages Now:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Checking User Websites
+[2023-05-07 02:10:50][INFO] Websites found on Wordpress:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Websites Now:
+[2023-05-07 02:10:50][INFO] Array
+(
+)
+
+[2023-05-07 02:10:50][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:10:50][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:50][INFO] METHOD - PATCH
+[2023-05-07 02:10:50][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:10:50][INFO] wp_json_encode: {"profile":{"email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","address":"Urbaniza\u00e7\u00e3o S\u00e3o Louren\u00e7o, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","city":"Vila Real","country":"Portugal","cep":"5000-172"},"documents":{"doctype":["Cart\u00e3o de Cidad\u00e3o"],"rg":"30347284","not_brazilian":true}}
+[2023-05-07 02:10:51][WARN] Retry request attempt 1
+[2023-05-07 02:10:51][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:10:51][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:10:51][INFO] METHOD - PATCH
+[2023-05-07 02:10:51][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:10:51][INFO] wp_json_encode: {"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"ajccardoso2014hotmailcom","country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","social_status":"1","born_sex":"1"}
+[2023-05-07 02:10:51][WARN] Retry request attempt 1
+[2023-05-07 02:10:51][INFO] Candidate updated.
+[2023-05-07 02:10:51][INFO] Array
+(
+    [id] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [profile] => Array
+        (
+            [first_name] => AntnioJos
+            [last_name] => CardosoCoelho
+            [full_name] => AntnioJos CardosoCoelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 2000-07-24
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 00000000000
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Urbanização São Lourenço, Bloco Terra
+            [adddressnumber] => Apartamento 01
+            [complement] => -
+            [neighbourhood] => Lordelo
+            [state] => 
+            [city] => Vila Real
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 5000172
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Cartão de Cidadão']
+            [rg] => 30347284
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2023-05-06T23:05:45-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3480496
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-07 02:10:51][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:10:51][INFO] User Create/Update routine finished
+[2023-05-07 02:10:51][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:11:06][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:11:06][INFO] User Update By CV routine - BEGIN
+[2023-05-07 02:11:06][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:11:06][INFO] Sending CV file to Google Document AI
+[2023-05-07 02:11:06][ERROR] Failed to load Google DocumentAI:
+[2023-05-07 02:11:06][ERROR] Error Object
+(
+    [message:protected] => Class 'Google\Cloud\DocumentAI\V1\DocumentProcessorServiceClient' not found
+    [string:Error:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/DocumentAI.php
+    [line:protected] => 12
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php
+                    [line] => 150
+                    [function] => __construct
+                    [class] => AS_Google_DocumentAI
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 308
+                    [function] => get_cv_info
+                    [class] => AlfasoftJobconvo
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 7985
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 332
+                    [function] => apply_filters
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 
+                            [1] => Array
+                                (
+                                    [0] => 7985
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/plugin.php
+                    [line] => 517
+                    [function] => do_action
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 7985
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                    [line] => 473
+                    [function] => do_action
+                    [args] => Array
+                        (
+                            [0] => user_uploaded_cv
+                            [1] => 7985
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                    [line] => 25
+                    [function] => alfasoft_update_cvfile
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/theme-user-cv-main.php
+                    [line] => 10
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [7] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/theme-user-cv-main.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-blog-header.php
+                    [line] => 19
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [9] => Array
+                (
+                    [file] => /home/knowerpt/public_html/index.php
+                    [line] => 17
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-blog-header.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+
+[2023-05-07 02:12:38][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:12:38][INFO] User Create/Update routine started
+[2023-05-07 02:12:38][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:12:38][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:12:38][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:12:38][INFO] METHOD - GET
+[2023-05-07 02:12:38][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:12:38][INFO] GET Methods enter: GET
+[2023-05-07 02:12:39][WARN] Retry request attempt 1
+[2023-05-07 02:12:39][INFO] Sending CV file to JobConvo
+[2023-05-07 02:12:40][INFO] Response: 
+[2023-05-07 02:12:40][INFO] {"id":"863c3b0c-0629-454a-b277-a55ad6481be6","profile":{"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"AntnioJos CardosoCoelho","email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","social_status":"Solteiro","gender":"Masculino","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","public_place_type":null,"address":"Urbanização São Lourenço, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","state":null,"city":"Vila Real","country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":"5000172","user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":"['Cartão de Cidadão']","rg":"30347284","pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/1cc3a123-1b80-41e2-a985-c0fcdfb1371a.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=dOPIJJoAZZOXnZ098KUVKR6lwPI%3D&Expires=1683429161","date":"2023-05-06T23:05:45-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3480496,"career_page_source":null,"by_recruiter":null}
+[2023-05-07 02:12:40][INFO] User - ajccardoso2014@hotmail.com and pk - 863c3b0c-0629-454a-b277-a55ad6481be6 found on JobConvo, updating...
+[2023-05-07 02:12:40][INFO] Checking User Educations
+[2023-05-07 02:12:40][INFO] Educations found on Wordpress:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Educations Now:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Checking User Work Experiences
+[2023-05-07 02:12:40][INFO] Work Experiences found on Wordpress:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Work Experiences Now:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Checking User Languages
+[2023-05-07 02:12:40][INFO] Languages found on Wordpress:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Languages Now:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Checking User Websites
+[2023-05-07 02:12:40][INFO] Websites found on Wordpress:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Websites Now:
+[2023-05-07 02:12:40][INFO] Array
+(
+)
+
+[2023-05-07 02:12:40][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:12:40][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:12:40][INFO] METHOD - PATCH
+[2023-05-07 02:12:40][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:12:40][INFO] wp_json_encode: {"profile":{"email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","address":"Urbaniza\u00e7\u00e3o S\u00e3o Louren\u00e7o, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","city":"Vila Real","country":"Portugal","cep":"5000-172"},"documents":{"doctype":["Cart\u00e3o de Cidad\u00e3o"],"rg":"30347284","not_brazilian":true}}
+[2023-05-07 02:12:41][WARN] Retry request attempt 1
+[2023-05-07 02:12:41][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:12:41][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:12:41][INFO] METHOD - PATCH
+[2023-05-07 02:12:41][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:12:41][INFO] wp_json_encode: {"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"ajccardoso2014hotmailcom","country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","social_status":"1","born_sex":"1"}
+[2023-05-07 02:12:42][WARN] Retry request attempt 1
+[2023-05-07 02:12:42][INFO] Candidate updated.
+[2023-05-07 02:12:42][INFO] Array
+(
+    [id] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [profile] => Array
+        (
+            [first_name] => AntnioJos
+            [last_name] => CardosoCoelho
+            [full_name] => AntnioJos CardosoCoelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 2000-07-24
+            [social_status] => Solteiro
+            [gender] => Masculino
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 934609045
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Urbanização São Lourenço, Bloco Terra
+            [adddressnumber] => Apartamento 01
+            [complement] => -
+            [neighbourhood] => Lordelo
+            [state] => 
+            [city] => Vila Real
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 5000172
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Cartão de Cidadão']
+            [rg] => 30347284
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/1cc3a123-1b80-41e2-a985-c0fcdfb1371a.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=Yx6sDcHJJkjX4zNL09GUtGqiuFw%3D&Expires=1683429162
+    [date] => 2023-05-06T23:05:45-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3480496
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-07 02:12:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:12:42][INFO] User Create/Update routine finished
+[2023-05-07 02:12:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:10][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:10][INFO] User Create/Update routine started
+[2023-05-07 02:14:10][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:10][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:14:10][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:10][INFO] METHOD - GET
+[2023-05-07 02:14:10][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:14:10][INFO] GET Methods enter: GET
+[2023-05-07 02:14:11][WARN] Retry request attempt 1
+[2023-05-07 02:14:11][INFO] Sending CV file to JobConvo
+[2023-05-07 02:14:12][INFO] Response: 
+[2023-05-07 02:14:12][INFO] {"id":"863c3b0c-0629-454a-b277-a55ad6481be6","profile":{"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"AntnioJos CardosoCoelho","email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","social_status":"Solteiro","gender":"Masculino","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","public_place_type":null,"address":"Urbanização São Lourenço, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","state":null,"city":"Vila Real","country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":"5000172","user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":"['Cartão de Cidadão']","rg":"30347284","pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/f8a98d9f-e369-45b1-b7cf-bf6512423ffb.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=CIM0sis3Y71As3Ofcsdp4KXBIMc%3D&Expires=1683429253","date":"2023-05-06T23:05:45-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3480496,"career_page_source":null,"by_recruiter":null}
+[2023-05-07 02:14:12][INFO] User - ajccardoso2014@hotmail.com and pk - 863c3b0c-0629-454a-b277-a55ad6481be6 found on JobConvo, updating...
+[2023-05-07 02:14:12][INFO] Checking User Educations
+[2023-05-07 02:14:12][INFO] Educations found on Wordpress:
+[2023-05-07 02:14:12][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 3
+            [title] => CiÊncias e Tecnologias
+            [school] => Escola Secundária Camilo Castelo Branco
+            [status] => 1
+            [start] => 2015-09-15
+            [end] => 2019-06-15
+        )
+
+)
+
+[2023-05-07 02:14:12][INFO] Education not found on JobConvo, Creating...
+[2023-05-07 02:14:12][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:12][INFO] METHOD - POST
+[2023-05-07 02:14:12][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/educations/
+[2023-05-07 02:14:12][INFO] wp_json_encode: {"level":"3","title":"Ci\u00cancias e Tecnologias","school":"Escola Secund\u00e1ria Camilo Castelo Branco","status":"1","start":"2015-09-15","end":"2019-06-15"}
+[2023-05-07 02:14:12][WARN] Retry request attempt 1
+[2023-05-07 02:14:12][INFO] Education created:
+[2023-05-07 02:14:12][INFO] Array
+(
+    [id] => 7726980
+    [level] => 3
+    [title] => CiÊncias e Tecnologias
+    [school] => Escola Secundária Camilo Castelo Branco
+    [status] => 1
+    [start] => 2015-09-15
+    [end] => 2019-06-15
+)
+
+[2023-05-07 02:14:12][INFO] Educations Now:
+[2023-05-07 02:14:12][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 3
+            [title] => CiÊncias e Tecnologias
+            [school] => Escola Secundária Camilo Castelo Branco
+            [status] => 1
+            [start] => 2015-09-15
+            [end] => 2019-06-15
+            [id] => 7726980
+        )
+
+)
+
+[2023-05-07 02:14:12][INFO] Checking User Work Experiences
+[2023-05-07 02:14:12][INFO] Work Experiences found on Wordpress:
+[2023-05-07 02:14:12][INFO] Array
+(
+)
+
+[2023-05-07 02:14:12][INFO] Work Experiences Now:
+[2023-05-07 02:14:12][INFO] Array
+(
+)
+
+[2023-05-07 02:14:12][INFO] Checking User Languages
+[2023-05-07 02:14:12][INFO] Languages found on Wordpress:
+[2023-05-07 02:14:12][INFO] Array
+(
+)
+
+[2023-05-07 02:14:12][INFO] Languages Now:
+[2023-05-07 02:14:12][INFO] Array
+(
+)
+
+[2023-05-07 02:14:12][INFO] Checking User Websites
+[2023-05-07 02:14:12][INFO] Websites found on Wordpress:
+[2023-05-07 02:14:12][INFO] Array
+(
+)
+
+[2023-05-07 02:14:12][INFO] Websites Now:
+[2023-05-07 02:14:12][INFO] Array
+(
+)
+
+[2023-05-07 02:14:12][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:14:12][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:12][INFO] METHOD - PATCH
+[2023-05-07 02:14:12][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:14:12][INFO] wp_json_encode: {"profile":{"email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","address":"Urbaniza\u00e7\u00e3o S\u00e3o Louren\u00e7o, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","city":"Vila Real","country":"Portugal","cep":"5000-172"},"documents":{"doctype":["Cart\u00e3o de Cidad\u00e3o"],"rg":"30347284","not_brazilian":true}}
+[2023-05-07 02:14:13][WARN] Retry request attempt 1
+[2023-05-07 02:14:13][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:14:13][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:13][INFO] METHOD - PATCH
+[2023-05-07 02:14:13][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:14:13][INFO] wp_json_encode: {"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"ajccardoso2014hotmailcom","country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","social_status":"1","born_sex":"1"}
+[2023-05-07 02:14:16][WARN] Retry request attempt 1
+[2023-05-07 02:14:16][INFO] Candidate updated.
+[2023-05-07 02:14:16][INFO] Array
+(
+    [id] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [profile] => Array
+        (
+            [first_name] => AntnioJos
+            [last_name] => CardosoCoelho
+            [full_name] => AntnioJos CardosoCoelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 2000-07-24
+            [social_status] => Solteiro
+            [gender] => Masculino
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 934609045
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Urbanização São Lourenço, Bloco Terra
+            [adddressnumber] => Apartamento 01
+            [complement] => -
+            [neighbourhood] => Lordelo
+            [state] => 
+            [city] => Vila Real
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 5000172
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Cartão de Cidadão']
+            [rg] => 30347284
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7726980
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Ensino Médio
+                    [level_id] => 3
+                    [title] => CiÊncias e Tecnologias
+                    [school] => Escola Secundária Camilo Castelo Branco
+                    [start] => 2015-09-15
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/f8a98d9f-e369-45b1-b7cf-bf6512423ffb.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=nuV8ZwpBFQFAVEMy1TeOynl%2F7Jw%3D&Expires=1683429254
+    [date] => 2023-05-06T23:05:45-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3480496
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-07 02:14:16][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:16][INFO] User Create/Update routine finished
+[2023-05-07 02:14:16][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:44][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:44][INFO] User Create/Update routine started
+[2023-05-07 02:14:44][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:44][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:14:44][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:44][INFO] METHOD - GET
+[2023-05-07 02:14:44][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:14:44][INFO] GET Methods enter: GET
+[2023-05-07 02:14:45][WARN] Retry request attempt 1
+[2023-05-07 02:14:45][INFO] Sending CV file to JobConvo
+[2023-05-07 02:14:46][INFO] Response: 
+[2023-05-07 02:14:46][INFO] {"id":"863c3b0c-0629-454a-b277-a55ad6481be6","profile":{"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"AntnioJos CardosoCoelho","email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","social_status":"Solteiro","gender":"Masculino","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","public_place_type":null,"address":"Urbanização São Lourenço, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","state":null,"city":"Vila Real","country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":"5000172","user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":"['Cartão de Cidadão']","rg":"30347284","pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[{"id":7726980,"status":"Concluído","status_id":"1","level":"Ensino secundário (12 anos de escolaridade)","level_id":"3","title":"CiÊncias e Tecnologias","school":"Escola Secundária Camilo Castelo Branco","start":"2015-09-15"}],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/58557120-a6b6-4f37-8f35-83598cf374db.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=aKSRU7FCOzJyeumlz6vF8MxIGxY%3D&Expires=1683429286","date":"2023-05-06T23:05:45-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3480496,"career_page_source":null,"by_recruiter":null}
+[2023-05-07 02:14:46][INFO] User - ajccardoso2014@hotmail.com and pk - 863c3b0c-0629-454a-b277-a55ad6481be6 found on JobConvo, updating...
+[2023-05-07 02:14:46][INFO] Checking User Educations
+[2023-05-07 02:14:46][INFO] Educations found on Wordpress:
+[2023-05-07 02:14:46][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 3
+            [title] => CiÊncias e Tecnologias
+            [school] => Escola Secundária Camilo Castelo Branco
+            [status] => 1
+            [start] => 2015-09-15
+            [end] => 2019-06-15
+            [id] => 7726980
+        )
+
+)
+
+[2023-05-07 02:14:46][INFO] Education 7726980 found on JobConvo, Updating...
+[2023-05-07 02:14:46][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:46][INFO] METHOD - PATCH
+[2023-05-07 02:14:46][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/educations/7726980/
+[2023-05-07 02:14:46][INFO] wp_json_encode: {"level":"3","title":"Ci\u00cancias e Tecnologias","school":"Escola Secund\u00e1ria Camilo Castelo Branco","status":"1","start":"2015-09-15","end":"2019-06-15","id":"7726980"}
+[2023-05-07 02:14:46][WARN] Retry request attempt 1
+[2023-05-07 02:14:46][INFO] Response:
+[2023-05-07 02:14:46][INFO] Array
+(
+    [id] => 7726980
+    [level] => 3
+    [title] => CiÊncias e Tecnologias
+    [school] => Escola Secundária Camilo Castelo Branco
+    [status] => 1
+    [start] => 2015-09-15
+    [end] => 2019-06-15
+)
+
+[2023-05-07 02:14:46][INFO] Educations Now:
+[2023-05-07 02:14:46][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 3
+            [title] => CiÊncias e Tecnologias
+            [school] => Escola Secundária Camilo Castelo Branco
+            [status] => 1
+            [start] => 2015-09-15
+            [end] => 2019-06-15
+            [id] => 7726980
+        )
+
+)
+
+[2023-05-07 02:14:46][INFO] Checking User Work Experiences
+[2023-05-07 02:14:46][INFO] Work Experiences found on Wordpress:
+[2023-05-07 02:14:46][INFO] Array
+(
+)
+
+[2023-05-07 02:14:46][INFO] Work Experiences Now:
+[2023-05-07 02:14:46][INFO] Array
+(
+)
+
+[2023-05-07 02:14:46][INFO] Checking User Languages
+[2023-05-07 02:14:46][INFO] Languages found on Wordpress:
+[2023-05-07 02:14:46][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+        )
+
+    [1] => Array
+        (
+            [idiom] => PT
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+        )
+
+    [2] => Array
+        (
+            [idiom] => DE
+            [writing] => 2
+            [speaking] => 2
+            [reading] => 2
+        )
+
+)
+
+[2023-05-07 02:14:46][INFO] Language not found on JobConvo, Creating...
+[2023-05-07 02:14:46][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:46][INFO] METHOD - POST
+[2023-05-07 02:14:46][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/
+[2023-05-07 02:14:46][INFO] wp_json_encode: {"idiom":"EN","writing":"6","speaking":"6","reading":"6"}
+[2023-05-07 02:14:47][WARN] Retry request attempt 1
+[2023-05-07 02:14:47][INFO] Language created:
+[2023-05-07 02:14:47][INFO] Array
+(
+    [id] => 1521291
+    [idiom] => EN
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-05-07 02:14:47][INFO] Language not found on JobConvo, Creating...
+[2023-05-07 02:14:47][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:47][INFO] METHOD - POST
+[2023-05-07 02:14:47][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/
+[2023-05-07 02:14:47][INFO] wp_json_encode: {"idiom":"PT","writing":"6","speaking":"6","reading":"6"}
+[2023-05-07 02:14:48][WARN] Retry request attempt 1
+[2023-05-07 02:14:48][INFO] Language created:
+[2023-05-07 02:14:48][INFO] Array
+(
+    [id] => 1521292
+    [idiom] => PT
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-05-07 02:14:48][INFO] Language not found on JobConvo, Creating...
+[2023-05-07 02:14:48][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:48][INFO] METHOD - POST
+[2023-05-07 02:14:48][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/
+[2023-05-07 02:14:48][INFO] wp_json_encode: {"idiom":"DE","writing":"2","speaking":"2","reading":"2"}
+[2023-05-07 02:14:48][WARN] Retry request attempt 1
+[2023-05-07 02:14:48][INFO] Language created:
+[2023-05-07 02:14:48][INFO] Array
+(
+    [id] => 1521293
+    [idiom] => DE
+    [writing] => 2
+    [speaking] => 2
+    [reading] => 2
+)
+
+[2023-05-07 02:14:48][INFO] Languages Now:
+[2023-05-07 02:14:48][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1521291
+        )
+
+    [1] => Array
+        (
+            [idiom] => PT
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1521292
+        )
+
+    [2] => Array
+        (
+            [idiom] => DE
+            [writing] => 2
+            [speaking] => 2
+            [reading] => 2
+            [id] => 1521293
+        )
+
+)
+
+[2023-05-07 02:14:48][INFO] Checking User Websites
+[2023-05-07 02:14:48][INFO] Websites found on Wordpress:
+[2023-05-07 02:14:48][INFO] Array
+(
+)
+
+[2023-05-07 02:14:48][INFO] Websites Now:
+[2023-05-07 02:14:48][INFO] Array
+(
+)
+
+[2023-05-07 02:14:48][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:14:48][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:48][INFO] METHOD - PATCH
+[2023-05-07 02:14:48][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:14:48][INFO] wp_json_encode: {"profile":{"email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","address":"Urbaniza\u00e7\u00e3o S\u00e3o Louren\u00e7o, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","city":"Vila Real","country":"Portugal","cep":"5000-172"},"documents":{"doctype":["Cart\u00e3o de Cidad\u00e3o"],"rg":"30347284","not_brazilian":true}}
+[2023-05-07 02:14:49][WARN] Retry request attempt 1
+[2023-05-07 02:14:49][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:14:49][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:14:49][INFO] METHOD - PATCH
+[2023-05-07 02:14:49][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:14:49][INFO] wp_json_encode: {"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"ajccardoso2014hotmailcom","country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","social_status":"1","born_sex":"1"}
+[2023-05-07 02:14:52][WARN] Retry request attempt 1
+[2023-05-07 02:14:52][INFO] Candidate updated.
+[2023-05-07 02:14:52][INFO] Array
+(
+    [id] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [profile] => Array
+        (
+            [first_name] => AntnioJos
+            [last_name] => CardosoCoelho
+            [full_name] => AntnioJos CardosoCoelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 2000-07-24
+            [social_status] => Solteiro
+            [gender] => Masculino
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 934609045
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Urbanização São Lourenço, Bloco Terra
+            [adddressnumber] => Apartamento 01
+            [complement] => -
+            [neighbourhood] => Lordelo
+            [state] => 
+            [city] => Vila Real
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 5000172
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Cartão de Cidadão']
+            [rg] => 30347284
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7726980
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Ensino Médio
+                    [level_id] => 3
+                    [title] => CiÊncias e Tecnologias
+                    [school] => Escola Secundária Camilo Castelo Branco
+                    [start] => 2015-09-15
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1521293
+                    [idiom] => Alemão
+                    [level] => Todos
+                    [writing] => 2
+                    [speaking] => 2
+                    [reading] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 1521291
+                    [idiom] => Inglês
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+            [2] => Array
+                (
+                    [id] => 1521292
+                    [idiom] => Português
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/58557120-a6b6-4f37-8f35-83598cf374db.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=kOEciCWs87rn1CFIUS%2BOUpcISAM%3D&Expires=1683429290
+    [date] => 2023-05-06T23:05:45-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3480496
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-07 02:14:52][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:14:52][INFO] User Create/Update routine finished
+[2023-05-07 02:14:52][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:21:57][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:21:57][INFO] User Update By CV routine - BEGIN
+[2023-05-07 02:21:57][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:21:57][INFO] Sending CV file to Google Document AI
+[2023-05-07 02:21:57][ERROR] Failed to load Google DocumentAI:
+[2023-05-07 02:21:57][ERROR] Error Object
+(
+    [message:protected] => Class 'Google\Cloud\DocumentAI\V1\DocumentProcessorServiceClient' not found
+    [string:Error:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/DocumentAI.php
+    [line:protected] => 12
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php
+                    [line] => 150
+                    [function] => __construct
+                    [class] => AS_Google_DocumentAI
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 308
+                    [function] => get_cv_info
+                    [class] => AlfasoftJobconvo
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 7989
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 332
+                    [function] => apply_filters
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 
+                            [1] => Array
+                                (
+                                    [0] => 7989
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/plugin.php
+                    [line] => 517
+                    [function] => do_action
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 7989
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/job-application.php
+                    [line] => 92
+                    [function] => do_action
+                    [args] => Array
+                        (
+                            [0] => user_uploaded_cv
+                            [1] => 7989
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/job-application.php
+                    [line] => 4
+                    [function] => ws_job_application
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/archive-jobs.php
+                    [line] => 5
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/job-application.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [7] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/archive-jobs.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-blog-header.php
+                    [line] => 19
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [9] => Array
+                (
+                    [file] => /home/knowerpt/public_html/index.php
+                    [line] => 17
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-blog-header.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+
+[2023-05-07 02:22:18][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:22:18][INFO] User Update By CV routine - BEGIN
+[2023-05-07 02:22:18][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:22:18][INFO] Sending CV file to Google Document AI
+[2023-05-07 02:22:18][ERROR] Failed to load Google DocumentAI:
+[2023-05-07 02:22:18][ERROR] Error Object
+(
+    [message:protected] => Class 'Google\Cloud\DocumentAI\V1\DocumentProcessorServiceClient' not found
+    [string:Error:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/DocumentAI.php
+    [line:protected] => 12
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php
+                    [line] => 150
+                    [function] => __construct
+                    [class] => AS_Google_DocumentAI
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 308
+                    [function] => get_cv_info
+                    [class] => AlfasoftJobconvo
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 7991
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 332
+                    [function] => apply_filters
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 
+                            [1] => Array
+                                (
+                                    [0] => 7991
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/plugin.php
+                    [line] => 517
+                    [function] => do_action
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 7991
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/job-application.php
+                    [line] => 92
+                    [function] => do_action
+                    [args] => Array
+                        (
+                            [0] => user_uploaded_cv
+                            [1] => 7991
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/job-application.php
+                    [line] => 4
+                    [function] => ws_job_application
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/single-jobs.php
+                    [line] => 4
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/job-application.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [7] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/single-jobs.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-blog-header.php
+                    [line] => 19
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [9] => Array
+                (
+                    [file] => /home/knowerpt/public_html/index.php
+                    [line] => 17
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-blog-header.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+
+[2023-05-07 02:22:48][INFO] Registering new Candidacy for user - 107 on Job - 95d4a4a3-5e3a-4fa9-a9f8-7f11b81da1a4
+[2023-05-07 02:22:48][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:48][INFO] METHOD - POST
+[2023-05-07 02:22:48][INFO] URL - https://api.jobconvo.com//pt-br/api/candidate/
+[2023-05-07 02:22:48][INFO] wp_json_encode: {"email":"ajccardoso2014@hotmail.com","ref_number":"476"}
+[2023-05-07 02:22:49][WARN] Retry request attempt 1
+[2023-05-07 02:22:49][INFO] Candidacy Registered Successfully
+[2023-05-07 02:22:49][INFO] Syncing application for job 7979 between all languages
+[2023-05-07 02:22:49][INFO] Original application: {"job":"7979","date":"2023-05-07 02:22:48","status":"active","found_at":"INDEED","language":"pt-pt","pk":"248e00a6-63c3-4ac0-b04c-fc78b23218f8"}
+[2023-05-07 02:22:49][INFO] Application synced for language: en
+[2023-05-07 02:22:49][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:22:49][INFO] User Create/Update routine started
+[2023-05-07 02:22:49][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:22:49][INFO] Get candidate by email - ajccardoso2014@hotmail.com
+[2023-05-07 02:22:49][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:49][INFO] METHOD - GET
+[2023-05-07 02:22:49][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=ajccardoso2014@hotmail.com
+[2023-05-07 02:22:49][INFO] GET Methods enter: GET
+[2023-05-07 02:22:50][WARN] Retry request attempt 1
+[2023-05-07 02:22:50][INFO] Sending CV file to JobConvo
+[2023-05-07 02:22:51][INFO] Response: 
+[2023-05-07 02:22:51][INFO] {"id":"863c3b0c-0629-454a-b277-a55ad6481be6","profile":{"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"AntnioJos CardosoCoelho","email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","social_status":"Solteiro","gender":"Masculino","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","public_place_type":null,"address":"Urbanização São Lourenço, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","state":null,"city":"Vila Real","country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":"5000172","user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":"['Cartão de Cidadão']","rg":"30347284","pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[{"id":7726980,"status":"Concluído","status_id":"1","level":"Ensino secundário (12 anos de escolaridade)","level_id":"3","title":"CiÊncias e Tecnologias","school":"Escola Secundária Camilo Castelo Branco","start":"2015-09-15"}],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[{"id":1521293,"idiom":"Alemão","level":"Todos","writing":"2","speaking":"2","reading":"2"},{"id":1521291,"idiom":"Inglês","level":"Todos","writing":"6","speaking":"6","reading":"6"},{"id":1521292,"idiom":"Português","level":"Todos","writing":"6","speaking":"6","reading":"6"}],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/99f35125-a4fe-448e-bd7b-541648ecfb7e.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=XK1eQKz89rsm%2Bd3EhMKhmqoH1e0%3D&Expires=1683429771","date":"2023-05-06T23:05:45-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3480496,"career_page_source":null,"by_recruiter":null}
+[2023-05-07 02:22:51][INFO] User - ajccardoso2014@hotmail.com and pk - 863c3b0c-0629-454a-b277-a55ad6481be6 found on JobConvo, updating...
+[2023-05-07 02:22:51][INFO] Checking User Educations
+[2023-05-07 02:22:51][INFO] Educations found on Wordpress:
+[2023-05-07 02:22:51][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 3
+            [title] => CiÊncias e Tecnologias
+            [school] => Escola Secundária Camilo Castelo Branco
+            [status] => 1
+            [start] => 2015-09-15
+            [end] => 2019-06-15
+            [id] => 7726980
+        )
+
+)
+
+[2023-05-07 02:22:51][INFO] Education 7726980 found on JobConvo, Updating...
+[2023-05-07 02:22:51][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:51][INFO] METHOD - PATCH
+[2023-05-07 02:22:51][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/educations/7726980/
+[2023-05-07 02:22:51][INFO] wp_json_encode: {"level":"3","title":"Ci\u00cancias e Tecnologias","school":"Escola Secund\u00e1ria Camilo Castelo Branco","status":"1","start":"2015-09-15","end":"2019-06-15","id":"7726980"}
+[2023-05-07 02:22:51][WARN] Retry request attempt 1
+[2023-05-07 02:22:51][INFO] Response:
+[2023-05-07 02:22:51][INFO] Array
+(
+    [id] => 7726980
+    [level] => 3
+    [title] => CiÊncias e Tecnologias
+    [school] => Escola Secundária Camilo Castelo Branco
+    [status] => 1
+    [start] => 2015-09-15
+    [end] => 2019-06-15
+)
+
+[2023-05-07 02:22:51][INFO] Educations Now:
+[2023-05-07 02:22:51][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 3
+            [title] => CiÊncias e Tecnologias
+            [school] => Escola Secundária Camilo Castelo Branco
+            [status] => 1
+            [start] => 2015-09-15
+            [end] => 2019-06-15
+            [id] => 7726980
+        )
+
+)
+
+[2023-05-07 02:22:51][INFO] Checking User Work Experiences
+[2023-05-07 02:22:51][INFO] Work Experiences found on Wordpress:
+[2023-05-07 02:22:51][INFO] Array
+(
+)
+
+[2023-05-07 02:22:51][INFO] Work Experiences Now:
+[2023-05-07 02:22:51][INFO] Array
+(
+)
+
+[2023-05-07 02:22:51][INFO] Checking User Languages
+[2023-05-07 02:22:51][INFO] Languages found on Wordpress:
+[2023-05-07 02:22:51][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1521291
+        )
+
+    [1] => Array
+        (
+            [idiom] => PT
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1521292
+        )
+
+    [2] => Array
+        (
+            [idiom] => DE
+            [writing] => 2
+            [speaking] => 2
+            [reading] => 2
+            [id] => 1521293
+        )
+
+)
+
+[2023-05-07 02:22:51][INFO] Language 1521291 found on JobConvo, Updating...
+[2023-05-07 02:22:51][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:51][INFO] METHOD - GET
+[2023-05-07 02:22:51][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/1521291
+[2023-05-07 02:22:51][INFO] GET Methods enter: GET
+[2023-05-07 02:22:52][WARN] Retry request attempt 1
+[2023-05-07 02:22:52][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:52][INFO] METHOD - PATCH
+[2023-05-07 02:22:52][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/1521291/
+[2023-05-07 02:22:52][INFO] wp_json_encode: {"writing":"6","speaking":"6","reading":"6","id":"1521291"}
+[2023-05-07 02:22:53][WARN] Retry request attempt 1
+[2023-05-07 02:22:53][INFO] Response:
+[2023-05-07 02:22:53][INFO] Array
+(
+    [id] => 1521291
+    [idiom] => EN
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-05-07 02:22:53][INFO] Language 1521292 found on JobConvo, Updating...
+[2023-05-07 02:22:53][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:53][INFO] METHOD - GET
+[2023-05-07 02:22:53][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/1521292
+[2023-05-07 02:22:53][INFO] GET Methods enter: GET
+[2023-05-07 02:22:54][WARN] Retry request attempt 1
+[2023-05-07 02:22:54][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:54][INFO] METHOD - PATCH
+[2023-05-07 02:22:54][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/1521292/
+[2023-05-07 02:22:54][INFO] wp_json_encode: {"writing":"6","speaking":"6","reading":"6","id":"1521292"}
+[2023-05-07 02:22:55][WARN] Retry request attempt 1
+[2023-05-07 02:22:55][INFO] Response:
+[2023-05-07 02:22:55][INFO] Array
+(
+    [id] => 1521292
+    [idiom] => PT
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-05-07 02:22:55][INFO] Language 1521293 found on JobConvo, Updating...
+[2023-05-07 02:22:55][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:55][INFO] METHOD - GET
+[2023-05-07 02:22:55][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/1521293
+[2023-05-07 02:22:55][INFO] GET Methods enter: GET
+[2023-05-07 02:22:55][WARN] Retry request attempt 1
+[2023-05-07 02:22:55][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:55][INFO] METHOD - PATCH
+[2023-05-07 02:22:55][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/languages/1521293/
+[2023-05-07 02:22:55][INFO] wp_json_encode: {"writing":"2","speaking":"2","reading":"2","id":"1521293"}
+[2023-05-07 02:22:56][WARN] Retry request attempt 1
+[2023-05-07 02:22:56][INFO] Response:
+[2023-05-07 02:22:56][INFO] Array
+(
+    [id] => 1521293
+    [idiom] => DE
+    [writing] => 2
+    [speaking] => 2
+    [reading] => 2
+)
+
+[2023-05-07 02:22:56][INFO] Languages Now:
+[2023-05-07 02:22:56][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1521291
+        )
+
+    [1] => Array
+        (
+            [idiom] => PT
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1521292
+        )
+
+    [2] => Array
+        (
+            [idiom] => DE
+            [writing] => 2
+            [speaking] => 2
+            [reading] => 2
+            [id] => 1521293
+        )
+
+)
+
+[2023-05-07 02:22:56][INFO] Checking User Websites
+[2023-05-07 02:22:56][INFO] Websites found on Wordpress:
+[2023-05-07 02:22:56][INFO] Array
+(
+)
+
+[2023-05-07 02:22:56][INFO] Websites Now:
+[2023-05-07 02:22:56][INFO] Array
+(
+)
+
+[2023-05-07 02:22:56][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:22:56][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:56][INFO] METHOD - PATCH
+[2023-05-07 02:22:56][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:22:56][INFO] wp_json_encode: {"profile":{"email":"ajccardoso2014@hotmail.com","birthday":"2000-07-24","address":"Urbaniza\u00e7\u00e3o S\u00e3o Louren\u00e7o, Bloco Terra","adddressnumber":"Apartamento 01","complement":"-","neighbourhood":"Lordelo","city":"Vila Real","country":"Portugal","cep":"5000-172"},"documents":{"doctype":["Cart\u00e3o de Cidad\u00e3o"],"rg":"30347284","not_brazilian":true}}
+[2023-05-07 02:22:57][WARN] Retry request attempt 1
+[2023-05-07 02:22:57][INFO] Candidate id: 863c3b0c-0629-454a-b277-a55ad6481be6 - Updating ...
+[2023-05-07 02:22:57][INFO] JobconvoApiClient - Request method
+[2023-05-07 02:22:57][INFO] METHOD - PATCH
+[2023-05-07 02:22:57][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/863c3b0c-0629-454a-b277-a55ad6481be6/
+[2023-05-07 02:22:57][INFO] wp_json_encode: {"first_name":"AntnioJos","last_name":"CardosoCoelho","full_name":"ajccardoso2014hotmailcom","country_code":"351","area_code":"0","phone1":"934609045","phone2":"00000000000","social_status":"1","born_sex":"1"}
+[2023-05-07 02:22:58][WARN] Retry request attempt 1
+[2023-05-07 02:22:58][INFO] Candidate updated.
+[2023-05-07 02:22:58][INFO] Array
+(
+    [id] => 863c3b0c-0629-454a-b277-a55ad6481be6
+    [profile] => Array
+        (
+            [first_name] => AntnioJos
+            [last_name] => CardosoCoelho
+            [full_name] => AntnioJos CardosoCoelho
+            [email] => ajccardoso2014@hotmail.com
+            [birthday] => 2000-07-24
+            [social_status] => Solteiro
+            [gender] => Masculino
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 934609045
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Urbanização São Lourenço, Bloco Terra
+            [adddressnumber] => Apartamento 01
+            [complement] => -
+            [neighbourhood] => Lordelo
+            [state] => 
+            [city] => Vila Real
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 5000172
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Cartão de Cidadão']
+            [rg] => 30347284
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7726980
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Ensino Médio
+                    [level_id] => 3
+                    [title] => CiÊncias e Tecnologias
+                    [school] => Escola Secundária Camilo Castelo Branco
+                    [start] => 2015-09-15
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1521293
+                    [idiom] => Alemão
+                    [level] => Todos
+                    [writing] => 2
+                    [speaking] => 2
+                    [reading] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 1521291
+                    [idiom] => Inglês
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+            [2] => Array
+                (
+                    [id] => 1521292
+                    [idiom] => Português
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-06/99f35125-a4fe-448e-bd7b-541648ecfb7e.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=MZqWq1WA%2BtBMeBvS5D444dAoKf8%3D&Expires=1683429778
+    [date] => 2023-05-06T23:05:45-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3480496
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-07 02:22:58][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 02:22:58][INFO] User Create/Update routine finished
+[2023-05-07 02:22:58][INFO] *------------------------------------------------------------------------------------------------------*
+[07-May-2023 02:22:58 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:10:32][INFO] Post ID 7698 saved, status is publish , parent is 0
+[07-May-2023 17:10:32 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 17:10:33 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 17:10:43 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:34:18][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:34:18][INFO] Job Offer - 4907 updated, notifying admin - BEGIN
+[2023-05-07 17:34:18][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:34:18][INFO] Mail sent successfully
+[2023-05-07 17:34:18][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:34:18][INFO] Job Offer - 4907 updated, notifying admin - END
+[2023-05-07 17:34:18][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:34:18][INFO] Post ID 4907 saved, status is publish , parent is 0
+[2023-05-07 17:34:18][INFO] Post ID 4907 saved, status is publish , parent is 0
+[07-May-2023 17:34:20 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 17:35:10 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:35:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:35:42][INFO] Job Offer - 5527 updated, notifying admin - BEGIN
+[2023-05-07 17:35:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:35:42][INFO] Mail sent successfully
+[2023-05-07 17:35:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:35:42][INFO] Job Offer - 5527 updated, notifying admin - END
+[2023-05-07 17:35:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:35:42][INFO] Post ID 5527 saved, status is publish , parent is 0
+[2023-05-07 17:35:42][INFO] Post ID 5527 saved, status is publish , parent is 0
+[07-May-2023 17:35:44 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 17:36:56 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:37:52][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:37:52][INFO] Job Offer - 5415 updated, notifying admin - BEGIN
+[2023-05-07 17:37:52][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:37:52][INFO] Mail sent successfully
+[2023-05-07 17:37:52][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:37:52][INFO] Job Offer - 5415 updated, notifying admin - END
+[2023-05-07 17:37:52][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:37:52][INFO] Post ID 5415 saved, status is publish , parent is 0
+[2023-05-07 17:37:52][INFO] Post ID 5415 saved, status is publish , parent is 0
+[07-May-2023 17:37:54 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:53:38][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:53:38][INFO] Job Offer - 5415 updated, notifying admin - BEGIN
+[2023-05-07 17:53:38][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:53:38][INFO] Mail sent successfully
+[2023-05-07 17:53:38][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:53:38][INFO] Job Offer - 5415 updated, notifying admin - END
+[2023-05-07 17:53:38][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:53:38][INFO] Post ID 5415 saved, status is publish , parent is 0
+[07-May-2023 17:53:40 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 17:54:47 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:57:34][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:57:34][INFO] Job Offer - 4907 updated, notifying admin - BEGIN
+[2023-05-07 17:57:34][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:57:34][INFO] Mail sent successfully
+[2023-05-07 17:57:34][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:57:34][INFO] Job Offer - 4907 updated, notifying admin - END
+[2023-05-07 17:57:34][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:57:34][INFO] Post ID 4907 saved, status is publish , parent is 0
+[2023-05-07 17:57:34][INFO] Post ID 4907 saved, status is publish , parent is 0
+[07-May-2023 17:57:36 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 17:57:52 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:58:59][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:58:59][INFO] Job Offer - 4907 updated, notifying admin - BEGIN
+[2023-05-07 17:58:59][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:58:59][INFO] Mail sent successfully
+[2023-05-07 17:58:59][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:58:59][INFO] Job Offer - 4907 updated, notifying admin - END
+[2023-05-07 17:58:59][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 17:58:59][INFO] Post ID 4907 saved, status is publish , parent is 0
+[2023-05-07 17:58:59][INFO] Post ID 4907 saved, status is publish , parent is 0
+[07-May-2023 17:59:00 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 17:59:11 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 17:59:51][INFO] Post ID 4907 saved, status is publish , parent is 0
+[2023-05-07 18:00:32][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:00:32][INFO] Job Offer - 7999 updated, notifying admin - BEGIN
+[2023-05-07 18:00:32][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:00:32][INFO] Mail sent successfully
+[2023-05-07 18:00:32][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:00:32][INFO] Job Offer - 7999 updated, notifying admin - END
+[2023-05-07 18:00:32][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:00:32][INFO] Post ID 4907 saved, status is publish , parent is 0
+[07-May-2023 18:00:48 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 18:01:04][INFO] Post auto-draft
+[07-May-2023 18:01:04 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 18:09:03 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 18:11:24][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:11:24][INFO] Job Offer - 4383 updated, notifying admin - BEGIN
+[2023-05-07 18:11:24][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:11:24][INFO] Mail sent successfully
+[2023-05-07 18:11:24][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:11:24][INFO] Job Offer - 4383 updated, notifying admin - END
+[2023-05-07 18:11:24][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:11:24][INFO] Post ID 4383 saved, status is publish , parent is 4398
+[2023-05-07 18:11:24][INFO] Post ID 4383 saved, status is publish , parent is 4398
+[07-May-2023 18:11:26 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 18:12:12 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 18:13:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:13:47][INFO] Job Offer - 4383 updated, notifying admin - BEGIN
+[2023-05-07 18:13:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:13:47][INFO] Mail sent successfully
+[2023-05-07 18:13:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:13:47][INFO] Job Offer - 4383 updated, notifying admin - END
+[2023-05-07 18:13:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:13:47][INFO] Post ID 4383 saved, status is publish , parent is 4398
+[2023-05-07 18:13:47][INFO] Post ID 4383 saved, status is publish , parent is 4398
+[07-May-2023 18:13:49 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[07-May-2023 18:15:01 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-07 18:16:09][INFO] Post ID 4383 saved, status is publish , parent is 4398
+[2023-05-07 18:19:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:19:19][INFO] Job Offer - 4383 updated, notifying admin - BEGIN
+[2023-05-07 18:19:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:19:19][INFO] Mail sent successfully
+[2023-05-07 18:19:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:19:19][INFO] Job Offer - 4383 updated, notifying admin - END
+[2023-05-07 18:19:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-07 18:19:19][INFO] Post ID 4383 saved, status is publish , parent is 4398
+[2023-05-07 18:19:19][INFO] Post ID 4383 saved, status is publish , parent is 4398
+[07-May-2023 18:19:21 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309

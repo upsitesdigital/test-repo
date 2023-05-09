@@ -1,0 +1,3307 @@
+[2023-04-24 01:13:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:13:19][INFO] User Create/Update routine started
+[2023-04-24 01:13:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:13:19][INFO] Get candidate by email - debsrezende@hotmail.com
+[2023-04-24 01:13:19][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:13:19][INFO] METHOD - GET
+[2023-04-24 01:13:19][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=debsrezende@hotmail.com
+[2023-04-24 01:13:19][INFO] GET Methods enter: GET
+[2023-04-24 01:13:20][WARN] Retry request attempt 1
+[2023-04-24 01:13:20][INFO] User - debsrezende@hotmail.com and pk - 81c332df-487c-4833-9163-b90062ce4bef found on JobConvo, updating...
+[2023-04-24 01:13:20][INFO] Checking User Educations
+[2023-04-24 01:13:20][INFO] Educations found on Wordpress:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Educations Now:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Checking User Work Experiences
+[2023-04-24 01:13:20][INFO] Work Experiences found on Wordpress:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Work Experiences Now:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Checking User Languages
+[2023-04-24 01:13:20][INFO] Languages found on Wordpress:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Languages Now:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Checking User Websites
+[2023-04-24 01:13:20][INFO] Websites found on Wordpress:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Websites Now:
+[2023-04-24 01:13:20][INFO] Array
+(
+)
+
+[2023-04-24 01:13:20][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:13:20][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:13:20][INFO] METHOD - PATCH
+[2023-04-24 01:13:20][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:13:20][INFO] wp_json_encode: {"profile":{"email":"debsrezende@hotmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":"08152123722","not_brazilian":true}}
+[2023-04-24 01:13:21][WARN] Retry request attempt 1
+[2023-04-24 01:13:21][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:13:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:13:21][INFO] METHOD - PATCH
+[2023-04-24 01:13:21][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:13:21][INFO] wp_json_encode: {"first_name":"Dbora","last_name":"Rezende","full_name":"debsrezende@hotmail.com","country_code":"351","area_code":"0","phone1":"992672626","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-04-24 01:13:21][WARN] Retry request attempt 1
+[2023-04-24 01:13:21][INFO] Candidate updated.
+[2023-04-24 01:13:21][INFO] Array
+(
+    [id] => 81c332df-487c-4833-9163-b90062ce4bef
+    [profile] => Array
+        (
+            [first_name] => Dbora
+            [last_name] => Rezende
+            [full_name] => Dbora Rezende
+            [email] => debsrezende@hotmail.com
+            [birthday] => 
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 992672626
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => -
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+            [nationality] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 08152123722
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2022-12-28T15:32:09-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3069912
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-04-24 01:13:21][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:13:21][INFO] User Create/Update routine finished
+[2023-04-24 01:13:21][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:19][INFO] User Create/Update routine started
+[2023-04-24 01:16:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:19][INFO] Get candidate by email - debsrezende@hotmail.com
+[2023-04-24 01:16:19][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:16:19][INFO] METHOD - GET
+[2023-04-24 01:16:19][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=debsrezende@hotmail.com
+[2023-04-24 01:16:19][INFO] GET Methods enter: GET
+[2023-04-24 01:16:20][WARN] Retry request attempt 1
+[2023-04-24 01:16:20][INFO] User - debsrezende@hotmail.com and pk - 81c332df-487c-4833-9163-b90062ce4bef found on JobConvo, updating...
+[2023-04-24 01:16:20][INFO] Checking User Educations
+[2023-04-24 01:16:20][INFO] Educations found on Wordpress:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Educations Now:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Checking User Work Experiences
+[2023-04-24 01:16:20][INFO] Work Experiences found on Wordpress:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Work Experiences Now:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Checking User Languages
+[2023-04-24 01:16:20][INFO] Languages found on Wordpress:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Languages Now:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Checking User Websites
+[2023-04-24 01:16:20][INFO] Websites found on Wordpress:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Websites Now:
+[2023-04-24 01:16:20][INFO] Array
+(
+)
+
+[2023-04-24 01:16:20][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:16:20][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:16:20][INFO] METHOD - PATCH
+[2023-04-24 01:16:20][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:16:20][INFO] wp_json_encode: {"profile":{"email":"debsrezende@hotmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":"08152123722","not_brazilian":true}}
+[2023-04-24 01:16:20][WARN] Retry request attempt 1
+[2023-04-24 01:16:20][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:16:20][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:16:20][INFO] METHOD - PATCH
+[2023-04-24 01:16:20][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:16:20][INFO] wp_json_encode: {"first_name":"Dbora","last_name":"Rezende","full_name":"debsrezende@hotmail.com","country_code":"351","area_code":"0","phone1":"992672626","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-04-24 01:16:21][WARN] Retry request attempt 1
+[2023-04-24 01:16:21][INFO] Candidate updated.
+[2023-04-24 01:16:21][INFO] Array
+(
+    [id] => 81c332df-487c-4833-9163-b90062ce4bef
+    [profile] => Array
+        (
+            [first_name] => Dbora
+            [last_name] => Rezende
+            [full_name] => Dbora Rezende
+            [email] => debsrezende@hotmail.com
+            [birthday] => 
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 992672626
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => -
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+            [nationality] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 08152123722
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2022-12-28T15:32:09-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3069912
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-04-24 01:16:21][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:21][INFO] User Create/Update routine finished
+[2023-04-24 01:16:21][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:21][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:21][INFO] User Create/Update routine started
+[2023-04-24 01:16:21][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:21][INFO] Get candidate by email - debsrezende@hotmail.com
+[2023-04-24 01:16:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:16:21][INFO] METHOD - GET
+[2023-04-24 01:16:21][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=debsrezende@hotmail.com
+[2023-04-24 01:16:21][INFO] GET Methods enter: GET
+[2023-04-24 01:16:21][WARN] Retry request attempt 1
+[2023-04-24 01:16:21][INFO] User - debsrezende@hotmail.com and pk - 81c332df-487c-4833-9163-b90062ce4bef found on JobConvo, updating...
+[2023-04-24 01:16:21][INFO] Checking User Educations
+[2023-04-24 01:16:21][INFO] Educations found on Wordpress:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Educations Now:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Checking User Work Experiences
+[2023-04-24 01:16:21][INFO] Work Experiences found on Wordpress:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Work Experiences Now:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Checking User Languages
+[2023-04-24 01:16:21][INFO] Languages found on Wordpress:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Languages Now:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Checking User Websites
+[2023-04-24 01:16:21][INFO] Websites found on Wordpress:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Websites Now:
+[2023-04-24 01:16:21][INFO] Array
+(
+)
+
+[2023-04-24 01:16:21][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:16:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:16:21][INFO] METHOD - PATCH
+[2023-04-24 01:16:21][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:16:21][INFO] wp_json_encode: {"profile":{"email":"debsrezende@hotmail.com","birthday":"1982-08-28","address":"Borda do Mato","adddressnumber":"254","complement":"ap 201-","neighbourhood":"Grajau","city":"Rio de Janeiro","country":"Brasil","cep":"20561208"},"documents":{"doctype":["Passaporte"],"rg":"08152123722","not_brazilian":true}}
+[2023-04-24 01:16:22][WARN] Retry request attempt 1
+[2023-04-24 01:16:22][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:16:22][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:16:22][INFO] METHOD - PATCH
+[2023-04-24 01:16:22][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:16:22][INFO] wp_json_encode: {"first_name":"Dbora","last_name":"Rezende","full_name":"debsrezende@hotmail.com","country_code":"+55","area_code":"0","phone1":"992672626","phone2":"00000000000","social_status":"1","born_sex":"2"}
+[2023-04-24 01:16:23][WARN] Retry request attempt 1
+[2023-04-24 01:16:23][INFO] Candidate updated.
+[2023-04-24 01:16:23][INFO] Array
+(
+    [id] => 81c332df-487c-4833-9163-b90062ce4bef
+    [profile] => Array
+        (
+            [first_name] => Dbora
+            [last_name] => Rezende
+            [full_name] => Dbora Rezende
+            [email] => debsrezende@hotmail.com
+            [birthday] => 1982-08-28
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 3304557
+            [photo] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 55
+            [area_code] => 0
+            [phone1] => 992672626
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Borda do Mato
+            [adddressnumber] => 254
+            [complement] => ap 201-
+            [neighbourhood] => Grajau
+            [state] => 
+            [city] => Rio de Janeiro
+            [country] => Brasil
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 20561208
+            [user_language] => pt-br
+            [complete_cv] => 
+            [nationality] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Passaporte']
+            [rg] => 08152123722
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2022-12-28T15:32:09-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3069912
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-04-24 01:16:23][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:16:23][INFO] User Create/Update routine finished
+[2023-04-24 01:16:23][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:17:05][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:17:05][INFO] User Update By CV routine - BEGIN
+[2023-04-24 01:17:05][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:17:05][INFO] Sending CV file to Google Document AI
+[2023-04-24 01:17:07][INFO] CV Text from Document AI acquired succesfuly!
+[2023-04-24 01:17:07][INFO] Sending CV Text to JobConvo for parsing
+[2023-04-24 01:17:07][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:07][INFO] METHOD - GET
+[2023-04-24 01:17:07][INFO] URL - https://test-homolog.jobconvo.com/api/combo/resumeparse/
+[2023-04-24 01:17:07][INFO] GET Methods enter: GET
+[2023-04-24 01:17:11][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:17:11][INFO] User Update By CV routine - BEGIN
+[2023-04-24 01:17:11][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:17:11][INFO] Sending CV file to Google Document AI
+[2023-04-24 01:17:13][INFO] CV Text from Document AI acquired succesfuly!
+[2023-04-24 01:17:13][INFO] Sending CV Text to JobConvo for parsing
+[2023-04-24 01:17:13][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:13][INFO] METHOD - GET
+[2023-04-24 01:17:13][INFO] URL - https://test-homolog.jobconvo.com/api/combo/resumeparse/
+[2023-04-24 01:17:13][INFO] GET Methods enter: GET
+[2023-04-24 01:17:15][WARN] Retry request attempt 1
+[2023-04-24 01:17:15][INFO] Parsed CV acquired
+[2023-04-24 01:17:15][INFO] CV Parsed succesfully!
+[2023-04-24 01:17:15][INFO] Parsed CV data:
+[2023-04-24 01:17:15][INFO] Array
+(
+    [profile] => Array
+        (
+            [phone1] => 99267-2626
+            [phone2] => 00000000000
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => MBA
+                    [school] => UVA
+                    [title] => Gestão Financeira e Controladoria
+                    [status] => 2
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => MBA
+                    [status] => 2
+                    [title] => 
+                    [school] => 
+                    [end] => 
+                )
+
+            [2] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Graduação
+                    [title] => Economia pela UERJ / 2005
+Experiência Profissional:
+                    [status] => 2
+                    [school] => 
+                    [end] => 
+                )
+
+            [3] => Array
+                (
+                    [level] => Curso
+                    [title] => VBA e Dashboard em Power BI (webinar)
+                    [status] => 2
+                    [school] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [4] => Array
+                (
+                    [start] => 2023-04-24
+                    [school] => Fellipelli
+                    [title] => Práticas de Inteligência Emocional (webinar)
+                    [status] => 2
+                    [level] => 
+                    [end] => 
+                )
+
+            [5] => Array
+                (
+                    [start] => 2023-04-24
+                    [title] => Gerenciamento de Projetos
+                    [status] => 2
+                    [level] => 
+                    [school] => 
+                    [end] => 
+                )
+
+            [6] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Dashboard
+                    [title] => Excel - Fábrica de Planilhas
+                    [status] => 2
+                    [school] => 
+                    [end] => 
+                )
+
+            [7] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Curso
+                    [school] => OGNI
+                    [title] => Contabilidade Básica e Análise de Balanço
+                    [status] => 2
+                    [end] => 
+                )
+
+            [8] => Array
+                (
+                    [start] => 2023-04-24
+                    [title] => Exploração e Produção de Petróleo no Mar - COPPE
+                    [status] => 2
+                    [level] => 
+                    [school] => 
+                    [end] => 
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+            [0] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Prestação de serviços como workshops e rodas reflexivas
+                    [employer] => Modec do Brasil
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 2
+                    [end] => 1970-01-01
+                    [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão
+de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de
+orçamento e gestão de carteira de investimentos (aplicações financeiras).
+                    [jobtitle] => 
+                    [employer] => 
+                )
+
+            [2] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo,
+além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro
+mensal para diretoria, revisão de forecast e atualização de fluxo de caixa
+                    [jobtitle] => 
+                    [employer] => 
+                    [end] => 
+                )
+
+            [3] => Array
+                (
+                    [detail] => Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta
+por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos
+e suportando a gerência de Controle representando a gerente em algumas reuniões e
+processos
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [4] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por
+consultoria especializada
+                    [employer] => Franqueada Uva & Verde Presentes Criativos
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [5] => Array
+                (
+                    [detail] => Rotina financeira de contas a pagar e receber, tesouraria, encaminhamento de documentação
+ao escritório de contabilidade terceirizado, validação de relatórios contábeis, elaboração e
+acompanhamento de plano de negócios;
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [6] => Array
+                (
+                    [detail] => Interface com fornecedores, negociação de preços e prazos, alimentação do sistema de
+gestão e controle de estoque
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [7] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Coordenação de equipe de 3 vendedoras e demais rotinas administrativas.
+                    [employer] => Farol Apoio Marítimo Ltda
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [8] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao
+Coordenação do contas a receber, incluindo emissão de invoices e notas fiscais no
+sistema da Nota Carioca
+                    [employer] => Endesa Brasil
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [9] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do
+projeto, incluindo atualização de forecast e fluxo de caixa
+                    [employer] => Subsea7-
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [10] => Array
+                (
+                    [detail] => Suporte à Contabilidade e análise dos relatórios contábeis
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [11] => Array
+                (
+                    [detail] => Elaboração, acompanhamento e atualização de relatórios de custos e orçamento para a
+administração e cliente externo
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [12] => Array
+                (
+                    [detail] => Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [13] => Array
+                (
+                    [detail] => Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência,
+aplicando metodologia PDCA e controle de planos de ação para novas iniciativas
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [14] => Array
+                (
+                    [detail] => Análise de processos e custos da base de fabricação, incluindo mapeamento desde o
+compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [15] => Array
+                (
+                    [detail] => Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros
+do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [16] => Array
+                (
+                    [detail] => Supervisão direta de um estagiário
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [idiom] => Inglês
+                    [writing] => fluente
+                    [speaking] => fluente
+                    [reading] => fluente
+                )
+
+            [1] => Array
+                (
+                    [idiom] => Espanhol
+                    [writing] => intermediário
+                    [speaking] => intermediário
+                    [reading] => intermediário
+                )
+
+        )
+
+)
+
+[2023-04-24 01:17:15][INFO] Updating User Profile
+[2023-04-24 01:17:15][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:17:15][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:15][INFO] METHOD - PATCH
+[2023-04-24 01:17:15][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:17:15][INFO] wp_json_encode: {"phone1":"99267-2626","phone2":"00000000000"}
+[2023-04-24 01:17:16][WARN] Retry request attempt 1
+[2023-04-24 01:17:16][INFO] Updating User Educations
+[2023-04-24 01:17:16][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:16][INFO] METHOD - POST
+[2023-04-24 01:17:16][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:16][INFO] wp_json_encode: {"start":"2023-04-24","level":"MBA","school":"UVA","title":"Gest\u00e3o Financeira e Controladoria","status":"2","end":false}
+[2023-04-24 01:17:16][WARN] Retry request attempt 1
+[2023-04-24 01:17:16][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:16][INFO] METHOD - POST
+[2023-04-24 01:17:16][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:16][INFO] wp_json_encode: {"start":"2023-04-24","level":"MBA","status":"2","title":false,"school":false,"end":false}
+[2023-04-24 01:17:17][WARN] Retry request attempt 1
+[2023-04-24 01:17:17][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:17][INFO] METHOD - POST
+[2023-04-24 01:17:17][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:17][INFO] wp_json_encode: {"start":"2023-04-24","level":"Gradua\u00e7\u00e3o","title":"Economia pela UERJ \/ 2005\nExperi\u00eancia Profissional:","status":"2","school":false,"end":false}
+[2023-04-24 01:17:17][WARN] Retry request attempt 1
+[2023-04-24 01:17:17][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:17][INFO] METHOD - POST
+[2023-04-24 01:17:17][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:17][INFO] wp_json_encode: {"level":"Curso","title":"VBA e Dashboard em Power BI (webinar)","status":"2","school":false,"start":false,"end":false}
+[2023-04-24 01:17:18][WARN] Retry request attempt 1
+[2023-04-24 01:17:18][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:18][INFO] METHOD - POST
+[2023-04-24 01:17:18][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:18][INFO] wp_json_encode: {"start":"2023-04-24","school":"Fellipelli","title":"Pr\u00e1ticas de Intelig\u00eancia Emocional (webinar)","status":"2","level":false,"end":false}
+[2023-04-24 01:17:18][WARN] Retry request attempt 1
+[2023-04-24 01:17:18][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:18][INFO] METHOD - POST
+[2023-04-24 01:17:18][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:18][INFO] wp_json_encode: {"start":"2023-04-24","title":"Gerenciamento de Projetos","status":"2","level":false,"school":false,"end":false}
+[2023-04-24 01:17:18][WARN] Retry request attempt 1
+[2023-04-24 01:17:18][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:18][INFO] METHOD - POST
+[2023-04-24 01:17:18][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:18][INFO] wp_json_encode: {"start":"2023-04-24","level":"Dashboard","title":"Excel - F\u00e1brica de Planilhas","status":"2","school":false,"end":false}
+[2023-04-24 01:17:19][WARN] Retry request attempt 1
+[2023-04-24 01:17:19][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:19][INFO] METHOD - POST
+[2023-04-24 01:17:19][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:19][INFO] wp_json_encode: {"start":"2023-04-24","level":"Curso","school":"OGNI","title":"Contabilidade B\u00e1sica e An\u00e1lise de Balan\u00e7o","status":"2","end":false}
+[2023-04-24 01:17:19][WARN] Retry request attempt 1
+[2023-04-24 01:17:19][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:19][INFO] METHOD - POST
+[2023-04-24 01:17:19][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:19][INFO] wp_json_encode: {"start":"2023-04-24","title":"Explora\u00e7\u00e3o e Produ\u00e7\u00e3o de Petr\u00f3leo no Mar - COPPE","status":"2","level":false,"school":false,"end":false}
+[2023-04-24 01:17:20][WARN] Retry request attempt 1
+[2023-04-24 01:17:20][INFO] Parsed CV acquired
+[2023-04-24 01:17:20][INFO] CV Parsed succesfully!
+[2023-04-24 01:17:20][INFO] Parsed CV data:
+[2023-04-24 01:17:20][INFO] Array
+(
+    [profile] => Array
+        (
+            [phone1] => 99267-2626
+            [phone2] => 00000000000
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => MBA
+                    [school] => UVA
+                    [title] => Gestão Financeira e Controladoria
+                    [status] => 2
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => MBA
+                    [status] => 2
+                    [title] => 
+                    [school] => 
+                    [end] => 
+                )
+
+            [2] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Graduação
+                    [title] => Economia pela UERJ / 2005
+Experiência Profissional:
+                    [status] => 2
+                    [school] => 
+                    [end] => 
+                )
+
+            [3] => Array
+                (
+                    [level] => Curso
+                    [title] => VBA e Dashboard em Power BI (webinar)
+                    [status] => 2
+                    [school] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [4] => Array
+                (
+                    [start] => 2023-04-24
+                    [school] => Fellipelli
+                    [title] => Práticas de Inteligência Emocional (webinar)
+                    [status] => 2
+                    [level] => 
+                    [end] => 
+                )
+
+            [5] => Array
+                (
+                    [start] => 2023-04-24
+                    [title] => Gerenciamento de Projetos
+                    [status] => 2
+                    [level] => 
+                    [school] => 
+                    [end] => 
+                )
+
+            [6] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Dashboard
+                    [title] => Excel - Fábrica de Planilhas
+                    [status] => 2
+                    [school] => 
+                    [end] => 
+                )
+
+            [7] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Curso
+                    [school] => OGNI
+                    [title] => Contabilidade Básica e Análise de Balanço
+                    [status] => 2
+                    [end] => 
+                )
+
+            [8] => Array
+                (
+                    [start] => 2023-04-24
+                    [title] => Exploração e Produção de Petróleo no Mar - COPPE
+                    [status] => 2
+                    [level] => 
+                    [school] => 
+                    [end] => 
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+            [0] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Prestação de serviços como workshops e rodas reflexivas
+                    [employer] => Modec do Brasil
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 2
+                    [end] => 1970-01-01
+                    [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão
+de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de
+orçamento e gestão de carteira de investimentos (aplicações financeiras).
+                    [jobtitle] => 
+                    [employer] => 
+                )
+
+            [2] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo,
+além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro
+mensal para diretoria, revisão de forecast e atualização de fluxo de caixa
+                    [jobtitle] => 
+                    [employer] => 
+                    [end] => 
+                )
+
+            [3] => Array
+                (
+                    [detail] => Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta
+por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos
+e suportando a gerência de Controle representando a gerente em algumas reuniões e
+processos
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [4] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por
+consultoria especializada
+                    [employer] => Franqueada Uva & Verde Presentes Criativos
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [5] => Array
+                (
+                    [detail] => Rotina financeira de contas a pagar e receber, tesouraria, encaminhamento de documentação
+ao escritório de contabilidade terceirizado, validação de relatórios contábeis, elaboração e
+acompanhamento de plano de negócios;
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [6] => Array
+                (
+                    [detail] => Interface com fornecedores, negociação de preços e prazos, alimentação do sistema de
+gestão e controle de estoque
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [7] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Coordenação de equipe de 3 vendedoras e demais rotinas administrativas.
+                    [employer] => Farol Apoio Marítimo Ltda
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [8] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao
+Coordenação do contas a receber, incluindo emissão de invoices e notas fiscais no
+sistema da Nota Carioca
+                    [employer] => Endesa Brasil
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [9] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do
+projeto, incluindo atualização de forecast e fluxo de caixa
+                    [employer] => Subsea7-
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [10] => Array
+                (
+                    [detail] => Suporte à Contabilidade e análise dos relatórios contábeis
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [11] => Array
+                (
+                    [detail] => Elaboração, acompanhamento e atualização de relatórios de custos e orçamento para a
+administração e cliente externo
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [12] => Array
+                (
+                    [detail] => Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [13] => Array
+                (
+                    [detail] => Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência,
+aplicando metodologia PDCA e controle de planos de ação para novas iniciativas
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [14] => Array
+                (
+                    [detail] => Análise de processos e custos da base de fabricação, incluindo mapeamento desde o
+compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [15] => Array
+                (
+                    [detail] => Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros
+do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [16] => Array
+                (
+                    [detail] => Supervisão direta de um estagiário
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [idiom] => Inglês
+                    [writing] => fluente
+                    [speaking] => fluente
+                    [reading] => fluente
+                )
+
+            [1] => Array
+                (
+                    [idiom] => Espanhol
+                    [writing] => intermediário
+                    [speaking] => intermediário
+                    [reading] => intermediário
+                )
+
+        )
+
+)
+
+[2023-04-24 01:17:20][INFO] Updating User Profile
+[2023-04-24 01:17:20][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:17:20][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:20][INFO] METHOD - PATCH
+[2023-04-24 01:17:20][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:17:20][INFO] wp_json_encode: {"phone1":"99267-2626","phone2":"00000000000"}
+[2023-04-24 01:17:20][WARN] Retry request attempt 1
+[2023-04-24 01:17:20][INFO] Updating User Work Experiences
+[2023-04-24 01:17:20][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:20][INFO] METHOD - POST
+[2023-04-24 01:17:20][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:20][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Presta\u00e7\u00e3o de servi\u00e7os como workshops e rodas reflexivas","employer":"Modec do Brasil","jobtitle":false,"end":false}
+[2023-04-24 01:17:20][WARN] Retry request attempt 1
+[2023-04-24 01:17:20][INFO] Updating User Educations
+[2023-04-24 01:17:20][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:20][INFO] METHOD - POST
+[2023-04-24 01:17:20][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:20][INFO] wp_json_encode: {"start":"2023-04-24","level":"MBA","school":"UVA","title":"Gest\u00e3o Financeira e Controladoria","status":"2","end":false}
+[2023-04-24 01:17:20][WARN] Retry request attempt 1
+[2023-04-24 01:17:20][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:20][INFO] METHOD - POST
+[2023-04-24 01:17:20][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:20][INFO] wp_json_encode: {"start":"1970-01-01","current":2,"end":"1970-01-01","detail":"Gest\u00e3o financeira estrat\u00e9gica, respons\u00e1vel pelo contas a pagar e receber, incluindo emiss\u00e3o\nde NFS-e, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios financeiros, elabora\u00e7\u00e3o e controle de\nor\u00e7amento e gest\u00e3o de carteira de investimentos (aplica\u00e7\u00f5es financeiras).","jobtitle":false,"employer":false}
+[2023-04-24 01:17:21][WARN] Retry request attempt 1
+[2023-04-24 01:17:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:21][INFO] METHOD - POST
+[2023-04-24 01:17:21][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:21][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao ativo,\nal\u00e9m da receita de afretamento e servi\u00e7o de uma unidade FSO, incluindo report financeiro\nmensal para diretoria, revis\u00e3o de forecast e atualiza\u00e7\u00e3o de fluxo de caixa","jobtitle":false,"employer":false,"end":false}
+[2023-04-24 01:17:21][WARN] Retry request attempt 1
+[2023-04-24 01:17:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:21][INFO] METHOD - POST
+[2023-04-24 01:17:21][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:21][INFO] wp_json_encode: {"start":"2023-04-24","level":"MBA","status":"2","title":false,"school":false,"end":false}
+[2023-04-24 01:17:21][WARN] Retry request attempt 1
+[2023-04-24 01:17:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:21][INFO] METHOD - POST
+[2023-04-24 01:17:21][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:21][INFO] wp_json_encode: {"detail":"Coordena\u00e7\u00e3o da equipe de Planejamento e Controle da frota da Bacia de Campos composta\npor um FSO e tr\u00eas FPSOs e eventualmente suportando tamb\u00e9m a frota da Bacia de Santos\ne suportando a ger\u00eancia de Controle representando a gerente em algumas reuni\u00f5es e\nprocessos","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:21][WARN] Retry request attempt 1
+[2023-04-24 01:17:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:21][INFO] METHOD - POST
+[2023-04-24 01:17:21][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:21][INFO] wp_json_encode: {"start":"2023-04-24","level":"Gradua\u00e7\u00e3o","title":"Economia pela UERJ \/ 2005\nExperi\u00eancia Profissional:","status":"2","school":false,"end":false}
+[2023-04-24 01:17:21][WARN] Retry request attempt 1
+[2023-04-24 01:17:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:21][INFO] METHOD - POST
+[2023-04-24 01:17:21][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:21][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Suporte \u00e0 implanta\u00e7\u00e3o do SAP e mapeamento e melhoria de processos realizadas por\nconsultoria especializada","employer":"Franqueada Uva & Verde Presentes Criativos","jobtitle":false,"end":false}
+[2023-04-24 01:17:21][WARN] Retry request attempt 1
+[2023-04-24 01:17:21][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:21][INFO] METHOD - POST
+[2023-04-24 01:17:21][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:21][INFO] wp_json_encode: {"level":"Curso","title":"VBA e Dashboard em Power BI (webinar)","status":"2","school":false,"start":false,"end":false}
+[2023-04-24 01:17:22][WARN] Retry request attempt 1
+[2023-04-24 01:17:22][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:22][INFO] METHOD - POST
+[2023-04-24 01:17:22][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:22][INFO] wp_json_encode: {"detail":"Rotina financeira de contas a pagar e receber, tesouraria, encaminhamento de documenta\u00e7\u00e3o\nao escrit\u00f3rio de contabilidade terceirizado, valida\u00e7\u00e3o de relat\u00f3rios cont\u00e1beis, elabora\u00e7\u00e3o e\nacompanhamento de plano de neg\u00f3cios;","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:22][WARN] Retry request attempt 1
+[2023-04-24 01:17:22][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:22][INFO] METHOD - POST
+[2023-04-24 01:17:22][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:22][INFO] wp_json_encode: {"start":"2023-04-24","school":"Fellipelli","title":"Pr\u00e1ticas de Intelig\u00eancia Emocional (webinar)","status":"2","level":false,"end":false}
+[2023-04-24 01:17:22][WARN] Retry request attempt 1
+[2023-04-24 01:17:22][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:22][INFO] METHOD - POST
+[2023-04-24 01:17:22][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:22][INFO] wp_json_encode: {"detail":"Interface com fornecedores, negocia\u00e7\u00e3o de pre\u00e7os e prazos, alimenta\u00e7\u00e3o do sistema de\ngest\u00e3o e controle de estoque","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:22][WARN] Retry request attempt 1
+[2023-04-24 01:17:22][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:22][INFO] METHOD - POST
+[2023-04-24 01:17:22][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:22][INFO] wp_json_encode: {"start":"2023-04-24","title":"Gerenciamento de Projetos","status":"2","level":false,"school":false,"end":false}
+[2023-04-24 01:17:23][WARN] Retry request attempt 1
+[2023-04-24 01:17:23][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:23][INFO] METHOD - POST
+[2023-04-24 01:17:23][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:23][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Coordena\u00e7\u00e3o de equipe de 3 vendedoras e demais rotinas administrativas.","employer":"Farol Apoio Mar\u00edtimo Ltda","jobtitle":false,"end":false}
+[2023-04-24 01:17:23][WARN] Retry request attempt 1
+[2023-04-24 01:17:23][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:23][INFO] METHOD - POST
+[2023-04-24 01:17:23][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:23][INFO] wp_json_encode: {"start":"2023-04-24","level":"Dashboard","title":"Excel - F\u00e1brica de Planilhas","status":"2","school":false,"end":false}
+[2023-04-24 01:17:23][WARN] Retry request attempt 1
+[2023-04-24 01:17:23][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:23][INFO] METHOD - POST
+[2023-04-24 01:17:23][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:23][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao\nCoordena\u00e7\u00e3o do contas a receber, incluindo emiss\u00e3o de invoices e notas fiscais no\nsistema da Nota Carioca","employer":"Endesa Brasil","jobtitle":false,"end":false}
+[2023-04-24 01:17:23][WARN] Retry request attempt 1
+[2023-04-24 01:17:23][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:23][INFO] METHOD - POST
+[2023-04-24 01:17:23][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:23][INFO] wp_json_encode: {"start":"2023-04-24","level":"Curso","school":"OGNI","title":"Contabilidade B\u00e1sica e An\u00e1lise de Balan\u00e7o","status":"2","end":false}
+[2023-04-24 01:17:23][WARN] Retry request attempt 1
+[2023-04-24 01:17:23][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:23][INFO] METHOD - POST
+[2023-04-24 01:17:23][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:23][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"An\u00e1lise e controle de projeto de receita di\u00e1ria e report financeiro para diretoria e ger\u00eancia do\nprojeto, incluindo atualiza\u00e7\u00e3o de forecast e fluxo de caixa","employer":"Subsea7-","jobtitle":false,"end":false}
+[2023-04-24 01:17:24][WARN] Retry request attempt 1
+[2023-04-24 01:17:24][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:24][INFO] METHOD - POST
+[2023-04-24 01:17:24][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:17:24][INFO] wp_json_encode: {"start":"2023-04-24","title":"Explora\u00e7\u00e3o e Produ\u00e7\u00e3o de Petr\u00f3leo no Mar - COPPE","status":"2","level":false,"school":false,"end":false}
+[2023-04-24 01:17:24][WARN] Retry request attempt 1
+[2023-04-24 01:17:24][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:24][INFO] METHOD - POST
+[2023-04-24 01:17:24][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:24][INFO] wp_json_encode: {"detail":"Suporte \u00e0 Contabilidade e an\u00e1lise dos relat\u00f3rios cont\u00e1beis","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:24][WARN] Retry request attempt 1
+[2023-04-24 01:17:24][INFO] Updating User Work Experiences
+[2023-04-24 01:17:24][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:24][INFO] METHOD - POST
+[2023-04-24 01:17:24][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:24][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Presta\u00e7\u00e3o de servi\u00e7os como workshops e rodas reflexivas","employer":"Modec do Brasil","jobtitle":false,"end":false}
+[2023-04-24 01:17:24][WARN] Retry request attempt 1
+[2023-04-24 01:17:24][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:24][INFO] METHOD - POST
+[2023-04-24 01:17:24][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:24][INFO] wp_json_encode: {"detail":"Elabora\u00e7\u00e3o, acompanhamento e atualiza\u00e7\u00e3o de relat\u00f3rios de custos e or\u00e7amento para a\nadministra\u00e7\u00e3o e cliente externo","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:25][WARN] Retry request attempt 1
+[2023-04-24 01:17:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:25][INFO] METHOD - POST
+[2023-04-24 01:17:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:25][INFO] wp_json_encode: {"start":"1970-01-01","current":2,"end":"1970-01-01","detail":"Gest\u00e3o financeira estrat\u00e9gica, respons\u00e1vel pelo contas a pagar e receber, incluindo emiss\u00e3o\nde NFS-e, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios financeiros, elabora\u00e7\u00e3o e controle de\nor\u00e7amento e gest\u00e3o de carteira de investimentos (aplica\u00e7\u00f5es financeiras).","jobtitle":false,"employer":false}
+[2023-04-24 01:17:25][WARN] Retry request attempt 1
+[2023-04-24 01:17:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:25][INFO] METHOD - POST
+[2023-04-24 01:17:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:25][INFO] wp_json_encode: {"detail":"Acompanhamento e an\u00e1lise de CAPEX para todas as empresas do grupo no Brasil","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:25][WARN] Retry request attempt 1
+[2023-04-24 01:17:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:25][INFO] METHOD - POST
+[2023-04-24 01:17:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:25][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao ativo,\nal\u00e9m da receita de afretamento e servi\u00e7o de uma unidade FSO, incluindo report financeiro\nmensal para diretoria, revis\u00e3o de forecast e atualiza\u00e7\u00e3o de fluxo de caixa","jobtitle":false,"employer":false,"end":false}
+[2023-04-24 01:17:25][WARN] Retry request attempt 1
+[2023-04-24 01:17:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:25][INFO] METHOD - POST
+[2023-04-24 01:17:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:25][INFO] wp_json_encode: {"detail":"Apura\u00e7\u00e3o, acompanhamento e an\u00e1lise de ganhos gerados por projetos de efici\u00eancia;\nCoordena\u00e7\u00e3o, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios mensais de cada projeto de efici\u00eancia,\naplicando metodologia PDCA e controle de planos de a\u00e7\u00e3o para novas iniciativas","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:25][WARN] Retry request attempt 1
+[2023-04-24 01:17:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:25][INFO] METHOD - POST
+[2023-04-24 01:17:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:25][INFO] wp_json_encode: {"detail":"Coordena\u00e7\u00e3o da equipe de Planejamento e Controle da frota da Bacia de Campos composta\npor um FSO e tr\u00eas FPSOs e eventualmente suportando tamb\u00e9m a frota da Bacia de Santos\ne suportando a ger\u00eancia de Controle representando a gerente em algumas reuni\u00f5es e\nprocessos","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:25][WARN] Retry request attempt 1
+[2023-04-24 01:17:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:25][INFO] METHOD - POST
+[2023-04-24 01:17:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:25][INFO] wp_json_encode: {"detail":"An\u00e1lise de processos e custos da base de fabrica\u00e7\u00e3o, incluindo mapeamento desde o\ncompromissado at\u00e9 o pagamento e fluxo de caixa, buscando otimiza\u00e7\u00e3o de resultado","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:26][WARN] Retry request attempt 1
+[2023-04-24 01:17:26][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:26][INFO] METHOD - POST
+[2023-04-24 01:17:26][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:26][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Suporte \u00e0 implanta\u00e7\u00e3o do SAP e mapeamento e melhoria de processos realizadas por\nconsultoria especializada","employer":"Franqueada Uva & Verde Presentes Criativos","jobtitle":false,"end":false}
+[2023-04-24 01:17:26][WARN] Retry request attempt 1
+[2023-04-24 01:17:26][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:26][INFO] METHOD - POST
+[2023-04-24 01:17:26][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:26][INFO] wp_json_encode: {"detail":"Controle de custos de propostas e handover de projetos, elabora\u00e7\u00e3o dos relat\u00f3rios financeiros\ndo overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:26][WARN] Retry request attempt 1
+[2023-04-24 01:17:26][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:26][INFO] METHOD - POST
+[2023-04-24 01:17:26][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:26][INFO] wp_json_encode: {"detail":"Rotina financeira de contas a pagar e receber, tesouraria, encaminhamento de documenta\u00e7\u00e3o\nao escrit\u00f3rio de contabilidade terceirizado, valida\u00e7\u00e3o de relat\u00f3rios cont\u00e1beis, elabora\u00e7\u00e3o e\nacompanhamento de plano de neg\u00f3cios;","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:26][WARN] Retry request attempt 1
+[2023-04-24 01:17:26][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:26][INFO] METHOD - POST
+[2023-04-24 01:17:26][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:26][INFO] wp_json_encode: {"detail":"Supervis\u00e3o direta de um estagi\u00e1rio","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:27][WARN] Retry request attempt 1
+[2023-04-24 01:17:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:27][INFO] METHOD - POST
+[2023-04-24 01:17:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:27][INFO] wp_json_encode: {"detail":"Interface com fornecedores, negocia\u00e7\u00e3o de pre\u00e7os e prazos, alimenta\u00e7\u00e3o do sistema de\ngest\u00e3o e controle de estoque","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:27][WARN] Retry request attempt 1
+[2023-04-24 01:17:27][INFO] Updating User Languages
+[2023-04-24 01:17:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:27][INFO] METHOD - POST
+[2023-04-24 01:17:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:17:27][INFO] wp_json_encode: {"idiom":"Ingl\u00eas","writing":"fluente","speaking":"fluente","reading":"fluente"}
+[2023-04-24 01:17:27][WARN] Retry request attempt 1
+[2023-04-24 01:17:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:27][INFO] METHOD - POST
+[2023-04-24 01:17:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:27][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Coordena\u00e7\u00e3o de equipe de 3 vendedoras e demais rotinas administrativas.","employer":"Farol Apoio Mar\u00edtimo Ltda","jobtitle":false,"end":false}
+[2023-04-24 01:17:27][WARN] Retry request attempt 1
+[2023-04-24 01:17:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:27][INFO] METHOD - POST
+[2023-04-24 01:17:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:17:27][INFO] wp_json_encode: {"idiom":"Espanhol","writing":"intermedi\u00e1rio","speaking":"intermedi\u00e1rio","reading":"intermedi\u00e1rio"}
+[2023-04-24 01:17:27][WARN] Retry request attempt 1
+[2023-04-24 01:17:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:27][INFO] METHOD - POST
+[2023-04-24 01:17:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:27][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao\nCoordena\u00e7\u00e3o do contas a receber, incluindo emiss\u00e3o de invoices e notas fiscais no\nsistema da Nota Carioca","employer":"Endesa Brasil","jobtitle":false,"end":false}
+[2023-04-24 01:17:28][WARN] Retry request attempt 1
+[2023-04-24 01:17:28][WARN] Retry request attempt 1
+[2023-04-24 01:17:28][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:28][INFO] METHOD - POST
+[2023-04-24 01:17:28][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:28][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"An\u00e1lise e controle de projeto de receita di\u00e1ria e report financeiro para diretoria e ger\u00eancia do\nprojeto, incluindo atualiza\u00e7\u00e3o de forecast e fluxo de caixa","employer":"Subsea7-","jobtitle":false,"end":false}
+[2023-04-24 01:17:28][WARN] Retry request attempt 1
+[2023-04-24 01:17:28][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:28][INFO] METHOD - POST
+[2023-04-24 01:17:28][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:28][INFO] wp_json_encode: {"detail":"Suporte \u00e0 Contabilidade e an\u00e1lise dos relat\u00f3rios cont\u00e1beis","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:29][WARN] Retry request attempt 1
+[2023-04-24 01:17:29][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:29][INFO] METHOD - POST
+[2023-04-24 01:17:29][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:29][INFO] wp_json_encode: {"detail":"Elabora\u00e7\u00e3o, acompanhamento e atualiza\u00e7\u00e3o de relat\u00f3rios de custos e or\u00e7amento para a\nadministra\u00e7\u00e3o e cliente externo","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:29][WARN] Retry request attempt 1
+[2023-04-24 01:17:29][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:29][INFO] METHOD - POST
+[2023-04-24 01:17:29][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:29][INFO] wp_json_encode: {"detail":"Acompanhamento e an\u00e1lise de CAPEX para todas as empresas do grupo no Brasil","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:29][WARN] Retry request attempt 1
+[2023-04-24 01:17:29][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:29][INFO] METHOD - POST
+[2023-04-24 01:17:29][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:29][INFO] wp_json_encode: {"detail":"Apura\u00e7\u00e3o, acompanhamento e an\u00e1lise de ganhos gerados por projetos de efici\u00eancia;\nCoordena\u00e7\u00e3o, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios mensais de cada projeto de efici\u00eancia,\naplicando metodologia PDCA e controle de planos de a\u00e7\u00e3o para novas iniciativas","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:30][WARN] Retry request attempt 1
+[2023-04-24 01:17:30][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:30][INFO] METHOD - POST
+[2023-04-24 01:17:30][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:30][INFO] wp_json_encode: {"detail":"An\u00e1lise de processos e custos da base de fabrica\u00e7\u00e3o, incluindo mapeamento desde o\ncompromissado at\u00e9 o pagamento e fluxo de caixa, buscando otimiza\u00e7\u00e3o de resultado","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:31][WARN] Retry request attempt 1
+[2023-04-24 01:17:31][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:31][INFO] METHOD - POST
+[2023-04-24 01:17:31][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:31][INFO] wp_json_encode: {"detail":"Controle de custos de propostas e handover de projetos, elabora\u00e7\u00e3o dos relat\u00f3rios financeiros\ndo overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:31][WARN] Retry request attempt 1
+[2023-04-24 01:17:31][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:31][INFO] METHOD - POST
+[2023-04-24 01:17:31][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:17:31][INFO] wp_json_encode: {"detail":"Supervis\u00e3o direta de um estagi\u00e1rio","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:17:31][WARN] Retry request attempt 1
+[2023-04-24 01:17:31][INFO] Updating User Languages
+[2023-04-24 01:17:31][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:31][INFO] METHOD - POST
+[2023-04-24 01:17:31][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:17:31][INFO] wp_json_encode: {"idiom":"Ingl\u00eas","writing":"fluente","speaking":"fluente","reading":"fluente"}
+[2023-04-24 01:17:32][WARN] Retry request attempt 1
+[2023-04-24 01:17:32][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:17:32][INFO] METHOD - POST
+[2023-04-24 01:17:32][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:17:32][INFO] wp_json_encode: {"idiom":"Espanhol","writing":"intermedi\u00e1rio","speaking":"intermedi\u00e1rio","reading":"intermedi\u00e1rio"}
+[2023-04-24 01:17:32][WARN] Retry request attempt 1
+[2023-04-24 01:26:22][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:26:22][INFO] User Create/Update routine started
+[2023-04-24 01:26:22][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:26:22][INFO] Get candidate by email - debsrezende@hotmail.com
+[2023-04-24 01:26:22][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:22][INFO] METHOD - GET
+[2023-04-24 01:26:22][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=debsrezende@hotmail.com
+[2023-04-24 01:26:22][INFO] GET Methods enter: GET
+[2023-04-24 01:26:22][WARN] Retry request attempt 1
+[2023-04-24 01:26:22][INFO] Sending CV file to JobConvo
+[2023-04-24 01:26:23][INFO] Response: 
+[2023-04-24 01:26:23][INFO] {"id":"81c332df-487c-4833-9163-b90062ce4bef","profile":{"first_name":"Dbora","last_name":"Rezende","full_name":"Dbora Rezende","email":"debsrezende@hotmail.com","birthday":"1982-08-28","social_status":"Solteiro","gender":"Nao informado","rais":"3304557","photo":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"992672626","phone2":"00000000000","public_place_type":null,"address":"Borda do Mato","adddressnumber":"254","complement":"-","neighbourhood":"Grajau","state":null,"city":"Rio de Janeiro","country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":"20561208","user_language":"pt-br","complete_cv":false,"nationality":null},"documents":{"cpf":null,"doctype":"[&apos;Passaporte&apos;]","rg":"08152123722","pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-04-23/f7f63338-40c1-4ba1-b1c4-9f69f1b543cb.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=oMzRw59GvjUKrTj0%2FJXyvBDFP%2Bo%3D&Expires=1682303184","date":"2022-12-28T15:32:09-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3069912,"career_page_source":null,"by_recruiter":null}
+[2023-04-24 01:26:23][INFO] User - debsrezende@hotmail.com and pk - 81c332df-487c-4833-9163-b90062ce4bef found on JobConvo, updating...
+[2023-04-24 01:26:23][INFO] Checking User Educations
+[2023-04-24 01:26:23][INFO] Educations found on Wordpress:
+[2023-04-24 01:26:23][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 7
+            [title] => Gestão Financeira e Controladoria
+            [school] => UVA
+            [status] => 1
+            [start] => 2022-01-17
+            [end] => 2022-11-07
+        )
+
+    [1] => Array
+        (
+            [level] => 7
+            [title] => Petroleo
+            [school] => Unyleya
+            [status] => 1
+            [start] => 2021-11-29
+            [end] => 2022-10-23
+        )
+
+    [2] => Array
+        (
+            [level] => 6
+            [title] => Economia
+            [school] => UERJ
+            [status] => 1
+            [start] => 2001-03-26
+            [end] => 2005-03-22
+        )
+
+)
+
+[2023-04-24 01:26:23][INFO] Education not found on JobConvo, Creating...
+[2023-04-24 01:26:23][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:23][INFO] METHOD - POST
+[2023-04-24 01:26:23][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:26:23][INFO] wp_json_encode: {"level":"7","title":"Gest\u00e3o Financeira e Controladoria","school":"UVA","status":"1","start":"2022-01-17","end":"2022-11-07"}
+[2023-04-24 01:26:24][WARN] Retry request attempt 1
+[2023-04-24 01:26:24][INFO] Education created:
+[2023-04-24 01:26:24][INFO] Array
+(
+    [id] => 6343052
+    [level] => 7
+    [title] => Gestão Financeira e Controladoria
+    [school] => UVA
+    [status] => 1
+    [start] => 2022-01-17
+    [end] => 2022-11-07
+)
+
+[2023-04-24 01:26:24][INFO] Education not found on JobConvo, Creating...
+[2023-04-24 01:26:24][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:24][INFO] METHOD - POST
+[2023-04-24 01:26:24][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:26:24][INFO] wp_json_encode: {"level":"7","title":"Petroleo","school":"Unyleya","status":"1","start":"2021-11-29","end":"2022-10-23"}
+[2023-04-24 01:26:24][WARN] Retry request attempt 1
+[2023-04-24 01:26:24][INFO] Education created:
+[2023-04-24 01:26:24][INFO] Array
+(
+    [id] => 6343053
+    [level] => 7
+    [title] => Petroleo
+    [school] => Unyleya
+    [status] => 1
+    [start] => 2021-11-29
+    [end] => 2022-10-23
+)
+
+[2023-04-24 01:26:24][INFO] Education not found on JobConvo, Creating...
+[2023-04-24 01:26:24][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:24][INFO] METHOD - POST
+[2023-04-24 01:26:24][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:26:24][INFO] wp_json_encode: {"level":"6","title":"Economia","school":"UERJ","status":"1","start":"2001-03-26","end":"2005-03-22"}
+[2023-04-24 01:26:25][WARN] Retry request attempt 1
+[2023-04-24 01:26:25][INFO] Education created:
+[2023-04-24 01:26:25][INFO] Array
+(
+    [id] => 6343054
+    [level] => 6
+    [title] => Economia
+    [school] => UERJ
+    [status] => 1
+    [start] => 2001-03-26
+    [end] => 2005-03-22
+)
+
+[2023-04-24 01:26:25][INFO] Educations Now:
+[2023-04-24 01:26:25][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 7
+            [title] => Gestão Financeira e Controladoria
+            [school] => UVA
+            [status] => 1
+            [start] => 2022-01-17
+            [end] => 2022-11-07
+            [id] => 6343052
+        )
+
+    [1] => Array
+        (
+            [level] => 7
+            [title] => Petroleo
+            [school] => Unyleya
+            [status] => 1
+            [start] => 2021-11-29
+            [end] => 2022-10-23
+            [id] => 6343053
+        )
+
+    [2] => Array
+        (
+            [level] => 6
+            [title] => Economia
+            [school] => UERJ
+            [status] => 1
+            [start] => 2001-03-26
+            [end] => 2005-03-22
+            [id] => 6343054
+        )
+
+)
+
+[2023-04-24 01:26:25][INFO] Checking User Work Experiences
+[2023-04-24 01:26:25][INFO] Work Experiences found on Wordpress:
+[2023-04-24 01:26:25][INFO] Array
+(
+    [0] => Array
+        (
+            [jobtitle] => Especialista em controle de custos
+            [employer] => Modec do Brasil
+            [detail] => Principais responsabilidades (Out/19 – Nov/21):
+•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.
+Principais responsabilidades (Jun/15 a Set/19):
+•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.
+•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.
+•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+            [start] => 2015-06-01
+            [end] => 2021-11-10
+        )
+
+    [1] => Array
+        (
+            [jobtitle] => Gestora Financeira
+            [employer] => MEMOH
+            [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+            [start] => 2022-04-12
+        )
+
+    [2] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Farol Apoio Marítimo Ltda 
+            [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa 
+            [start] => 2012-04-01
+            [end] => 2014-01-02
+        )
+
+    [3] => Array
+        (
+            [jobtitle] => Especialista de Planejamento e Controle
+            [employer] => Endesa Brasil
+            [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;
+•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;
+•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+            [start] => 2010-06-01
+            [end] => 2012-04-01
+        )
+
+    [4] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Subsea7
+            [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. 
+•	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. 
+•	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. 
+•	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. 
+•	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.
+•	Supervisão direta de um estagiário.
+            [start] => 2006-10-26
+            [end] => 2010-09-01
+        )
+
+)
+
+[2023-04-24 01:26:25][INFO] Work Experience not found on JobConvo, Creating...
+[2023-04-24 01:26:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:25][INFO] METHOD - POST
+[2023-04-24 01:26:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:26:25][INFO] wp_json_encode: {"jobtitle":"Especialista em controle de custos","employer":"Modec do Brasil","detail":"Principais responsabilidades (Out\/19 \u2013 Nov\/21):\r\n\u2022\tLider para Controlling de projeto com dura\u00e7\u00e3o de 18 meses para implementa\u00e7\u00e3o do SAP\/PM com impactos diretos nos m\u00f3dulos de FI e CO, incluindo: suporte a revis\u00e3o do plano de contas, revis\u00e3o da estrutura de WBS, desenvolvimento de novos relat\u00f3rios de custo e receita, proposta de novo modelo de or\u00e7amenta\u00e7\u00e3o e custeio e respons\u00e1vel pelo treinamento de todos os colaboradores no tema.\r\nPrincipais responsabilidades (Jun\/15 a Set\/19):\r\n\u2022\tElabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao ativo, al\u00e9m da receita de afretamento e servi\u00e7o de uma unidade FSO, incluindo report financeiro mensal para diretoria, revis\u00e3o de forecast e atualiza\u00e7\u00e3o de fluxo de caixa.\r\n\u2022\tCoordena\u00e7\u00e3o da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e tr\u00eas FPSOs e eventualmente suportando tamb\u00e9m a frota da Bacia de Santos e suportando a ger\u00eancia de Controle representando a gerente em algumas reuni\u00f5es e processos.\r\n\u2022\tSuporte \u00e0 implanta\u00e7\u00e3o do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.","start":"2015-06-01","end":"2021-11-10"}
+[2023-04-24 01:26:25][WARN] Retry request attempt 1
+[2023-04-24 01:26:25][INFO] Work Experience created:
+[2023-04-24 01:26:25][INFO] Array
+(
+    [id] => 6938957
+    [detail] => Principais responsabilidades (Out/19 – Nov/21):
+•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.
+Principais responsabilidades (Jun/15 a Set/19):
+•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.
+•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.
+•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+    [jobtitle] => Especialista em controle de custos
+    [employer] => Modec do Brasil
+    [start] => 2015-06-01
+    [end] => 2021-11-10
+)
+
+[2023-04-24 01:26:25][INFO] Work Experience not found on JobConvo, Creating...
+[2023-04-24 01:26:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:25][INFO] METHOD - POST
+[2023-04-24 01:26:25][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:26:25][INFO] wp_json_encode: {"jobtitle":"Gestora Financeira","employer":"MEMOH","detail":"Gest\u00e3o financeira estrat\u00e9gica, respons\u00e1vel pelo contas a pagar e receber, incluindo emiss\u00e3o de NFS-e, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios financeiros, elabora\u00e7\u00e3o e controle de or\u00e7amento e gest\u00e3o de carteira de investimentos (aplica\u00e7\u00f5es financeiras).","start":"2022-04-12"}
+[2023-04-24 01:26:26][WARN] Retry request attempt 1
+[2023-04-24 01:26:26][INFO] Work Experience created:
+[2023-04-24 01:26:26][INFO] Array
+(
+    [id] => 6938958
+    [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+    [jobtitle] => Gestora Financeira
+    [employer] => MEMOH
+    [start] => 2022-04-12
+    [end] => 
+)
+
+[2023-04-24 01:26:26][INFO] Work Experience not found on JobConvo, Creating...
+[2023-04-24 01:26:26][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:26][INFO] METHOD - POST
+[2023-04-24 01:26:26][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:26:26][INFO] wp_json_encode: {"jobtitle":"Analista de Planejamento Financeiro","employer":"Farol Apoio Mar\u00edtimo Ltda ","detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao ativo, al\u00e9m da receita de afretamento e servi\u00e7o de uma unidade FSO, incluindo report financeiro mensal para diretoria, revis\u00e3o de forecast e atualiza\u00e7\u00e3o de fluxo de caixa ","start":"2012-04-01","end":"2014-01-02"}
+[2023-04-24 01:26:27][WARN] Retry request attempt 1
+[2023-04-24 01:26:27][INFO] Work Experience created:
+[2023-04-24 01:26:27][INFO] Array
+(
+    [id] => 6938959
+    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa
+    [jobtitle] => Analista de Planejamento Financeiro
+    [employer] => Farol Apoio Marítimo Ltda
+    [start] => 2012-04-01
+    [end] => 2014-01-02
+)
+
+[2023-04-24 01:26:27][INFO] Work Experience not found on JobConvo, Creating...
+[2023-04-24 01:26:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:27][INFO] METHOD - POST
+[2023-04-24 01:26:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:26:27][INFO] wp_json_encode: {"jobtitle":"Especialista de Planejamento e Controle","employer":"Endesa Brasil","detail":"\u2022\tAcompanhamento e an\u00e1lise de CAPEX para todas as empresas do grupo no Brasil;\r\n\u2022\tApura\u00e7\u00e3o, acompanhamento e an\u00e1lise de ganhos gerados por projetos de efici\u00eancia;\r\n\u2022\tCoordena\u00e7\u00e3o, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios mensais de cada projeto de efici\u00eancia, aplicando metodologia PDCA e controle de planos de a\u00e7\u00e3o para novas iniciativas;\r\n\u2022\tGarantir que os ganhos de um projeto de efici\u00eancia n\u00e3o se sobrepujem aos de outro, em a\u00e7\u00f5es de natureza semelhante, por\u00e9m iniciativas distintas.","start":"2010-06-01","end":"2012-04-01"}
+[2023-04-24 01:26:27][WARN] Retry request attempt 1
+[2023-04-24 01:26:27][INFO] Work Experience created:
+[2023-04-24 01:26:27][INFO] Array
+(
+    [id] => 6938960
+    [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;
+•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;
+•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+    [jobtitle] => Especialista de Planejamento e Controle
+    [employer] => Endesa Brasil
+    [start] => 2010-06-01
+    [end] => 2012-04-01
+)
+
+[2023-04-24 01:26:27][INFO] Work Experience not found on JobConvo, Creating...
+[2023-04-24 01:26:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:27][INFO] METHOD - POST
+[2023-04-24 01:26:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:26:27][INFO] wp_json_encode: {"jobtitle":"Analista de Planejamento Financeiro","employer":"Subsea7","detail":"\u2022\tAn\u00e1lise e controle de projeto de receita di\u00e1ria e report financeiro para diretoria e ger\u00eancia do projeto, incluindo atualiza\u00e7\u00e3o de forecast e fluxo de caixa. \r\n\u2022\tAn\u00e1lise de processos e custos da base de fabrica\u00e7\u00e3o, incluindo mapeamento desde o compromissado at\u00e9 o pagamento e fluxo de caixa, buscando otimiza\u00e7\u00e3o de resultado. \r\n\u2022\tAn\u00e1lise e custeio de propostas para novos projetos de acordo com convite t\u00e9cnico do cliente, an\u00e1lise comparativa de custo para or\u00e7amenta\u00e7\u00e3o de projetos e acompanhamento da elabora\u00e7\u00e3o financeira das propostas\/ projetos. \r\n\u2022\tAcompanhamento, an\u00e1lise e consolida\u00e7\u00e3o de todos os custos de Overhead (custo sem retorno direto), reclassifica\u00e7\u00e3o cont\u00e1bil quando necess\u00e1ria de lan\u00e7amentos no SAP, rateio de Telecomunica\u00e7\u00f5es e custos de IT. \r\n\u2022\tControle de custos de propostas e handover de projetos, elabora\u00e7\u00e3o dos relat\u00f3rios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.\r\n\u2022\tSupervis\u00e3o direta de um estagi\u00e1rio.","start":"2006-10-26","end":"2010-09-01"}
+[2023-04-24 01:26:28][WARN] Retry request attempt 1
+[2023-04-24 01:26:28][INFO] Work Experience created:
+[2023-04-24 01:26:28][INFO] Array
+(
+    [id] => 6938961
+    [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. 
+•	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. 
+•	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. 
+•	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. 
+•	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.
+•	Supervisão direta de um estagiário.
+    [jobtitle] => Analista de Planejamento Financeiro
+    [employer] => Subsea7
+    [start] => 2006-10-26
+    [end] => 2010-09-01
+)
+
+[2023-04-24 01:26:28][INFO] Work Experiences Now:
+[2023-04-24 01:26:28][INFO] Array
+(
+    [0] => Array
+        (
+            [jobtitle] => Especialista em controle de custos
+            [employer] => Modec do Brasil
+            [detail] => Principais responsabilidades (Out/19 – Nov/21):
+•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.
+Principais responsabilidades (Jun/15 a Set/19):
+•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.
+•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.
+•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+            [start] => 2015-06-01
+            [end] => 2021-11-10
+            [id] => 6938957
+        )
+
+    [1] => Array
+        (
+            [jobtitle] => Gestora Financeira
+            [employer] => MEMOH
+            [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+            [start] => 2022-04-12
+            [id] => 6938958
+        )
+
+    [2] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Farol Apoio Marítimo Ltda 
+            [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa 
+            [start] => 2012-04-01
+            [end] => 2014-01-02
+            [id] => 6938959
+        )
+
+    [3] => Array
+        (
+            [jobtitle] => Especialista de Planejamento e Controle
+            [employer] => Endesa Brasil
+            [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;
+•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;
+•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+            [start] => 2010-06-01
+            [end] => 2012-04-01
+            [id] => 6938960
+        )
+
+    [4] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Subsea7
+            [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. 
+•	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. 
+•	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. 
+•	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. 
+•	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.
+•	Supervisão direta de um estagiário.
+            [start] => 2006-10-26
+            [end] => 2010-09-01
+            [id] => 6938961
+        )
+
+)
+
+[2023-04-24 01:26:28][INFO] Checking User Languages
+[2023-04-24 01:26:28][INFO] Languages found on Wordpress:
+[2023-04-24 01:26:28][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+        )
+
+    [1] => Array
+        (
+            [idiom] => ES
+            [writing] => 4
+            [speaking] => 4
+            [reading] => 5
+        )
+
+)
+
+[2023-04-24 01:26:28][INFO] Language not found on JobConvo, Creating...
+[2023-04-24 01:26:28][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:28][INFO] METHOD - POST
+[2023-04-24 01:26:28][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:26:28][INFO] wp_json_encode: {"idiom":"EN","writing":"6","speaking":"6","reading":"6"}
+[2023-04-24 01:26:28][WARN] Retry request attempt 1
+[2023-04-24 01:26:28][INFO] Language created:
+[2023-04-24 01:26:28][INFO] Array
+(
+    [id] => 1122476
+    [idiom] => EN
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-04-24 01:26:28][INFO] Language not found on JobConvo, Creating...
+[2023-04-24 01:26:28][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:28][INFO] METHOD - POST
+[2023-04-24 01:26:28][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:26:28][INFO] wp_json_encode: {"idiom":"ES","writing":"4","speaking":"4","reading":"5"}
+[2023-04-24 01:26:29][WARN] Retry request attempt 1
+[2023-04-24 01:26:29][INFO] Language created:
+[2023-04-24 01:26:29][INFO] Array
+(
+    [id] => 1122477
+    [idiom] => ES
+    [writing] => 4
+    [speaking] => 4
+    [reading] => 5
+)
+
+[2023-04-24 01:26:29][INFO] Languages Now:
+[2023-04-24 01:26:29][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1122476
+        )
+
+    [1] => Array
+        (
+            [idiom] => ES
+            [writing] => 4
+            [speaking] => 4
+            [reading] => 5
+            [id] => 1122477
+        )
+
+)
+
+[2023-04-24 01:26:29][INFO] Checking User Websites
+[2023-04-24 01:26:29][INFO] Websites found on Wordpress:
+[2023-04-24 01:26:29][INFO] Array
+(
+)
+
+[2023-04-24 01:26:29][INFO] Websites Now:
+[2023-04-24 01:26:29][INFO] Array
+(
+)
+
+[2023-04-24 01:26:29][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:26:29][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:29][INFO] METHOD - PATCH
+[2023-04-24 01:26:29][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:26:29][INFO] wp_json_encode: {"profile":{"email":"debsrezende@hotmail.com","birthday":"1982-08-28","address":"Borda do Mato","adddressnumber":"254","complement":"-","neighbourhood":"Grajau","city":"Rio de Janeiro","country":"Brasil","cep":"20561208"},"documents":{"doctype":["Passaporte"],"rg":"08152123722","not_brazilian":true}}
+[2023-04-24 01:26:29][WARN] Retry request attempt 1
+[2023-04-24 01:26:29][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:26:29][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:26:29][INFO] METHOD - PATCH
+[2023-04-24 01:26:29][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:26:29][INFO] wp_json_encode: {"first_name":"Dbora","last_name":"Rezende","full_name":"debsrezende@hotmail.com","country_code":"+55","area_code":"0","phone1":"992672626","phone2":"00000000000","social_status":"1","born_sex":"2"}
+[2023-04-24 01:26:30][WARN] Retry request attempt 1
+[2023-04-24 01:26:30][INFO] Candidate updated.
+[2023-04-24 01:26:30][INFO] Array
+(
+    [id] => 81c332df-487c-4833-9163-b90062ce4bef
+    [profile] => Array
+        (
+            [first_name] => Dbora
+            [last_name] => Rezende
+            [full_name] => Dbora Rezende
+            [email] => debsrezende@hotmail.com
+            [birthday] => 1982-08-28
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 3304557
+            [photo] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 55
+            [area_code] => 0
+            [phone1] => 992672626
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Borda do Mato
+            [adddressnumber] => 254
+            [complement] => -
+            [neighbourhood] => Grajau
+            [state] => 
+            [city] => Rio de Janeiro
+            [country] => Brasil
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 20561208
+            [user_language] => pt-br
+            [complete_cv] => 
+            [nationality] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Passaporte']
+            [rg] => 08152123722
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6343054
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Ensino Superior
+                    [level_id] => 6
+                    [title] => Economia
+                    [school] => UERJ
+                    [start] => 2001-03-26
+                )
+
+            [1] => Array
+                (
+                    [id] => 6343052
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Pós Graduação
+                    [level_id] => 7
+                    [title] => Gestão Financeira e Controladoria
+                    [school] => UVA
+                    [start] => 2022-01-17
+                )
+
+            [2] => Array
+                (
+                    [id] => 6343053
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Pós Graduação
+                    [level_id] => 7
+                    [title] => Petroleo
+                    [school] => Unyleya
+                    [start] => 2021-11-29
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1122476
+                    [idiom] => Inglês
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+            [1] => Array
+                (
+                    [id] => 1122477
+                    [idiom] => Espanhol
+                    [level] => Todos
+                    [writing] => 4
+                    [speaking] => 4
+                    [reading] => 5
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6938958
+                    [title] => Gestora Financeira
+                    [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+                    [employer] => MEMOH
+                    [start] => 2022-04-12
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 6938957
+                    [title] => Especialista em controle de custos
+                    [detail] => Principais responsabilidades (Out/19 – Nov/21):•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.Principais responsabilidades (Jun/15 a Set/19):•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+                    [employer] => Modec do Brasil
+                    [start] => 2015-06-01
+                    [end] => 2021-11-10
+                )
+
+            [2] => Array
+                (
+                    [id] => 6938959
+                    [title] => Analista de Planejamento Financeiro
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa
+                    [employer] => Farol Apoio Marítimo Ltda
+                    [start] => 2012-04-01
+                    [end] => 2014-01-02
+                )
+
+            [3] => Array
+                (
+                    [id] => 6938960
+                    [title] => Especialista de Planejamento e Controle
+                    [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+                    [employer] => Endesa Brasil
+                    [start] => 2010-06-01
+                    [end] => 2012-04-01
+                )
+
+            [4] => Array
+                (
+                    [id] => 6938961
+                    [title] => Analista de Planejamento Financeiro
+                    [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. •	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. •	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. •	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. •	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.•	Supervisão direta de um estagiário.
+                    [employer] => Subsea7
+                    [start] => 2006-10-26
+                    [end] => 2010-09-01
+                )
+
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-04-23/f7f63338-40c1-4ba1-b1c4-9f69f1b543cb.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=f2h99mt%2BfasRvkohkFULPWqXE0k%3D&Expires=1682303190
+    [date] => 2022-12-28T15:32:09-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3069912
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-04-24 01:26:30][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:26:30][INFO] User Create/Update routine finished
+[2023-04-24 01:26:30][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:28:17][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:28:17][INFO] User Update By CV routine - BEGIN
+[2023-04-24 01:28:17][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:28:17][INFO] Sending CV file to Google Document AI
+[2023-04-24 01:28:18][INFO] CV Text from Document AI acquired succesfuly!
+[2023-04-24 01:28:18][INFO] Sending CV Text to JobConvo for parsing
+[2023-04-24 01:28:18][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:18][INFO] METHOD - GET
+[2023-04-24 01:28:18][INFO] URL - https://test-homolog.jobconvo.com/api/combo/resumeparse/
+[2023-04-24 01:28:18][INFO] GET Methods enter: GET
+[2023-04-24 01:28:25][WARN] Retry request attempt 1
+[2023-04-24 01:28:25][INFO] Parsed CV acquired
+[2023-04-24 01:28:25][INFO] CV Parsed succesfully!
+[2023-04-24 01:28:25][INFO] Parsed CV data:
+[2023-04-24 01:28:25][INFO] Array
+(
+    [profile] => Array
+        (
+            [phone1] => 99267-2626
+            [phone2] => 00000000000
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => MBA
+                    [school] => UVA
+                    [title] => Gestão Financeira e Controladoria
+                    [status] => 2
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => MBA
+                    [status] => 2
+                    [title] => 
+                    [school] => 
+                    [end] => 
+                )
+
+            [2] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Graduação
+                    [title] => Economia pela UERJ / 2005
+Experiência Profissional:
+                    [status] => 2
+                    [school] => 
+                    [end] => 
+                )
+
+            [3] => Array
+                (
+                    [level] => Curso
+                    [title] => VBA e Dashboard em Power BI (webinar)
+                    [status] => 2
+                    [school] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [4] => Array
+                (
+                    [start] => 2023-04-24
+                    [school] => Fellipelli
+                    [title] => Práticas de Inteligência Emocional (webinar)
+                    [status] => 2
+                    [level] => 
+                    [end] => 
+                )
+
+            [5] => Array
+                (
+                    [start] => 2023-04-24
+                    [title] => Gerenciamento de Projetos
+                    [status] => 2
+                    [level] => 
+                    [school] => 
+                    [end] => 
+                )
+
+            [6] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Dashboard
+                    [title] => Excel - Fábrica de Planilhas
+                    [status] => 2
+                    [school] => 
+                    [end] => 
+                )
+
+            [7] => Array
+                (
+                    [start] => 2023-04-24
+                    [level] => Curso
+                    [school] => OGNI
+                    [title] => Contabilidade Básica e Análise de Balanço
+                    [status] => 2
+                    [end] => 
+                )
+
+            [8] => Array
+                (
+                    [start] => 2023-04-24
+                    [title] => Exploração e Produção de Petróleo no Mar - COPPE
+                    [status] => 2
+                    [level] => 
+                    [school] => 
+                    [end] => 
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+            [0] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Prestação de serviços como workshops e rodas reflexivas
+                    [employer] => Modec do Brasil
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 2
+                    [end] => 1970-01-01
+                    [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão
+de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de
+orçamento e gestão de carteira de investimentos (aplicações financeiras).
+                    [jobtitle] => 
+                    [employer] => 
+                )
+
+            [2] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo,
+além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro
+mensal para diretoria, revisão de forecast e atualização de fluxo de caixa
+                    [jobtitle] => 
+                    [employer] => 
+                    [end] => 
+                )
+
+            [3] => Array
+                (
+                    [detail] => Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta
+por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos
+e suportando a gerência de Controle representando a gerente em algumas reuniões e
+processos
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [4] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por
+consultoria especializada
+                    [employer] => Franqueada Uva & Verde Presentes Criativos
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [5] => Array
+                (
+                    [detail] => Rotina financeira de contas a pagar e receber, tesouraria, encaminhamento de documentação
+ao escritório de contabilidade terceirizado, validação de relatórios contábeis, elaboração e
+acompanhamento de plano de negócios;
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [6] => Array
+                (
+                    [detail] => Interface com fornecedores, negociação de preços e prazos, alimentação do sistema de
+gestão e controle de estoque
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [7] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Coordenação de equipe de 3 vendedoras e demais rotinas administrativas.
+                    [employer] => Farol Apoio Marítimo Ltda
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [8] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao
+Coordenação do contas a receber, incluindo emissão de invoices e notas fiscais no
+sistema da Nota Carioca
+                    [employer] => Endesa Brasil
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [9] => Array
+                (
+                    [start] => 1970-01-01
+                    [current] => 1
+                    [detail] => Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do
+projeto, incluindo atualização de forecast e fluxo de caixa
+                    [employer] => Subsea7-
+                    [jobtitle] => 
+                    [end] => 
+                )
+
+            [10] => Array
+                (
+                    [detail] => Suporte à Contabilidade e análise dos relatórios contábeis
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [11] => Array
+                (
+                    [detail] => Elaboração, acompanhamento e atualização de relatórios de custos e orçamento para a
+administração e cliente externo
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [12] => Array
+                (
+                    [detail] => Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [13] => Array
+                (
+                    [detail] => Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência,
+aplicando metodologia PDCA e controle de planos de ação para novas iniciativas
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [14] => Array
+                (
+                    [detail] => Análise de processos e custos da base de fabricação, incluindo mapeamento desde o
+compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [15] => Array
+                (
+                    [detail] => Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros
+do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+            [16] => Array
+                (
+                    [detail] => Supervisão direta de um estagiário
+                    [jobtitle] => 
+                    [employer] => 
+                    [start] => 
+                    [end] => 
+                )
+
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [idiom] => Inglês
+                    [writing] => fluente
+                    [speaking] => fluente
+                    [reading] => fluente
+                )
+
+            [1] => Array
+                (
+                    [idiom] => Espanhol
+                    [writing] => intermediário
+                    [speaking] => intermediário
+                    [reading] => intermediário
+                )
+
+        )
+
+)
+
+[2023-04-24 01:28:25][INFO] Updating User Profile
+[2023-04-24 01:28:25][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:28:25][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:25][INFO] METHOD - PATCH
+[2023-04-24 01:28:25][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:28:25][INFO] wp_json_encode: {"phone1":"99267-2626","phone2":"00000000000"}
+[2023-04-24 01:28:26][WARN] Retry request attempt 1
+[2023-04-24 01:28:26][INFO] Updating User Educations
+[2023-04-24 01:28:26][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:26][INFO] METHOD - POST
+[2023-04-24 01:28:26][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:26][INFO] wp_json_encode: {"start":"2023-04-24","level":"MBA","school":"UVA","title":"Gest\u00e3o Financeira e Controladoria","status":"2","end":false}
+[2023-04-24 01:28:26][WARN] Retry request attempt 1
+[2023-04-24 01:28:26][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:26][INFO] METHOD - POST
+[2023-04-24 01:28:26][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:26][INFO] wp_json_encode: {"start":"2023-04-24","level":"MBA","status":"2","title":false,"school":false,"end":false}
+[2023-04-24 01:28:27][WARN] Retry request attempt 1
+[2023-04-24 01:28:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:27][INFO] METHOD - POST
+[2023-04-24 01:28:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:27][INFO] wp_json_encode: {"start":"2023-04-24","level":"Gradua\u00e7\u00e3o","title":"Economia pela UERJ \/ 2005\nExperi\u00eancia Profissional:","status":"2","school":false,"end":false}
+[2023-04-24 01:28:27][WARN] Retry request attempt 1
+[2023-04-24 01:28:27][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:27][INFO] METHOD - POST
+[2023-04-24 01:28:27][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:27][INFO] wp_json_encode: {"level":"Curso","title":"VBA e Dashboard em Power BI (webinar)","status":"2","school":false,"start":false,"end":false}
+[2023-04-24 01:28:28][WARN] Retry request attempt 1
+[2023-04-24 01:28:28][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:28][INFO] METHOD - POST
+[2023-04-24 01:28:28][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:28][INFO] wp_json_encode: {"start":"2023-04-24","school":"Fellipelli","title":"Pr\u00e1ticas de Intelig\u00eancia Emocional (webinar)","status":"2","level":false,"end":false}
+[2023-04-24 01:28:28][WARN] Retry request attempt 1
+[2023-04-24 01:28:28][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:28][INFO] METHOD - POST
+[2023-04-24 01:28:28][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:28][INFO] wp_json_encode: {"start":"2023-04-24","title":"Gerenciamento de Projetos","status":"2","level":false,"school":false,"end":false}
+[2023-04-24 01:28:28][WARN] Retry request attempt 1
+[2023-04-24 01:28:28][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:28][INFO] METHOD - POST
+[2023-04-24 01:28:28][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:28][INFO] wp_json_encode: {"start":"2023-04-24","level":"Dashboard","title":"Excel - F\u00e1brica de Planilhas","status":"2","school":false,"end":false}
+[2023-04-24 01:28:29][WARN] Retry request attempt 1
+[2023-04-24 01:28:29][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:29][INFO] METHOD - POST
+[2023-04-24 01:28:29][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:29][INFO] wp_json_encode: {"start":"2023-04-24","level":"Curso","school":"OGNI","title":"Contabilidade B\u00e1sica e An\u00e1lise de Balan\u00e7o","status":"2","end":false}
+[2023-04-24 01:28:29][WARN] Retry request attempt 1
+[2023-04-24 01:28:29][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:29][INFO] METHOD - POST
+[2023-04-24 01:28:29][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/
+[2023-04-24 01:28:29][INFO] wp_json_encode: {"start":"2023-04-24","title":"Explora\u00e7\u00e3o e Produ\u00e7\u00e3o de Petr\u00f3leo no Mar - COPPE","status":"2","level":false,"school":false,"end":false}
+[2023-04-24 01:28:30][WARN] Retry request attempt 1
+[2023-04-24 01:28:30][INFO] Updating User Work Experiences
+[2023-04-24 01:28:30][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:30][INFO] METHOD - POST
+[2023-04-24 01:28:30][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:30][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Presta\u00e7\u00e3o de servi\u00e7os como workshops e rodas reflexivas","employer":"Modec do Brasil","jobtitle":false,"end":false}
+[2023-04-24 01:28:30][WARN] Retry request attempt 1
+[2023-04-24 01:28:30][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:30][INFO] METHOD - POST
+[2023-04-24 01:28:30][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:30][INFO] wp_json_encode: {"start":"1970-01-01","current":2,"end":"1970-01-01","detail":"Gest\u00e3o financeira estrat\u00e9gica, respons\u00e1vel pelo contas a pagar e receber, incluindo emiss\u00e3o\nde NFS-e, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios financeiros, elabora\u00e7\u00e3o e controle de\nor\u00e7amento e gest\u00e3o de carteira de investimentos (aplica\u00e7\u00f5es financeiras).","jobtitle":false,"employer":false}
+[2023-04-24 01:28:31][WARN] Retry request attempt 1
+[2023-04-24 01:28:31][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:31][INFO] METHOD - POST
+[2023-04-24 01:28:31][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:31][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao ativo,\nal\u00e9m da receita de afretamento e servi\u00e7o de uma unidade FSO, incluindo report financeiro\nmensal para diretoria, revis\u00e3o de forecast e atualiza\u00e7\u00e3o de fluxo de caixa","jobtitle":false,"employer":false,"end":false}
+[2023-04-24 01:28:31][WARN] Retry request attempt 1
+[2023-04-24 01:28:31][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:31][INFO] METHOD - POST
+[2023-04-24 01:28:31][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:31][INFO] wp_json_encode: {"detail":"Coordena\u00e7\u00e3o da equipe de Planejamento e Controle da frota da Bacia de Campos composta\npor um FSO e tr\u00eas FPSOs e eventualmente suportando tamb\u00e9m a frota da Bacia de Santos\ne suportando a ger\u00eancia de Controle representando a gerente em algumas reuni\u00f5es e\nprocessos","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:31][WARN] Retry request attempt 1
+[2023-04-24 01:28:31][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:31][INFO] METHOD - POST
+[2023-04-24 01:28:31][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:31][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Suporte \u00e0 implanta\u00e7\u00e3o do SAP e mapeamento e melhoria de processos realizadas por\nconsultoria especializada","employer":"Franqueada Uva & Verde Presentes Criativos","jobtitle":false,"end":false}
+[2023-04-24 01:28:32][WARN] Retry request attempt 1
+[2023-04-24 01:28:32][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:32][INFO] METHOD - POST
+[2023-04-24 01:28:32][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:32][INFO] wp_json_encode: {"detail":"Rotina financeira de contas a pagar e receber, tesouraria, encaminhamento de documenta\u00e7\u00e3o\nao escrit\u00f3rio de contabilidade terceirizado, valida\u00e7\u00e3o de relat\u00f3rios cont\u00e1beis, elabora\u00e7\u00e3o e\nacompanhamento de plano de neg\u00f3cios;","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:32][WARN] Retry request attempt 1
+[2023-04-24 01:28:32][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:32][INFO] METHOD - POST
+[2023-04-24 01:28:32][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:32][INFO] wp_json_encode: {"detail":"Interface com fornecedores, negocia\u00e7\u00e3o de pre\u00e7os e prazos, alimenta\u00e7\u00e3o do sistema de\ngest\u00e3o e controle de estoque","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:33][WARN] Retry request attempt 1
+[2023-04-24 01:28:33][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:33][INFO] METHOD - POST
+[2023-04-24 01:28:33][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:33][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Coordena\u00e7\u00e3o de equipe de 3 vendedoras e demais rotinas administrativas.","employer":"Farol Apoio Mar\u00edtimo Ltda","jobtitle":false,"end":false}
+[2023-04-24 01:28:33][WARN] Retry request attempt 1
+[2023-04-24 01:28:33][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:33][INFO] METHOD - POST
+[2023-04-24 01:28:33][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:33][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao\nCoordena\u00e7\u00e3o do contas a receber, incluindo emiss\u00e3o de invoices e notas fiscais no\nsistema da Nota Carioca","employer":"Endesa Brasil","jobtitle":false,"end":false}
+[2023-04-24 01:28:33][WARN] Retry request attempt 1
+[2023-04-24 01:28:33][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:33][INFO] METHOD - POST
+[2023-04-24 01:28:33][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:33][INFO] wp_json_encode: {"start":"1970-01-01","current":1,"detail":"An\u00e1lise e controle de projeto de receita di\u00e1ria e report financeiro para diretoria e ger\u00eancia do\nprojeto, incluindo atualiza\u00e7\u00e3o de forecast e fluxo de caixa","employer":"Subsea7-","jobtitle":false,"end":false}
+[2023-04-24 01:28:34][WARN] Retry request attempt 1
+[2023-04-24 01:28:34][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:34][INFO] METHOD - POST
+[2023-04-24 01:28:34][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:34][INFO] wp_json_encode: {"detail":"Suporte \u00e0 Contabilidade e an\u00e1lise dos relat\u00f3rios cont\u00e1beis","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:34][WARN] Retry request attempt 1
+[2023-04-24 01:28:34][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:34][INFO] METHOD - POST
+[2023-04-24 01:28:34][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:34][INFO] wp_json_encode: {"detail":"Elabora\u00e7\u00e3o, acompanhamento e atualiza\u00e7\u00e3o de relat\u00f3rios de custos e or\u00e7amento para a\nadministra\u00e7\u00e3o e cliente externo","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:35][WARN] Retry request attempt 1
+[2023-04-24 01:28:35][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:35][INFO] METHOD - POST
+[2023-04-24 01:28:35][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:35][INFO] wp_json_encode: {"detail":"Acompanhamento e an\u00e1lise de CAPEX para todas as empresas do grupo no Brasil","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:35][WARN] Retry request attempt 1
+[2023-04-24 01:28:35][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:35][INFO] METHOD - POST
+[2023-04-24 01:28:35][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:35][INFO] wp_json_encode: {"detail":"Apura\u00e7\u00e3o, acompanhamento e an\u00e1lise de ganhos gerados por projetos de efici\u00eancia;\nCoordena\u00e7\u00e3o, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios mensais de cada projeto de efici\u00eancia,\naplicando metodologia PDCA e controle de planos de a\u00e7\u00e3o para novas iniciativas","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:36][WARN] Retry request attempt 1
+[2023-04-24 01:28:36][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:36][INFO] METHOD - POST
+[2023-04-24 01:28:36][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:36][INFO] wp_json_encode: {"detail":"An\u00e1lise de processos e custos da base de fabrica\u00e7\u00e3o, incluindo mapeamento desde o\ncompromissado at\u00e9 o pagamento e fluxo de caixa, buscando otimiza\u00e7\u00e3o de resultado","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:36][WARN] Retry request attempt 1
+[2023-04-24 01:28:36][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:36][INFO] METHOD - POST
+[2023-04-24 01:28:36][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:36][INFO] wp_json_encode: {"detail":"Controle de custos de propostas e handover de projetos, elabora\u00e7\u00e3o dos relat\u00f3rios financeiros\ndo overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:36][WARN] Retry request attempt 1
+[2023-04-24 01:28:36][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:36][INFO] METHOD - POST
+[2023-04-24 01:28:36][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/
+[2023-04-24 01:28:36][INFO] wp_json_encode: {"detail":"Supervis\u00e3o direta de um estagi\u00e1rio","jobtitle":false,"employer":false,"start":false,"end":false}
+[2023-04-24 01:28:37][WARN] Retry request attempt 1
+[2023-04-24 01:28:37][INFO] Updating User Languages
+[2023-04-24 01:28:37][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:37][INFO] METHOD - POST
+[2023-04-24 01:28:37][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:28:37][INFO] wp_json_encode: {"idiom":"Ingl\u00eas","writing":"fluente","speaking":"fluente","reading":"fluente"}
+[2023-04-24 01:28:37][WARN] Retry request attempt 1
+[2023-04-24 01:28:37][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:28:37][INFO] METHOD - POST
+[2023-04-24 01:28:37][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/
+[2023-04-24 01:28:37][INFO] wp_json_encode: {"idiom":"Espanhol","writing":"intermedi\u00e1rio","speaking":"intermedi\u00e1rio","reading":"intermedi\u00e1rio"}
+[2023-04-24 01:28:38][WARN] Retry request attempt 1
+[2023-04-24 01:29:01][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:29:01][INFO] User Create/Update routine started
+[2023-04-24 01:29:01][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:29:01][INFO] Get candidate by email - debsrezende@hotmail.com
+[2023-04-24 01:29:01][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:01][INFO] METHOD - GET
+[2023-04-24 01:29:01][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=debsrezende@hotmail.com
+[2023-04-24 01:29:01][INFO] GET Methods enter: GET
+[2023-04-24 01:29:02][WARN] Retry request attempt 1
+[2023-04-24 01:29:02][INFO] Sending CV file to JobConvo
+[2023-04-24 01:29:03][INFO] Response: 
+[2023-04-24 01:29:03][INFO] {"id":"81c332df-487c-4833-9163-b90062ce4bef","profile":{"first_name":"Dbora","last_name":"Rezende","full_name":"Dbora Rezende","email":"debsrezende@hotmail.com","birthday":"1982-08-28","social_status":"Solteiro","gender":"Nao informado","rais":"3304557","photo":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"55","area_code":"0","phone1":"992672626","phone2":"00000000000","public_place_type":null,"address":"Borda do Mato","adddressnumber":"254","complement":"-","neighbourhood":"Grajau","state":null,"city":"Rio de Janeiro","country":"Brasil","latitude":"40.0332629","longitude":"-7.8896263","cep":"20561208","user_language":"pt-br","complete_cv":false,"nationality":null},"documents":{"cpf":null,"doctype":"['Passaporte']","rg":"08152123722","pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[{"id":6343054,"status":"Concluído","status_id":"1","level":"Licenciatura Bolonha (3 anos)/ Bacharelato","level_id":"6","title":"Economia","school":"UERJ","start":"2001-03-26"},{"id":6343052,"status":"Concluído","status_id":"1","level":"Pós-graduação","level_id":"7","title":"Gestão Financeira e Controladoria","school":"UVA","start":"2022-01-17"},{"id":6343053,"status":"Concluído","status_id":"1","level":"Pós-graduação","level_id":"7","title":"Petroleo","school":"Unyleya","start":"2021-11-29"}],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[{"id":1122476,"idiom":"Inglês","level":"Todos","writing":"6","speaking":"6","reading":"6"},{"id":1122477,"idiom":"Espanhol","level":"Todos","writing":"4","speaking":"4","reading":"5"}],"work_experiences":[{"id":6938958,"title":"Gestora Financeira","detail":"Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).","employer":"MEMOH","start":"2022-04-12","end":null},{"id":6938957,"title":"Especialista em controle de custos","detail":"Principais responsabilidades (Out/19 – Nov/21):•\tLider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.Principais responsabilidades (Jun/15 a Set/19):•\tElaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.•\tCoordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.•\tSuporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.","employer":"Modec do Brasil","start":"2015-06-01","end":"2021-11-10"},{"id":6938959,"title":"Analista de Planejamento Financeiro","detail":"Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa","employer":"Farol Apoio Marítimo Ltda","start":"2012-04-01","end":"2014-01-02"},{"id":6938960,"title":"Especialista de Planejamento e Controle","detail":"•\tAcompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;•\tApuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;•\tCoordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;•\tGarantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.","employer":"Endesa Brasil","start":"2010-06-01","end":"2012-04-01"},{"id":6938961,"title":"Analista de Planejamento Financeiro","detail":"•\tAnálise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. •\tAnálise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. •\tAnálise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. •\tAcompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. •\tControle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.•\tSupervisão direta de um estagiário.","employer":"Subsea7","start":"2006-10-26","end":"2010-09-01"}],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-04-23/28044938-8876-4593-95d1-9e3b37b369f9.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=97kXmfuZ8U6vZYU5CBcrs2q4aWs%3D&Expires=1682303343","date":"2022-12-28T15:32:09-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3069912,"career_page_source":null,"by_recruiter":null}
+[2023-04-24 01:29:03][INFO] User - debsrezende@hotmail.com and pk - 81c332df-487c-4833-9163-b90062ce4bef found on JobConvo, updating...
+[2023-04-24 01:29:03][INFO] Checking User Educations
+[2023-04-24 01:29:03][INFO] Educations found on Wordpress:
+[2023-04-24 01:29:03][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 7
+            [title] => Gestão Financeira e Controladoria
+            [school] => UVA
+            [status] => 1
+            [start] => 2022-01-17
+            [end] => 2022-11-07
+            [id] => 6343052
+        )
+
+    [1] => Array
+        (
+            [level] => 7
+            [title] => Petroleo
+            [school] => Unyleya
+            [status] => 1
+            [start] => 2021-11-29
+            [end] => 2022-10-23
+            [id] => 6343053
+        )
+
+    [2] => Array
+        (
+            [level] => 6
+            [title] => Economia
+            [school] => UERJ
+            [status] => 1
+            [start] => 2001-03-26
+            [end] => 2005-03-22
+            [id] => 6343054
+        )
+
+)
+
+[2023-04-24 01:29:03][INFO] Education 6343052 found on JobConvo, Updating...
+[2023-04-24 01:29:03][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:03][INFO] METHOD - PATCH
+[2023-04-24 01:29:03][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/6343052/
+[2023-04-24 01:29:03][INFO] wp_json_encode: {"level":"7","title":"Gest\u00e3o Financeira e Controladoria","school":"UVA","status":"1","start":"2022-01-17","end":"2022-11-07","id":"6343052"}
+[2023-04-24 01:29:03][WARN] Retry request attempt 1
+[2023-04-24 01:29:03][INFO] Response:
+[2023-04-24 01:29:03][INFO] Array
+(
+    [id] => 6343052
+    [level] => 7
+    [title] => Gestão Financeira e Controladoria
+    [school] => UVA
+    [status] => 1
+    [start] => 2022-01-17
+    [end] => 2022-11-07
+)
+
+[2023-04-24 01:29:03][INFO] Education 6343053 found on JobConvo, Updating...
+[2023-04-24 01:29:03][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:03][INFO] METHOD - PATCH
+[2023-04-24 01:29:03][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/6343053/
+[2023-04-24 01:29:03][INFO] wp_json_encode: {"level":"7","title":"Petroleo","school":"Unyleya","status":"1","start":"2021-11-29","end":"2022-10-23","id":"6343053"}
+[2023-04-24 01:29:04][WARN] Retry request attempt 1
+[2023-04-24 01:29:04][INFO] Response:
+[2023-04-24 01:29:04][INFO] Array
+(
+    [id] => 6343053
+    [level] => 7
+    [title] => Petroleo
+    [school] => Unyleya
+    [status] => 1
+    [start] => 2021-11-29
+    [end] => 2022-10-23
+)
+
+[2023-04-24 01:29:04][INFO] Education 6343054 found on JobConvo, Updating...
+[2023-04-24 01:29:04][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:04][INFO] METHOD - PATCH
+[2023-04-24 01:29:04][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/educations/6343054/
+[2023-04-24 01:29:04][INFO] wp_json_encode: {"level":"6","title":"Economia","school":"UERJ","status":"1","start":"2001-03-26","end":"2005-03-22","id":"6343054"}
+[2023-04-24 01:29:04][WARN] Retry request attempt 1
+[2023-04-24 01:29:04][INFO] Response:
+[2023-04-24 01:29:04][INFO] Array
+(
+    [id] => 6343054
+    [level] => 6
+    [title] => Economia
+    [school] => UERJ
+    [status] => 1
+    [start] => 2001-03-26
+    [end] => 2005-03-22
+)
+
+[2023-04-24 01:29:04][INFO] Educations Now:
+[2023-04-24 01:29:04][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 7
+            [title] => Gestão Financeira e Controladoria
+            [school] => UVA
+            [status] => 1
+            [start] => 2022-01-17
+            [end] => 2022-11-07
+            [id] => 6343052
+        )
+
+    [1] => Array
+        (
+            [level] => 7
+            [title] => Petroleo
+            [school] => Unyleya
+            [status] => 1
+            [start] => 2021-11-29
+            [end] => 2022-10-23
+            [id] => 6343053
+        )
+
+    [2] => Array
+        (
+            [level] => 6
+            [title] => Economia
+            [school] => UERJ
+            [status] => 1
+            [start] => 2001-03-26
+            [end] => 2005-03-22
+            [id] => 6343054
+        )
+
+)
+
+[2023-04-24 01:29:04][INFO] Checking User Work Experiences
+[2023-04-24 01:29:04][INFO] Work Experiences found on Wordpress:
+[2023-04-24 01:29:04][INFO] Array
+(
+    [0] => Array
+        (
+            [jobtitle] => Especialista em controle de custos
+            [employer] => Modec do Brasil
+            [detail] => Principais responsabilidades (Out/19 – Nov/21):
+•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.
+Principais responsabilidades (Jun/15 a Set/19):
+•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.
+•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.
+•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+            [start] => 2015-06-01
+            [end] => 2021-11-10
+            [id] => 6938957
+        )
+
+    [1] => Array
+        (
+            [jobtitle] => Gestora Financeira
+            [employer] => MEMOH
+            [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+            [start] => 2022-04-12
+            [id] => 6938958
+        )
+
+    [2] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Farol Apoio Marítimo Ltda 
+            [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa 
+            [start] => 2012-04-01
+            [end] => 2014-01-02
+            [id] => 6938959
+        )
+
+    [3] => Array
+        (
+            [jobtitle] => Especialista de Planejamento e Controle
+            [employer] => Endesa Brasil
+            [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;
+•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;
+•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+            [start] => 2010-06-01
+            [end] => 2012-04-01
+            [id] => 6938960
+        )
+
+    [4] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Subsea7
+            [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. 
+•	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. 
+•	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. 
+•	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. 
+•	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.
+•	Supervisão direta de um estagiário.
+            [start] => 2006-10-26
+            [end] => 2010-09-01
+            [id] => 6938961
+        )
+
+)
+
+[2023-04-24 01:29:04][INFO] Work Experience 6938957 found on JobConvo, Updating...
+[2023-04-24 01:29:04][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:04][INFO] METHOD - PATCH
+[2023-04-24 01:29:04][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/6938957/
+[2023-04-24 01:29:04][INFO] wp_json_encode: {"jobtitle":"Especialista em controle de custos","employer":"Modec do Brasil","detail":"Principais responsabilidades (Out\/19 \u2013 Nov\/21):\r\n\u2022\tLider para Controlling de projeto com dura\u00e7\u00e3o de 18 meses para implementa\u00e7\u00e3o do SAP\/PM com impactos diretos nos m\u00f3dulos de FI e CO, incluindo: suporte a revis\u00e3o do plano de contas, revis\u00e3o da estrutura de WBS, desenvolvimento de novos relat\u00f3rios de custo e receita, proposta de novo modelo de or\u00e7amenta\u00e7\u00e3o e custeio e respons\u00e1vel pelo treinamento de todos os colaboradores no tema.\r\nPrincipais responsabilidades (Jun\/15 a Set\/19):\r\n\u2022\tElabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao ativo, al\u00e9m da receita de afretamento e servi\u00e7o de uma unidade FSO, incluindo report financeiro mensal para diretoria, revis\u00e3o de forecast e atualiza\u00e7\u00e3o de fluxo de caixa.\r\n\u2022\tCoordena\u00e7\u00e3o da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e tr\u00eas FPSOs e eventualmente suportando tamb\u00e9m a frota da Bacia de Santos e suportando a ger\u00eancia de Controle representando a gerente em algumas reuni\u00f5es e processos.\r\n\u2022\tSuporte \u00e0 implanta\u00e7\u00e3o do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.","start":"2015-06-01","end":"2021-11-10","id":"6938957"}
+[2023-04-24 01:29:05][WARN] Retry request attempt 1
+[2023-04-24 01:29:05][INFO] Response:
+[2023-04-24 01:29:05][INFO] Array
+(
+    [id] => 6938957
+    [detail] => Principais responsabilidades (Out/19 – Nov/21):
+•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.
+Principais responsabilidades (Jun/15 a Set/19):
+•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.
+•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.
+•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+    [jobtitle] => Especialista em controle de custos
+    [employer] => Modec do Brasil
+    [start] => 2015-06-01
+    [end] => 2021-11-10
+)
+
+[2023-04-24 01:29:05][INFO] Work Experience 6938958 found on JobConvo, Updating...
+[2023-04-24 01:29:05][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:05][INFO] METHOD - PATCH
+[2023-04-24 01:29:05][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/6938958/
+[2023-04-24 01:29:05][INFO] wp_json_encode: {"jobtitle":"Gestora Financeira","employer":"MEMOH","detail":"Gest\u00e3o financeira estrat\u00e9gica, respons\u00e1vel pelo contas a pagar e receber, incluindo emiss\u00e3o de NFS-e, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios financeiros, elabora\u00e7\u00e3o e controle de or\u00e7amento e gest\u00e3o de carteira de investimentos (aplica\u00e7\u00f5es financeiras).","start":"2022-04-12","id":"6938958"}
+[2023-04-24 01:29:05][WARN] Retry request attempt 1
+[2023-04-24 01:29:05][INFO] Response:
+[2023-04-24 01:29:05][INFO] Array
+(
+    [id] => 6938958
+    [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+    [jobtitle] => Gestora Financeira
+    [employer] => MEMOH
+    [start] => 2022-04-12
+    [end] => 
+)
+
+[2023-04-24 01:29:05][INFO] Work Experience 6938959 found on JobConvo, Updating...
+[2023-04-24 01:29:05][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:05][INFO] METHOD - PATCH
+[2023-04-24 01:29:05][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/6938959/
+[2023-04-24 01:29:05][INFO] wp_json_encode: {"jobtitle":"Analista de Planejamento Financeiro","employer":"Farol Apoio Mar\u00edtimo Ltda ","detail":"Elabora\u00e7\u00e3o de or\u00e7amento anual, an\u00e1lise e controle de custo operacional e referente ao ativo, al\u00e9m da receita de afretamento e servi\u00e7o de uma unidade FSO, incluindo report financeiro mensal para diretoria, revis\u00e3o de forecast e atualiza\u00e7\u00e3o de fluxo de caixa ","start":"2012-04-01","end":"2014-01-02","id":"6938959"}
+[2023-04-24 01:29:06][WARN] Retry request attempt 1
+[2023-04-24 01:29:06][INFO] Response:
+[2023-04-24 01:29:06][INFO] Array
+(
+    [id] => 6938959
+    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa
+    [jobtitle] => Analista de Planejamento Financeiro
+    [employer] => Farol Apoio Marítimo Ltda
+    [start] => 2012-04-01
+    [end] => 2014-01-02
+)
+
+[2023-04-24 01:29:06][INFO] Work Experience 6938960 found on JobConvo, Updating...
+[2023-04-24 01:29:06][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:06][INFO] METHOD - PATCH
+[2023-04-24 01:29:06][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/6938960/
+[2023-04-24 01:29:06][INFO] wp_json_encode: {"jobtitle":"Especialista de Planejamento e Controle","employer":"Endesa Brasil","detail":"\u2022\tAcompanhamento e an\u00e1lise de CAPEX para todas as empresas do grupo no Brasil;\r\n\u2022\tApura\u00e7\u00e3o, acompanhamento e an\u00e1lise de ganhos gerados por projetos de efici\u00eancia;\r\n\u2022\tCoordena\u00e7\u00e3o, elabora\u00e7\u00e3o e apresenta\u00e7\u00e3o de relat\u00f3rios mensais de cada projeto de efici\u00eancia, aplicando metodologia PDCA e controle de planos de a\u00e7\u00e3o para novas iniciativas;\r\n\u2022\tGarantir que os ganhos de um projeto de efici\u00eancia n\u00e3o se sobrepujem aos de outro, em a\u00e7\u00f5es de natureza semelhante, por\u00e9m iniciativas distintas.","start":"2010-06-01","end":"2012-04-01","id":"6938960"}
+[2023-04-24 01:29:06][WARN] Retry request attempt 1
+[2023-04-24 01:29:06][INFO] Response:
+[2023-04-24 01:29:06][INFO] Array
+(
+    [id] => 6938960
+    [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;
+•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;
+•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+    [jobtitle] => Especialista de Planejamento e Controle
+    [employer] => Endesa Brasil
+    [start] => 2010-06-01
+    [end] => 2012-04-01
+)
+
+[2023-04-24 01:29:06][INFO] Work Experience 6938961 found on JobConvo, Updating...
+[2023-04-24 01:29:06][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:06][INFO] METHOD - PATCH
+[2023-04-24 01:29:06][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/work/6938961/
+[2023-04-24 01:29:06][INFO] wp_json_encode: {"jobtitle":"Analista de Planejamento Financeiro","employer":"Subsea7","detail":"\u2022\tAn\u00e1lise e controle de projeto de receita di\u00e1ria e report financeiro para diretoria e ger\u00eancia do projeto, incluindo atualiza\u00e7\u00e3o de forecast e fluxo de caixa. \r\n\u2022\tAn\u00e1lise de processos e custos da base de fabrica\u00e7\u00e3o, incluindo mapeamento desde o compromissado at\u00e9 o pagamento e fluxo de caixa, buscando otimiza\u00e7\u00e3o de resultado. \r\n\u2022\tAn\u00e1lise e custeio de propostas para novos projetos de acordo com convite t\u00e9cnico do cliente, an\u00e1lise comparativa de custo para or\u00e7amenta\u00e7\u00e3o de projetos e acompanhamento da elabora\u00e7\u00e3o financeira das propostas\/ projetos. \r\n\u2022\tAcompanhamento, an\u00e1lise e consolida\u00e7\u00e3o de todos os custos de Overhead (custo sem retorno direto), reclassifica\u00e7\u00e3o cont\u00e1bil quando necess\u00e1ria de lan\u00e7amentos no SAP, rateio de Telecomunica\u00e7\u00f5es e custos de IT. \r\n\u2022\tControle de custos de propostas e handover de projetos, elabora\u00e7\u00e3o dos relat\u00f3rios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.\r\n\u2022\tSupervis\u00e3o direta de um estagi\u00e1rio.","start":"2006-10-26","end":"2010-09-01","id":"6938961"}
+[2023-04-24 01:29:06][WARN] Retry request attempt 1
+[2023-04-24 01:29:06][INFO] Response:
+[2023-04-24 01:29:07][INFO] Array
+(
+    [id] => 6938961
+    [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. 
+•	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. 
+•	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. 
+•	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. 
+•	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.
+•	Supervisão direta de um estagiário.
+    [jobtitle] => Analista de Planejamento Financeiro
+    [employer] => Subsea7
+    [start] => 2006-10-26
+    [end] => 2010-09-01
+)
+
+[2023-04-24 01:29:07][INFO] Work Experiences Now:
+[2023-04-24 01:29:07][INFO] Array
+(
+    [0] => Array
+        (
+            [jobtitle] => Especialista em controle de custos
+            [employer] => Modec do Brasil
+            [detail] => Principais responsabilidades (Out/19 – Nov/21):
+•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.
+Principais responsabilidades (Jun/15 a Set/19):
+•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.
+•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.
+•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+            [start] => 2015-06-01
+            [end] => 2021-11-10
+            [id] => 6938957
+        )
+
+    [1] => Array
+        (
+            [jobtitle] => Gestora Financeira
+            [employer] => MEMOH
+            [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+            [start] => 2022-04-12
+            [id] => 6938958
+        )
+
+    [2] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Farol Apoio Marítimo Ltda 
+            [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa 
+            [start] => 2012-04-01
+            [end] => 2014-01-02
+            [id] => 6938959
+        )
+
+    [3] => Array
+        (
+            [jobtitle] => Especialista de Planejamento e Controle
+            [employer] => Endesa Brasil
+            [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;
+•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;
+•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;
+•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+            [start] => 2010-06-01
+            [end] => 2012-04-01
+            [id] => 6938960
+        )
+
+    [4] => Array
+        (
+            [jobtitle] => Analista de Planejamento Financeiro
+            [employer] => Subsea7
+            [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. 
+•	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. 
+•	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. 
+•	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. 
+•	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.
+•	Supervisão direta de um estagiário.
+            [start] => 2006-10-26
+            [end] => 2010-09-01
+            [id] => 6938961
+        )
+
+)
+
+[2023-04-24 01:29:07][INFO] Checking User Languages
+[2023-04-24 01:29:07][INFO] Languages found on Wordpress:
+[2023-04-24 01:29:07][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1122476
+        )
+
+    [1] => Array
+        (
+            [idiom] => ES
+            [writing] => 4
+            [speaking] => 4
+            [reading] => 5
+            [id] => 1122477
+        )
+
+)
+
+[2023-04-24 01:29:07][INFO] Language 1122476 found on JobConvo, Updating...
+[2023-04-24 01:29:07][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:07][INFO] METHOD - GET
+[2023-04-24 01:29:07][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/1122476
+[2023-04-24 01:29:07][INFO] GET Methods enter: GET
+[2023-04-24 01:29:08][WARN] Retry request attempt 1
+[2023-04-24 01:29:08][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:08][INFO] METHOD - PATCH
+[2023-04-24 01:29:08][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/1122476/
+[2023-04-24 01:29:08][INFO] wp_json_encode: {"writing":"6","speaking":"6","reading":"6","id":"1122476"}
+[2023-04-24 01:29:08][WARN] Retry request attempt 1
+[2023-04-24 01:29:08][INFO] Response:
+[2023-04-24 01:29:08][INFO] Array
+(
+    [id] => 1122476
+    [idiom] => EN
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-04-24 01:29:08][INFO] Language 1122477 found on JobConvo, Updating...
+[2023-04-24 01:29:08][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:08][INFO] METHOD - GET
+[2023-04-24 01:29:08][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/1122477
+[2023-04-24 01:29:08][INFO] GET Methods enter: GET
+[2023-04-24 01:29:09][WARN] Retry request attempt 1
+[2023-04-24 01:29:09][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:09][INFO] METHOD - PATCH
+[2023-04-24 01:29:09][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/languages/1122477/
+[2023-04-24 01:29:09][INFO] wp_json_encode: {"writing":"4","speaking":"4","reading":"5","id":"1122477"}
+[2023-04-24 01:29:09][WARN] Retry request attempt 1
+[2023-04-24 01:29:09][INFO] Response:
+[2023-04-24 01:29:09][INFO] Array
+(
+    [id] => 1122477
+    [idiom] => ES
+    [writing] => 4
+    [speaking] => 4
+    [reading] => 5
+)
+
+[2023-04-24 01:29:09][INFO] Languages Now:
+[2023-04-24 01:29:09][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1122476
+        )
+
+    [1] => Array
+        (
+            [idiom] => ES
+            [writing] => 4
+            [speaking] => 4
+            [reading] => 5
+            [id] => 1122477
+        )
+
+)
+
+[2023-04-24 01:29:09][INFO] Checking User Websites
+[2023-04-24 01:29:09][INFO] Websites found on Wordpress:
+[2023-04-24 01:29:09][INFO] Array
+(
+)
+
+[2023-04-24 01:29:09][INFO] Websites Now:
+[2023-04-24 01:29:09][INFO] Array
+(
+)
+
+[2023-04-24 01:29:09][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:29:09][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:09][INFO] METHOD - PATCH
+[2023-04-24 01:29:09][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:29:09][INFO] wp_json_encode: {"profile":{"email":"debsrezende@hotmail.com","birthday":"1982-08-28","address":"Borda do Mato","adddressnumber":"254","complement":"-","neighbourhood":"Grajau","city":"Rio de Janeiro","country":"Brasil","cep":"20561208"},"documents":{"doctype":["Passaporte"],"rg":"08152123722","not_brazilian":true}}
+[2023-04-24 01:29:10][WARN] Retry request attempt 1
+[2023-04-24 01:29:10][INFO] Candidate id: 81c332df-487c-4833-9163-b90062ce4bef - Updating ...
+[2023-04-24 01:29:10][INFO] JobconvoApiClient - Request method
+[2023-04-24 01:29:10][INFO] METHOD - PATCH
+[2023-04-24 01:29:10][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/81c332df-487c-4833-9163-b90062ce4bef/
+[2023-04-24 01:29:10][INFO] wp_json_encode: {"first_name":"Dbora","last_name":"Rezende","full_name":"debsrezende@hotmail.com","country_code":"+55","area_code":"0","phone1":"992672626","phone2":"00000000000","social_status":"1","born_sex":"2"}
+[2023-04-24 01:29:10][WARN] Retry request attempt 1
+[2023-04-24 01:29:10][INFO] Candidate updated.
+[2023-04-24 01:29:10][INFO] Array
+(
+    [id] => 81c332df-487c-4833-9163-b90062ce4bef
+    [profile] => Array
+        (
+            [first_name] => Dbora
+            [last_name] => Rezende
+            [full_name] => Dbora Rezende
+            [email] => debsrezende@hotmail.com
+            [birthday] => 1982-08-28
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 3304557
+            [photo] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 55
+            [area_code] => 0
+            [phone1] => 992672626
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Borda do Mato
+            [adddressnumber] => 254
+            [complement] => -
+            [neighbourhood] => Grajau
+            [state] => 
+            [city] => Rio de Janeiro
+            [country] => Brasil
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 20561208
+            [user_language] => pt-br
+            [complete_cv] => 
+            [nationality] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Passaporte']
+            [rg] => 08152123722
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6343054
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Ensino Superior
+                    [level_id] => 6
+                    [title] => Economia
+                    [school] => UERJ
+                    [start] => 2001-03-26
+                )
+
+            [1] => Array
+                (
+                    [id] => 6343052
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Pós Graduação
+                    [level_id] => 7
+                    [title] => Gestão Financeira e Controladoria
+                    [school] => UVA
+                    [start] => 2022-01-17
+                )
+
+            [2] => Array
+                (
+                    [id] => 6343053
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Pós Graduação
+                    [level_id] => 7
+                    [title] => Petroleo
+                    [school] => Unyleya
+                    [start] => 2021-11-29
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1122476
+                    [idiom] => Inglês
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+            [1] => Array
+                (
+                    [id] => 1122477
+                    [idiom] => Espanhol
+                    [level] => Todos
+                    [writing] => 4
+                    [speaking] => 4
+                    [reading] => 5
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6938958
+                    [title] => Gestora Financeira
+                    [detail] => Gestão financeira estratégica, responsável pelo contas a pagar e receber, incluindo emissão de NFS-e, elaboração e apresentação de relatórios financeiros, elaboração e controle de orçamento e gestão de carteira de investimentos (aplicações financeiras).
+                    [employer] => MEMOH
+                    [start] => 2022-04-12
+                    [end] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 6938957
+                    [title] => Especialista em controle de custos
+                    [detail] => Principais responsabilidades (Out/19 – Nov/21):•	Lider para Controlling de projeto com duração de 18 meses para implementação do SAP/PM com impactos diretos nos módulos de FI e CO, incluindo: suporte a revisão do plano de contas, revisão da estrutura de WBS, desenvolvimento de novos relatórios de custo e receita, proposta de novo modelo de orçamentação e custeio e responsável pelo treinamento de todos os colaboradores no tema.Principais responsabilidades (Jun/15 a Set/19):•	Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa.•	Coordenação da equipe de Planejamento e Controle da frota da Bacia de Campos composta por um FSO e três FPSOs e eventualmente suportando também a frota da Bacia de Santos e suportando a gerência de Controle representando a gerente em algumas reuniões e processos.•	Suporte à implantação do SAP e mapeamento e melhoria de processos realizadas por consultoria especializada.
+                    [employer] => Modec do Brasil
+                    [start] => 2015-06-01
+                    [end] => 2021-11-10
+                )
+
+            [2] => Array
+                (
+                    [id] => 6938959
+                    [title] => Analista de Planejamento Financeiro
+                    [detail] => Elaboração de orçamento anual, análise e controle de custo operacional e referente ao ativo, além da receita de afretamento e serviço de uma unidade FSO, incluindo report financeiro mensal para diretoria, revisão de forecast e atualização de fluxo de caixa
+                    [employer] => Farol Apoio Marítimo Ltda
+                    [start] => 2012-04-01
+                    [end] => 2014-01-02
+                )
+
+            [3] => Array
+                (
+                    [id] => 6938960
+                    [title] => Especialista de Planejamento e Controle
+                    [detail] => •	Acompanhamento e análise de CAPEX para todas as empresas do grupo no Brasil;•	Apuração, acompanhamento e análise de ganhos gerados por projetos de eficiência;•	Coordenação, elaboração e apresentação de relatórios mensais de cada projeto de eficiência, aplicando metodologia PDCA e controle de planos de ação para novas iniciativas;•	Garantir que os ganhos de um projeto de eficiência não se sobrepujem aos de outro, em ações de natureza semelhante, porém iniciativas distintas.
+                    [employer] => Endesa Brasil
+                    [start] => 2010-06-01
+                    [end] => 2012-04-01
+                )
+
+            [4] => Array
+                (
+                    [id] => 6938961
+                    [title] => Analista de Planejamento Financeiro
+                    [detail] => •	Análise e controle de projeto de receita diária e report financeiro para diretoria e gerência do projeto, incluindo atualização de forecast e fluxo de caixa. •	Análise de processos e custos da base de fabricação, incluindo mapeamento desde o compromissado até o pagamento e fluxo de caixa, buscando otimização de resultado. •	Análise e custeio de propostas para novos projetos de acordo com convite técnico do cliente, análise comparativa de custo para orçamentação de projetos e acompanhamento da elaboração financeira das propostas/ projetos. •	Acompanhamento, análise e consolidação de todos os custos de Overhead (custo sem retorno direto), reclassificação contábil quando necessária de lançamentos no SAP, rateio de Telecomunicações e custos de IT. •	Controle de custos de propostas e handover de projetos, elaboração dos relatórios financeiros do overhead, acompanhamento do CAPEX de IT local, inclusive fluxo de caixa.•	Supervisão direta de um estagiário.
+                    [employer] => Subsea7
+                    [start] => 2006-10-26
+                    [end] => 2010-09-01
+                )
+
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-04-23/b46076d5-9faf-47f8-884b-d79ebf049904.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=ZtOHJq1N%2BRu6%2BTLbd2foCZGtSw8%3D&Expires=1682303350
+    [date] => 2022-12-28T15:32:09-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3069912
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-04-24 01:29:10][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 01:29:10][INFO] User Create/Update routine finished
+[2023-04-24 01:29:10][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:44:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:44:19][INFO] Job Offer - 5527 updated, notifying admin - BEGIN
+[2023-04-24 07:44:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:44:19][INFO] Mail sent successfully
+[2023-04-24 07:44:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:44:19][INFO] Job Offer - 5527 updated, notifying admin - END
+[2023-04-24 07:44:19][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:44:19][INFO] Post ID 5527 saved, status is publish , parent is 0
+[2023-04-24 07:44:19][INFO] Post ID 5527 saved, status is publish , parent is 0
+[2023-04-24 07:45:48][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:45:48][INFO] Job Offer - 5527 updated, notifying admin - BEGIN
+[2023-04-24 07:45:48][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:45:48][INFO] Mail sent successfully
+[2023-04-24 07:45:48][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:45:48][INFO] Job Offer - 5527 updated, notifying admin - END
+[2023-04-24 07:45:48][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-24 07:45:48][INFO] Post ID 5527 saved, status is publish , parent is 0
+[2023-04-24 07:45:48][INFO] Post ID 5527 saved, status is publish , parent is 0

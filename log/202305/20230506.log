@@ -1,0 +1,1519 @@
+[2023-05-06 01:20:34][INFO] New user registered with ID: 106
+[2023-05-06 01:20:34][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:20:34][INFO] User Create/Update routine started
+[2023-05-06 01:20:34][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:20:34][INFO] Get candidate by email - raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:20:34][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:20:34][INFO] METHOD - GET
+[2023-05-06 01:20:34][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:20:34][INFO] GET Methods enter: GET
+[2023-05-06 01:20:34][WARN] Retry request attempt 1
+[2023-05-06 01:20:34][ERROR] Can't acess Jobconvo API, error:
+[2023-05-06 01:20:34][ERROR] Code: 404
+[2023-05-06 01:20:34][ERROR] Message: Not Found
+[2023-05-06 01:20:34][ERROR] Body details: {"detail":"Não encontrado."}
+[2023-05-06 01:20:34][INFO] User - raidelgonzalezortiz1@gmail.com not found on JobConvo, creating new one...
+[2023-05-06 01:20:34][INFO] Candidate - Creating...
+[2023-05-06 01:20:34][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:20:34][INFO] METHOD - POST
+[2023-05-06 01:20:34][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/
+[2023-05-06 01:20:34][INFO] wp_json_encode: {"profile":{"first_name":"Raidel","last_name":"Gonz\u00e1lez Ortiz","email":"raidelgonzalezortiz1@gmail.com"}}
+[2023-05-06 01:20:35][WARN] Retry request attempt 1
+[2023-05-06 01:20:35][INFO] Candidate created.
+[2023-05-06 01:20:35][INFO] Array
+(
+    [pk] => 875914ed-a717-4790-8f50-ca10fda2efcf
+    [date] => 2023-05-05T22:20:35.682280-03:00
+    [source] => Página de Carreiras
+    [favorite] => 
+    [blacklist] => 
+    [by_recruiter] => 
+    [referral] => Array
+        (
+            [by_name] => 
+            [by_email] => 
+            [confirmed] => 
+            [answer_date] => 
+            [answer_comments] => 
+        )
+
+    [profile] => Array
+        (
+            [first_name] => Raidel
+            [last_name] => González Ortiz
+            [full_name] => Raidel González Ortiz
+            [email] => raidelgonzalezortiz1@gmail.com
+            [birthday] => 
+            [social_status] => 
+            [gender] => 
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 
+            [area_code] => 
+            [phone1] => 
+            [phone2] => 
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => 
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => 
+            [latitude] => 
+            [longitude] => 
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [skills] => Array
+        (
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [website] => Array
+        (
+        )
+
+    [applications] => Array
+        (
+        )
+
+    [resume_file] => 
+)
+
+[2023-05-06 01:20:35][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:20:35][INFO] User Create/Update routine finished
+[2023-05-06 01:20:35][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:24:33][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:24:33][INFO] User Update By CV routine - BEGIN
+[2023-05-06 01:24:33][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:24:33][INFO] Sending CV file to Google Document AI
+[2023-05-06 01:24:33][ERROR] Failed to load Google DocumentAI:
+[2023-05-06 01:24:33][ERROR] Error Object
+(
+    [message:protected] => Class 'Google\Cloud\DocumentAI\V1\DocumentProcessorServiceClient' not found
+    [string:Error:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/DocumentAI.php
+    [line:protected] => 12
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php
+                    [line] => 150
+                    [function] => __construct
+                    [class] => AS_Google_DocumentAI
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 308
+                    [function] => get_cv_info
+                    [class] => AlfasoftJobconvo
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 7983
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 332
+                    [function] => apply_filters
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 
+                            [1] => Array
+                                (
+                                    [0] => 7983
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/plugin.php
+                    [line] => 517
+                    [function] => do_action
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 7983
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                    [line] => 473
+                    [function] => do_action
+                    [args] => Array
+                        (
+                            [0] => user_uploaded_cv
+                            [1] => 7983
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                    [line] => 25
+                    [function] => alfasoft_update_cvfile
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/theme-user-cv-main.php
+                    [line] => 10
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [7] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/theme-user-cv-main.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-blog-header.php
+                    [line] => 19
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [9] => Array
+                (
+                    [file] => /home/knowerpt/public_html/index.php
+                    [line] => 17
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-blog-header.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+
+[2023-05-06 01:26:27][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:26:27][INFO] User Create/Update routine started
+[2023-05-06 01:26:27][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:26:27][INFO] Get candidate by email - raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:26:27][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:26:27][INFO] METHOD - GET
+[2023-05-06 01:26:27][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:26:27][INFO] GET Methods enter: GET
+[2023-05-06 01:26:28][WARN] Retry request attempt 1
+[2023-05-06 01:26:28][INFO] Sending CV file to JobConvo
+[2023-05-06 01:26:29][INFO] Response: 
+[2023-05-06 01:26:29][INFO] {"id":"875914ed-a717-4790-8f50-ca10fda2efcf","profile":{"first_name":"Raidel","last_name":"González Ortiz","full_name":"Raidel González Ortiz","email":"raidelgonzalezortiz1@gmail.com","birthday":null,"social_status":null,"gender":null,"rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":null,"area_code":null,"phone1":null,"phone2":null,"public_place_type":null,"address":null,"adddressnumber":null,"complement":null,"neighbourhood":null,"state":null,"city":null,"country":null,"latitude":null,"longitude":null,"cep":null,"user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":null,"rg":null,"pis":null,"not_brazilian":false},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/46562936-44c9-40ac-b5e4-3ef74cf651c8.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=21V08npjhQyEcp2Ze1B7qPz8xKo%3D&Expires=1683339989","date":"2023-05-05T22:20:36-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3479204,"career_page_source":null,"by_recruiter":null}
+[2023-05-06 01:26:29][INFO] User - raidelgonzalezortiz1@gmail.com and pk - 875914ed-a717-4790-8f50-ca10fda2efcf found on JobConvo, updating...
+[2023-05-06 01:26:29][INFO] Checking User Educations
+[2023-05-06 01:26:29][INFO] Educations found on Wordpress:
+[2023-05-06 01:26:29][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+        )
+
+)
+
+[2023-05-06 01:26:29][INFO] Education not found on JobConvo, Creating...
+[2023-05-06 01:26:29][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:26:29][INFO] METHOD - POST
+[2023-05-06 01:26:29][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/educations/
+[2023-05-06 01:26:29][INFO] wp_json_encode: {"level":"13","title":"M\u00fasica ","school":"Instituto Superior de Arte La Habana ","status":"1","start":"2002-09-01","end":"2006-07-31"}
+[2023-05-06 01:26:30][WARN] Retry request attempt 1
+[2023-05-06 01:26:30][INFO] Education created:
+[2023-05-06 01:26:30][INFO] Array
+(
+    [id] => 7725203
+    [level] => 13
+    [title] => Música
+    [school] => Instituto Superior de Arte La Habana
+    [status] => 1
+    [start] => 2002-09-01
+    [end] => 2006-07-31
+)
+
+[2023-05-06 01:26:30][INFO] Educations Now:
+[2023-05-06 01:26:30][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+            [id] => 7725203
+        )
+
+)
+
+[2023-05-06 01:26:30][INFO] Checking User Work Experiences
+[2023-05-06 01:26:30][INFO] Work Experiences found on Wordpress:
+[2023-05-06 01:26:30][INFO] Array
+(
+)
+
+[2023-05-06 01:26:30][INFO] Work Experiences Now:
+[2023-05-06 01:26:30][INFO] Array
+(
+)
+
+[2023-05-06 01:26:30][INFO] Checking User Languages
+[2023-05-06 01:26:30][INFO] Languages found on Wordpress:
+[2023-05-06 01:26:30][INFO] Array
+(
+)
+
+[2023-05-06 01:26:30][INFO] Languages Now:
+[2023-05-06 01:26:30][INFO] Array
+(
+)
+
+[2023-05-06 01:26:30][INFO] Checking User Websites
+[2023-05-06 01:26:30][INFO] Websites found on Wordpress:
+[2023-05-06 01:26:30][INFO] Array
+(
+)
+
+[2023-05-06 01:26:30][INFO] Websites Now:
+[2023-05-06 01:26:30][INFO] Array
+(
+)
+
+[2023-05-06 01:26:30][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:26:30][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:26:30][INFO] METHOD - PATCH
+[2023-05-06 01:26:30][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:26:30][INFO] wp_json_encode: {"profile":{"email":"raidelgonzalezortiz1@gmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":null,"not_brazilian":true}}
+[2023-05-06 01:26:31][WARN] Retry request attempt 1
+[2023-05-06 01:26:31][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:26:31][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:26:31][INFO] METHOD - PATCH
+[2023-05-06 01:26:31][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:26:31][INFO] wp_json_encode: {"first_name":"Raidel","last_name":"GonzlezOrtiz","full_name":"raidelgonzalezortiz1gmailcom","country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-05-06 01:26:31][WARN] Retry request attempt 1
+[2023-05-06 01:26:31][INFO] Candidate updated.
+[2023-05-06 01:26:31][INFO] Array
+(
+    [id] => 875914ed-a717-4790-8f50-ca10fda2efcf
+    [profile] => Array
+        (
+            [first_name] => Raidel
+            [last_name] => González Ortiz
+            [full_name] => Raidel González Ortiz
+            [email] => raidelgonzalezortiz1@gmail.com
+            [birthday] => 
+            [social_status] => 
+            [gender] => 
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 
+            [phone1] => 
+            [phone2] => 
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7725203
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Mestrado Integrado / Licenciatura pré-Bolonha (5 anos)
+                    [level_id] => 13
+                    [title] => Música
+                    [school] => Instituto Superior de Arte La Habana
+                    [start] => 2002-09-01
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/46562936-44c9-40ac-b5e4-3ef74cf651c8.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=d4SUgSo47aMUycvCI7iZw3aMD00%3D&Expires=1683339991
+    [date] => 2023-05-05T22:20:36-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3479204
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-06 01:26:31][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:26:31][INFO] User Create/Update routine finished
+[2023-05-06 01:26:31][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:27:12][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:27:12][INFO] User Create/Update routine started
+[2023-05-06 01:27:12][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:27:12][INFO] Get candidate by email - raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:27:12][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:27:12][INFO] METHOD - GET
+[2023-05-06 01:27:12][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:27:12][INFO] GET Methods enter: GET
+[2023-05-06 01:27:12][WARN] Retry request attempt 1
+[2023-05-06 01:27:12][INFO] Sending CV file to JobConvo
+[2023-05-06 01:27:14][INFO] Response: 
+[2023-05-06 01:27:14][INFO] {"id":"875914ed-a717-4790-8f50-ca10fda2efcf","profile":{"first_name":"Raidel","last_name":"GonzlezOrtiz","full_name":"Raidel GonzlezOrtiz","email":"raidelgonzalezortiz1@gmail.com","birthday":null,"social_status":"Solteiro","gender":"Nao informado","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","public_place_type":null,"address":null,"adddressnumber":null,"complement":"-","neighbourhood":null,"state":null,"city":null,"country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":null,"user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":null,"rg":null,"pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[{"id":7725203,"status":"Concluído","status_id":"1","level":"Mestrado Integrado / Licenciatura pré-Bolonha (5 anos)","level_id":"13","title":"Música","school":"Instituto Superior de Arte La Habana","start":"2002-09-01"}],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/d36fd38b-be75-4f7d-9a87-1fce930d9a9f.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=eWIpLD%2FVxBYopOVItIYWKmA3Tpo%3D&Expires=1683340034","date":"2023-05-05T22:20:36-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3479204,"career_page_source":null,"by_recruiter":null}
+[2023-05-06 01:27:14][INFO] User - raidelgonzalezortiz1@gmail.com and pk - 875914ed-a717-4790-8f50-ca10fda2efcf found on JobConvo, updating...
+[2023-05-06 01:27:14][INFO] Checking User Educations
+[2023-05-06 01:27:14][INFO] Educations found on Wordpress:
+[2023-05-06 01:27:14][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+            [id] => 7725203
+        )
+
+)
+
+[2023-05-06 01:27:14][INFO] Education 7725203 found on JobConvo, Updating...
+[2023-05-06 01:27:14][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:27:14][INFO] METHOD - PATCH
+[2023-05-06 01:27:14][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/educations/7725203/
+[2023-05-06 01:27:14][INFO] wp_json_encode: {"level":"13","title":"M\u00fasica ","school":"Instituto Superior de Arte La Habana ","status":"1","start":"2002-09-01","end":"2006-07-31","id":"7725203"}
+[2023-05-06 01:27:14][WARN] Retry request attempt 1
+[2023-05-06 01:27:14][INFO] Response:
+[2023-05-06 01:27:14][INFO] Array
+(
+    [id] => 7725203
+    [level] => 13
+    [title] => Música
+    [school] => Instituto Superior de Arte La Habana
+    [status] => 1
+    [start] => 2002-09-01
+    [end] => 2006-07-31
+)
+
+[2023-05-06 01:27:14][INFO] Educations Now:
+[2023-05-06 01:27:14][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+            [id] => 7725203
+        )
+
+)
+
+[2023-05-06 01:27:14][INFO] Checking User Work Experiences
+[2023-05-06 01:27:14][INFO] Work Experiences found on Wordpress:
+[2023-05-06 01:27:14][INFO] Array
+(
+)
+
+[2023-05-06 01:27:14][INFO] Work Experiences Now:
+[2023-05-06 01:27:14][INFO] Array
+(
+)
+
+[2023-05-06 01:27:14][INFO] Checking User Languages
+[2023-05-06 01:27:14][INFO] Languages found on Wordpress:
+[2023-05-06 01:27:14][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => ES
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+        )
+
+)
+
+[2023-05-06 01:27:14][INFO] Language not found on JobConvo, Creating...
+[2023-05-06 01:27:14][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:27:14][INFO] METHOD - POST
+[2023-05-06 01:27:14][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/languages/
+[2023-05-06 01:27:14][INFO] wp_json_encode: {"idiom":"ES","writing":"6","speaking":"6","reading":"6"}
+[2023-05-06 01:27:15][WARN] Retry request attempt 1
+[2023-05-06 01:27:15][INFO] Language created:
+[2023-05-06 01:27:15][INFO] Array
+(
+    [id] => 1520464
+    [idiom] => ES
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-05-06 01:27:15][INFO] Languages Now:
+[2023-05-06 01:27:15][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => ES
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1520464
+        )
+
+)
+
+[2023-05-06 01:27:15][INFO] Checking User Websites
+[2023-05-06 01:27:15][INFO] Websites found on Wordpress:
+[2023-05-06 01:27:15][INFO] Array
+(
+)
+
+[2023-05-06 01:27:15][INFO] Websites Now:
+[2023-05-06 01:27:15][INFO] Array
+(
+)
+
+[2023-05-06 01:27:15][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:27:15][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:27:15][INFO] METHOD - PATCH
+[2023-05-06 01:27:15][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:27:15][INFO] wp_json_encode: {"profile":{"email":"raidelgonzalezortiz1@gmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":null,"not_brazilian":true}}
+[2023-05-06 01:27:16][WARN] Retry request attempt 1
+[2023-05-06 01:27:16][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:27:16][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:27:16][INFO] METHOD - PATCH
+[2023-05-06 01:27:16][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:27:16][INFO] wp_json_encode: {"first_name":"Raidel","last_name":"GonzlezOrtiz","full_name":"raidelgonzalezortiz1gmailcom","country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-05-06 01:27:17][WARN] Retry request attempt 1
+[2023-05-06 01:27:17][INFO] Candidate updated.
+[2023-05-06 01:27:17][INFO] Array
+(
+    [id] => 875914ed-a717-4790-8f50-ca10fda2efcf
+    [profile] => Array
+        (
+            [first_name] => Raidel
+            [last_name] => GonzlezOrtiz
+            [full_name] => Raidel GonzlezOrtiz
+            [email] => raidelgonzalezortiz1@gmail.com
+            [birthday] => 
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 00000000000
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7725203
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Mestrado Integrado / Licenciatura pré-Bolonha (5 anos)
+                    [level_id] => 13
+                    [title] => Música
+                    [school] => Instituto Superior de Arte La Habana
+                    [start] => 2002-09-01
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1520464
+                    [idiom] => Espanhol
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/d36fd38b-be75-4f7d-9a87-1fce930d9a9f.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=FuSIXRQV5m51o%2BczOVJR80LoBPc%3D&Expires=1683340036
+    [date] => 2023-05-05T22:20:36-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3479204
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-06 01:27:17][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:27:17][INFO] User Create/Update routine finished
+[2023-05-06 01:27:17][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:35][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:35][INFO] User Create/Update routine started
+[2023-05-06 01:28:35][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:35][INFO] Get candidate by email - raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:28:35][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:35][INFO] METHOD - GET
+[2023-05-06 01:28:35][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:28:35][INFO] GET Methods enter: GET
+[2023-05-06 01:28:36][WARN] Retry request attempt 1
+[2023-05-06 01:28:36][INFO] Sending CV file to JobConvo
+[2023-05-06 01:28:37][INFO] Response: 
+[2023-05-06 01:28:37][INFO] {"id":"875914ed-a717-4790-8f50-ca10fda2efcf","profile":{"first_name":"Raidel","last_name":"GonzlezOrtiz","full_name":"Raidel GonzlezOrtiz","email":"raidelgonzalezortiz1@gmail.com","birthday":null,"social_status":"Solteiro","gender":"Nao informado","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","public_place_type":null,"address":null,"adddressnumber":null,"complement":"-","neighbourhood":null,"state":null,"city":null,"country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":null,"user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":null,"rg":null,"pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[{"id":7725203,"status":"Concluído","status_id":"1","level":"Mestrado Integrado / Licenciatura pré-Bolonha (5 anos)","level_id":"13","title":"Música","school":"Instituto Superior de Arte La Habana","start":"2002-09-01"}],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[{"id":1520464,"idiom":"Espanhol","level":"Todos","writing":"6","speaking":"6","reading":"6"}],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/f28c9ddc-fac3-4705-afba-2e59a7380471.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=FyVHgGiN%2Fa1KzJkTXwpXf%2FpHEo0%3D&Expires=1683340117","date":"2023-05-05T22:20:36-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3479204,"career_page_source":null,"by_recruiter":null}
+[2023-05-06 01:28:37][INFO] User - raidelgonzalezortiz1@gmail.com and pk - 875914ed-a717-4790-8f50-ca10fda2efcf found on JobConvo, updating...
+[2023-05-06 01:28:37][INFO] Checking User Educations
+[2023-05-06 01:28:37][INFO] Educations found on Wordpress:
+[2023-05-06 01:28:37][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+            [id] => 7725203
+        )
+
+)
+
+[2023-05-06 01:28:37][INFO] Education 7725203 found on JobConvo, Updating...
+[2023-05-06 01:28:37][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:37][INFO] METHOD - PATCH
+[2023-05-06 01:28:37][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/educations/7725203/
+[2023-05-06 01:28:37][INFO] wp_json_encode: {"level":"13","title":"M\u00fasica ","school":"Instituto Superior de Arte La Habana ","status":"1","start":"2002-09-01","end":"2006-07-31","id":"7725203"}
+[2023-05-06 01:28:38][WARN] Retry request attempt 1
+[2023-05-06 01:28:38][INFO] Response:
+[2023-05-06 01:28:38][INFO] Array
+(
+    [id] => 7725203
+    [level] => 13
+    [title] => Música
+    [school] => Instituto Superior de Arte La Habana
+    [status] => 1
+    [start] => 2002-09-01
+    [end] => 2006-07-31
+)
+
+[2023-05-06 01:28:38][INFO] Educations Now:
+[2023-05-06 01:28:38][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+            [id] => 7725203
+        )
+
+)
+
+[2023-05-06 01:28:38][INFO] Checking User Work Experiences
+[2023-05-06 01:28:38][INFO] Work Experiences found on Wordpress:
+[2023-05-06 01:28:38][INFO] Array
+(
+)
+
+[2023-05-06 01:28:38][INFO] Work Experiences Now:
+[2023-05-06 01:28:38][INFO] Array
+(
+)
+
+[2023-05-06 01:28:38][INFO] Checking User Languages
+[2023-05-06 01:28:38][INFO] Languages found on Wordpress:
+[2023-05-06 01:28:38][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => ES
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1520464
+        )
+
+)
+
+[2023-05-06 01:28:38][INFO] Language 1520464 found on JobConvo, Updating...
+[2023-05-06 01:28:38][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:38][INFO] METHOD - GET
+[2023-05-06 01:28:38][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/languages/1520464
+[2023-05-06 01:28:38][INFO] GET Methods enter: GET
+[2023-05-06 01:28:39][WARN] Retry request attempt 1
+[2023-05-06 01:28:39][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:39][INFO] METHOD - PATCH
+[2023-05-06 01:28:39][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/languages/1520464/
+[2023-05-06 01:28:39][INFO] wp_json_encode: {"writing":"6","speaking":"6","reading":"6","id":"1520464"}
+[2023-05-06 01:28:40][WARN] Retry request attempt 1
+[2023-05-06 01:28:40][INFO] Response:
+[2023-05-06 01:28:40][INFO] Array
+(
+    [id] => 1520464
+    [idiom] => ES
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-05-06 01:28:40][INFO] Languages Now:
+[2023-05-06 01:28:40][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => ES
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1520464
+        )
+
+)
+
+[2023-05-06 01:28:40][INFO] Checking User Websites
+[2023-05-06 01:28:40][INFO] Websites found on Wordpress:
+[2023-05-06 01:28:40][INFO] Array
+(
+)
+
+[2023-05-06 01:28:40][INFO] Websites Now:
+[2023-05-06 01:28:40][INFO] Array
+(
+)
+
+[2023-05-06 01:28:40][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:28:40][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:40][INFO] METHOD - PATCH
+[2023-05-06 01:28:40][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:28:40][INFO] wp_json_encode: {"profile":{"email":"raidelgonzalezortiz1@gmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":null,"not_brazilian":true}}
+[2023-05-06 01:28:40][WARN] Retry request attempt 1
+[2023-05-06 01:28:40][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:28:40][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:40][INFO] METHOD - PATCH
+[2023-05-06 01:28:40][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:28:40][INFO] wp_json_encode: {"first_name":"Raidel","last_name":"Gonzlez","full_name":"raidelgonzalezortiz1gmailcom","country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-05-06 01:28:41][WARN] Retry request attempt 1
+[2023-05-06 01:28:41][INFO] Candidate updated.
+[2023-05-06 01:28:41][INFO] Array
+(
+    [id] => 875914ed-a717-4790-8f50-ca10fda2efcf
+    [profile] => Array
+        (
+            [first_name] => Raidel
+            [last_name] => GonzlezOrtiz
+            [full_name] => Raidel GonzlezOrtiz
+            [email] => raidelgonzalezortiz1@gmail.com
+            [birthday] => 
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 00000000000
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7725203
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Mestrado Integrado / Licenciatura pré-Bolonha (5 anos)
+                    [level_id] => 13
+                    [title] => Música
+                    [school] => Instituto Superior de Arte La Habana
+                    [start] => 2002-09-01
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1520464
+                    [idiom] => Espanhol
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/f28c9ddc-fac3-4705-afba-2e59a7380471.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=hHbvjnInSpF%2F2OMyHx4Ib%2BYLp%2FY%3D&Expires=1683340120
+    [date] => 2023-05-05T22:20:36-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3479204
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-06 01:28:41][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:41][INFO] User Create/Update routine finished
+[2023-05-06 01:28:41][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:41][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:41][INFO] User Create/Update routine started
+[2023-05-06 01:28:41][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:41][INFO] Get candidate by email - raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:28:41][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:41][INFO] METHOD - GET
+[2023-05-06 01:28:41][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=raidelgonzalezortiz1@gmail.com
+[2023-05-06 01:28:41][INFO] GET Methods enter: GET
+[2023-05-06 01:28:42][WARN] Retry request attempt 1
+[2023-05-06 01:28:42][INFO] Sending CV file to JobConvo
+[2023-05-06 01:28:43][INFO] Response: 
+[2023-05-06 01:28:43][INFO] {"id":"875914ed-a717-4790-8f50-ca10fda2efcf","profile":{"first_name":"Raidel","last_name":"Gonzlez","full_name":"Raidel Gonzlez","email":"raidelgonzalezortiz1@gmail.com","birthday":null,"social_status":"Solteiro","gender":"Nao informado","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","public_place_type":null,"address":null,"adddressnumber":null,"complement":"-","neighbourhood":null,"state":null,"city":null,"country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":null,"user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":null,"rg":null,"pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[{"id":7725203,"status":"Concluído","status_id":"1","level":"Mestrado Integrado / Licenciatura pré-Bolonha (5 anos)","level_id":"13","title":"Música","school":"Instituto Superior de Arte La Habana","start":"2002-09-01"}],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[{"id":1520464,"idiom":"Espanhol","level":"Todos","writing":"6","speaking":"6","reading":"6"}],"work_experiences":[],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/21fbc3eb-fb09-4f01-9484-dc6888fe615e.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=fJVSHcBjykrBIfz7lLdfQiHub1c%3D&Expires=1683340123","date":"2023-05-05T22:20:36-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3479204,"career_page_source":null,"by_recruiter":null}
+[2023-05-06 01:28:43][INFO] User - raidelgonzalezortiz1@gmail.com and pk - 875914ed-a717-4790-8f50-ca10fda2efcf found on JobConvo, updating...
+[2023-05-06 01:28:43][INFO] Checking User Educations
+[2023-05-06 01:28:43][INFO] Educations found on Wordpress:
+[2023-05-06 01:28:43][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+            [id] => 7725203
+        )
+
+)
+
+[2023-05-06 01:28:43][INFO] Education 7725203 found on JobConvo, Updating...
+[2023-05-06 01:28:43][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:43][INFO] METHOD - PATCH
+[2023-05-06 01:28:43][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/educations/7725203/
+[2023-05-06 01:28:43][INFO] wp_json_encode: {"level":"13","title":"M\u00fasica ","school":"Instituto Superior de Arte La Habana ","status":"1","start":"2002-09-01","end":"2006-07-31","id":"7725203"}
+[2023-05-06 01:28:44][WARN] Retry request attempt 1
+[2023-05-06 01:28:44][INFO] Response:
+[2023-05-06 01:28:44][INFO] Array
+(
+    [id] => 7725203
+    [level] => 13
+    [title] => Música
+    [school] => Instituto Superior de Arte La Habana
+    [status] => 1
+    [start] => 2002-09-01
+    [end] => 2006-07-31
+)
+
+[2023-05-06 01:28:44][INFO] Educations Now:
+[2023-05-06 01:28:44][INFO] Array
+(
+    [0] => Array
+        (
+            [level] => 13
+            [title] => Música 
+            [school] => Instituto Superior de Arte La Habana 
+            [status] => 1
+            [start] => 2002-09-01
+            [end] => 2006-07-31
+            [id] => 7725203
+        )
+
+)
+
+[2023-05-06 01:28:44][INFO] Checking User Work Experiences
+[2023-05-06 01:28:44][INFO] Work Experiences found on Wordpress:
+[2023-05-06 01:28:44][INFO] Array
+(
+)
+
+[2023-05-06 01:28:44][INFO] Work Experiences Now:
+[2023-05-06 01:28:44][INFO] Array
+(
+)
+
+[2023-05-06 01:28:44][INFO] Checking User Languages
+[2023-05-06 01:28:44][INFO] Languages found on Wordpress:
+[2023-05-06 01:28:44][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => ES
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1520464
+        )
+
+)
+
+[2023-05-06 01:28:44][INFO] Language 1520464 found on JobConvo, Updating...
+[2023-05-06 01:28:44][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:44][INFO] METHOD - GET
+[2023-05-06 01:28:44][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/languages/1520464
+[2023-05-06 01:28:44][INFO] GET Methods enter: GET
+[2023-05-06 01:28:45][WARN] Retry request attempt 1
+[2023-05-06 01:28:45][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:45][INFO] METHOD - PATCH
+[2023-05-06 01:28:45][INFO] URL - https://api.jobconvo.com//pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/languages/1520464/
+[2023-05-06 01:28:45][INFO] wp_json_encode: {"writing":"6","speaking":"6","reading":"6","id":"1520464"}
+[2023-05-06 01:28:45][WARN] Retry request attempt 1
+[2023-05-06 01:28:45][INFO] Response:
+[2023-05-06 01:28:45][INFO] Array
+(
+    [id] => 1520464
+    [idiom] => ES
+    [writing] => 6
+    [speaking] => 6
+    [reading] => 6
+)
+
+[2023-05-06 01:28:45][INFO] Languages Now:
+[2023-05-06 01:28:45][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => ES
+            [writing] => 6
+            [speaking] => 6
+            [reading] => 6
+            [id] => 1520464
+        )
+
+)
+
+[2023-05-06 01:28:45][INFO] Checking User Websites
+[2023-05-06 01:28:45][INFO] Websites found on Wordpress:
+[2023-05-06 01:28:45][INFO] Array
+(
+)
+
+[2023-05-06 01:28:45][INFO] Websites Now:
+[2023-05-06 01:28:45][INFO] Array
+(
+)
+
+[2023-05-06 01:28:45][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:28:45][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:45][INFO] METHOD - PATCH
+[2023-05-06 01:28:45][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:28:45][INFO] wp_json_encode: {"profile":{"email":"raidelgonzalezortiz1@gmail.com","birthday":"1981-09-22","address":"Rua Doutor Garcia de ORTA 10, 2doE odivelas","adddressnumber":"10","complement":"2do-ESQ","neighbourhood":"Odivelas","city":"Lisboa","country":"Portugal","cep":"2675-358"},"documents":{"doctype":["T\u00edtulo de resid\u00eancia"],"rg":"2K2P84683","not_brazilian":true}}
+[2023-05-06 01:28:46][WARN] Retry request attempt 1
+[2023-05-06 01:28:46][INFO] Candidate id: 875914ed-a717-4790-8f50-ca10fda2efcf - Updating ...
+[2023-05-06 01:28:46][INFO] JobconvoApiClient - Request method
+[2023-05-06 01:28:46][INFO] METHOD - PATCH
+[2023-05-06 01:28:46][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/875914ed-a717-4790-8f50-ca10fda2efcf/
+[2023-05-06 01:28:46][INFO] wp_json_encode: {"first_name":"Raidel","last_name":"Gonzlez","full_name":"raidelgonzalezortiz1gmailcom","country_code":"351","area_code":"0","phone1":"926192514","phone2":"00000000000","social_status":"1","born_sex":"1"}
+[2023-05-06 01:28:47][WARN] Retry request attempt 1
+[2023-05-06 01:28:47][INFO] Candidate updated.
+[2023-05-06 01:28:47][INFO] Array
+(
+    [id] => 875914ed-a717-4790-8f50-ca10fda2efcf
+    [profile] => Array
+        (
+            [first_name] => Raidel
+            [last_name] => Gonzlez
+            [full_name] => Raidel Gonzlez
+            [email] => raidelgonzalezortiz1@gmail.com
+            [birthday] => 1981-09-22
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 00000000000
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Rua Doutor Garcia de ORTA 10, 2doE odivelas
+            [adddressnumber] => 10
+            [complement] => 2do-ESQ
+            [neighbourhood] => Odivelas
+            [state] => 
+            [city] => Lisboa
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 2675358
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => ['Título de residência']
+            [rg] => 2K2P84683
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7725203
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Mestrado Integrado / Licenciatura pré-Bolonha (5 anos)
+                    [level_id] => 13
+                    [title] => Música
+                    [school] => Instituto Superior de Arte La Habana
+                    [start] => 2002-09-01
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1520464
+                    [idiom] => Espanhol
+                    [level] => Todos
+                    [writing] => 6
+                    [speaking] => 6
+                    [reading] => 6
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-05/21fbc3eb-fb09-4f01-9484-dc6888fe615e.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=yzIuJbUzpPOnjkbuoCIV%2F52SQ7w%3D&Expires=1683340126
+    [date] => 2023-05-05T22:20:36-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3479204
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-06 01:28:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 01:28:47][INFO] User Create/Update routine finished
+[2023-05-06 01:28:47][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 09:27:33][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 09:27:33][INFO] User Create/Update routine started
+[2023-05-06 09:27:33][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 09:27:33][INFO] Get candidate by email - mleticiasilveira@hotmail.com
+[2023-05-06 09:27:33][INFO] JobconvoApiClient - Request method
+[2023-05-06 09:27:33][INFO] METHOD - GET
+[2023-05-06 09:27:33][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/?candidate=mleticiasilveira@hotmail.com
+[2023-05-06 09:27:33][INFO] GET Methods enter: GET
+[2023-05-06 09:27:33][WARN] Retry request attempt 1
+[2023-05-06 09:27:33][INFO] User - mleticiasilveira@hotmail.com and pk - 338ee7d8-9040-462a-beb4-45b4eac78e15 found on JobConvo, updating...
+[2023-05-06 09:27:33][INFO] Checking User Educations
+[2023-05-06 09:27:33][INFO] Educations found on Wordpress:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Educations Now:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Checking User Work Experiences
+[2023-05-06 09:27:33][INFO] Work Experiences found on Wordpress:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Work Experiences Now:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Checking User Languages
+[2023-05-06 09:27:33][INFO] Languages found on Wordpress:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Languages Now:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Checking User Websites
+[2023-05-06 09:27:33][INFO] Websites found on Wordpress:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Websites Now:
+[2023-05-06 09:27:33][INFO] Array
+(
+)
+
+[2023-05-06 09:27:33][INFO] Candidate id: 338ee7d8-9040-462a-beb4-45b4eac78e15 - Updating ...
+[2023-05-06 09:27:33][INFO] JobconvoApiClient - Request method
+[2023-05-06 09:27:33][INFO] METHOD - PATCH
+[2023-05-06 09:27:33][INFO] URL - https://api.jobconvo.com/pt-br/api/companycandidate/338ee7d8-9040-462a-beb4-45b4eac78e15/
+[2023-05-06 09:27:33][INFO] wp_json_encode: {"profile":{"email":"mleticiasilveira@hotmail.com","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":"311599613","not_brazilian":true}}
+[2023-05-06 09:27:34][WARN] Retry request attempt 1
+[2023-05-06 09:27:34][INFO] Candidate id: 338ee7d8-9040-462a-beb4-45b4eac78e15 - Updating ...
+[2023-05-06 09:27:34][INFO] JobconvoApiClient - Request method
+[2023-05-06 09:27:34][INFO] METHOD - PATCH
+[2023-05-06 09:27:34][INFO] URL - https://api.jobconvo.com/pt-br/api/userprofile/338ee7d8-9040-462a-beb4-45b4eac78e15/
+[2023-05-06 09:27:34][INFO] wp_json_encode: {"first_name":"MariaLetcia","last_name":"Silveira","full_name":"mleticiasilveira@hotmail.com","country_code":"351","area_code":"0","phone1":"31996194452","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-05-06 09:27:35][WARN] Retry request attempt 1
+[2023-05-06 09:27:35][INFO] Candidate updated.
+[2023-05-06 09:27:35][INFO] Array
+(
+    [id] => 338ee7d8-9040-462a-beb4-45b4eac78e15
+    [profile] => Array
+        (
+            [first_name] => MariaLetcia
+            [last_name] => Silveira
+            [full_name] => MariaLetcia Silveira
+            [email] => mleticiasilveira@hotmail.com
+            [birthday] => 1996-10-06
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 3109006
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 31996194452
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Avenida Casa Branca
+            [adddressnumber] => 5
+            [complement] => -
+            [neighbourhood] => 
+            [state] => Minas Gerais
+            [city] => Brumadinho
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 35460-000
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 311599613
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 0.00
+            [min_salary] => 0.00
+            [max_salary] => 0.00
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3346491
+                    [status] => Concluído
+                    [status_id] => 1
+                    [level] => Curso
+                    [level_id] => 10
+                    [title] => Design Gráfico, UEMG
+                    [school] => UEMG
+                    [start] => 2016-08-23
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 0
+            [last_salary] => 0
+            [min_salary] => 0
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3147639
+                    [title] => Estágio
+ Desenvolvimento de projetos técnicos e perspectivas
+                    [detail] => 
+                    [employer] => Gatti Engenharia
+                    [start] => 2021-08-23
+                    [end] => 2021-08-23
+                )
+
+            [1] => Array
+                (
+                    [id] => 3147640
+                    [title] => Estágio
+                    [detail] => 
+                    [employer] => Preencher
+                    [start] => 2021-08-23
+                    [end] => 2021-08-23
+                )
+
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2021-08-21/f25558b2-8a15-481a-b97d-faf5ae04daf7.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=appU8P%2FYDMzBXIvFNuTCgzu5r9g%3D&Expires=1683368855
+    [date] => 2022-06-15T12:20:29-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 1739148
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-06 09:27:35][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-06 09:27:35][INFO] User Create/Update routine finished
+[2023-05-06 09:27:35][INFO] *------------------------------------------------------------------------------------------------------*

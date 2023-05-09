@@ -1,0 +1,807 @@
+[03-May-2023 07:06:18 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 07:06:22 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 07:06:50 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 07:07:31 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-03 07:08:28][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 07:08:28][INFO] User Create/Update routine started
+[2023-05-03 07:08:28][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 07:08:28][INFO] Get candidate by email - suporte@websystems.pt
+[2023-05-03 07:08:28][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:28][INFO] METHOD - GET
+[2023-05-03 07:08:28][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=suporte@websystems.pt
+[2023-05-03 07:08:28][INFO] GET Methods enter: GET
+[2023-05-03 07:08:28][WARN] Retry request attempt 1
+[2023-05-03 07:08:28][INFO] User - suporte@websystems.pt and pk - 7dee272a-afd2-41ba-be10-f59ec8fe580a found on JobConvo, updating...
+[2023-05-03 07:08:28][INFO] Checking User Educations
+[2023-05-03 07:08:28][INFO] Educations found on Wordpress:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Educations Now:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Checking User Work Experiences
+[2023-05-03 07:08:28][INFO] Work Experiences found on Wordpress:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Work Experiences Now:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Checking User Languages
+[2023-05-03 07:08:28][INFO] Languages found on Wordpress:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Languages Now:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Checking User Websites
+[2023-05-03 07:08:28][INFO] Websites found on Wordpress:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Websites Now:
+[2023-05-03 07:08:28][INFO] Array
+(
+)
+
+[2023-05-03 07:08:28][INFO] Candidate id: 7dee272a-afd2-41ba-be10-f59ec8fe580a - Updating ...
+[2023-05-03 07:08:28][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:28][INFO] METHOD - PATCH
+[2023-05-03 07:08:28][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/7dee272a-afd2-41ba-be10-f59ec8fe580a/
+[2023-05-03 07:08:28][INFO] wp_json_encode: {"profile":{"email":"suporte@websystems.pt","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":null,"not_brazilian":true}}
+[2023-05-03 07:08:29][WARN] Retry request attempt 1
+[2023-05-03 07:08:29][INFO] Candidate id: 7dee272a-afd2-41ba-be10-f59ec8fe580a - Updating ...
+[2023-05-03 07:08:29][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:29][INFO] METHOD - PATCH
+[2023-05-03 07:08:29][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/7dee272a-afd2-41ba-be10-f59ec8fe580a/
+[2023-05-03 07:08:29][INFO] wp_json_encode: {"first_name":"Administrador","last_name":"knsd","full_name":"knsd791","country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-05-03 07:08:29][WARN] Retry request attempt 1
+[2023-05-03 07:08:29][INFO] Candidate updated.
+[2023-05-03 07:08:29][INFO] Array
+(
+    [id] => 7dee272a-afd2-41ba-be10-f59ec8fe580a
+    [profile] => Array
+        (
+            [first_name] => Administrador
+            [last_name] => knsd
+            [full_name] => Administrador knsd
+            [email] => suporte@websystems.pt
+            [birthday] => 
+            [social_status] => Solteiro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 00000000000
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2023-04-19T06:44:41-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3169369
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-03 07:08:29][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 07:08:29][INFO] User Create/Update routine finished
+[2023-05-03 07:08:29][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 07:08:29][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 07:08:29][INFO] User Create/Update routine started
+[2023-05-03 07:08:29][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 07:08:29][INFO] Get candidate by email - admin@alfasoft.pt
+[2023-05-03 07:08:29][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:29][INFO] METHOD - GET
+[2023-05-03 07:08:29][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=admin@alfasoft.pt
+[2023-05-03 07:08:29][INFO] GET Methods enter: GET
+[2023-05-03 07:08:29][WARN] Retry request attempt 1
+[2023-05-03 07:08:29][INFO] Sending CV file to JobConvo
+[2023-05-03 07:08:30][INFO] Response: 
+[2023-05-03 07:08:30][INFO] {"id":"72a8e29f-9b8f-4567-9de1-c3010e078366","profile":{"first_name":"alfasoft","last_name":"alfasoft","full_name":"alfasoft alfasoft","email":"admin@alfasoft.pt","birthday":"2001-03-05","social_status":"Outro","gender":"Nao informado","rais":null,"photo":null,"nationality":null,"social_name":null,"sexuality":"0","ethnicity":0,"pronoun":0,"country_code":"351","area_code":"0","phone1":"11845252547","phone2":"00000000000","public_place_type":null,"address":"Rua A","adddressnumber":"25","complement":"-","neighbourhood":"Lisboa","state":null,"city":"Lisboa","country":"Portugal","latitude":"40.0332629","longitude":"-7.8896263","cep":"1000001","user_language":"pt-br","complete_cv":false},"documents":{"cpf":null,"doctype":"[&apos;Cartão de Cidadão&apos;]","rg":"99999999","pis":null,"not_brazilian":true},"disability":{"disability":"Não","disability_id":"0"},"salary":{"last_salary":null,"min_salary":null,"max_salary":null,"currency":null},"educations":[{"id":6343001,"status":"Incompleto","status_id":"3","level":"2º ciclo do ensino básico (6 anos de escolaridade)","level_id":"1","title":"Não se aplica","school":"Não se aplica","start":"2023-03-29"},{"id":6343000,"status":"A Frequentar","status_id":"2","level":"Licenciatura Bolonha (3 anos)/ Bacharelato","level_id":"6","title":"Ciência da Computação","school":"Universidade Federal do Espírito Santo","start":"2019-06-05"}],"career_objectives":{"career_objective":null,"range_of_experience":null,"last_salary":null,"min_salary":null,"currency":null},"languages":[{"id":1122471,"idiom":"Búlgaro","level":"Todos","writing":"4","speaking":"6","reading":"3"},{"id":1122438,"idiom":"Irlandês","level":"Todos","writing":"5","speaking":"5","reading":"5"}],"work_experiences":[{"id":6855516,"title":"Desenvolvedor Web","detail":"Desenvolvia páginas em Wordpress","employer":"Agência Lefoco","start":"2021-01-10","end":"2021-12-20"},{"id":6855517,"title":"Desenvolvedor Web","detail":"Desenvolvia páginas em Wordpress","employer":"Agência Lefoco","start":"2021-01-10","end":"2021-12-20"},{"id":6855518,"title":"Desenvolvedor Web","detail":"Desenvolvia páginas web","employer":"Agência Lefoco","start":"2021-01-10","end":"2021-12-20"},{"id":6855519,"title":"Desenvolvedor Web","detail":"Desenvolvia páginas web","employer":"Agência Lefoco","start":"2021-01-10","end":"2021-12-20"},{"id":6938917,"title":"Desenvolvedor Web","detail":"Desenvolvia páginas em Wordpress","employer":"Agência Lefoco","start":"2020-03-29","end":"2021-03-29"}],"resume_file":"https://jobquiz.s3.amazonaws.com/resumes/2023-05-03/73477904-2690-4098-ac49-184fc33842ec.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=VeDmrzKiVTBTT%2BMoWX1zca%2BMp0A%3D&Expires=1683101310","date":"2022-12-28T15:31:53-03:00","source":"Página de Carreiras","referred_by":null,"referred_by_email":null,"favorite":false,"blacklist":false,"confirmed_referral":false,"referral_answer_date":null,"referral_answer_comments":null,"candidate":3069902,"career_page_source":null,"by_recruiter":null}
+[2023-05-03 07:08:30][INFO] User - admin@alfasoft.pt and pk - 72a8e29f-9b8f-4567-9de1-c3010e078366 found on JobConvo, updating...
+[2023-05-03 07:08:30][INFO] Checking User Educations
+[2023-05-03 07:08:30][INFO] Educations found on Wordpress:
+[2023-05-03 07:08:30][INFO] Array
+(
+)
+
+[2023-05-03 07:08:30][INFO] Educations Now:
+[2023-05-03 07:08:30][INFO] Array
+(
+)
+
+[2023-05-03 07:08:30][INFO] Checking User Work Experiences
+[2023-05-03 07:08:30][INFO] Work Experiences found on Wordpress:
+[2023-05-03 07:08:30][INFO] Array
+(
+)
+
+[2023-05-03 07:08:30][INFO] Work Experiences Now:
+[2023-05-03 07:08:30][INFO] Array
+(
+)
+
+[2023-05-03 07:08:30][INFO] Checking User Languages
+[2023-05-03 07:08:30][INFO] Languages found on Wordpress:
+[2023-05-03 07:08:30][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 4
+            [speaking] => 4
+            [reading] => 5
+            [id] => 1122402
+        )
+
+)
+
+[2023-05-03 07:08:30][INFO] Language 1122402 found on JobConvo, Updating...
+[2023-05-03 07:08:30][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:30][INFO] METHOD - GET
+[2023-05-03 07:08:30][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/72a8e29f-9b8f-4567-9de1-c3010e078366/languages/1122402
+[2023-05-03 07:08:30][INFO] GET Methods enter: GET
+[2023-05-03 07:08:30][WARN] Retry request attempt 1
+[2023-05-03 07:08:30][ERROR] Can't acess Jobconvo API, error:
+[2023-05-03 07:08:30][ERROR] Code: 404
+[2023-05-03 07:08:30][ERROR] Message: Not Found
+[2023-05-03 07:08:30][ERROR] Body details: {"detail":"Não encontrado."}
+[2023-05-03 07:08:30][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:30][INFO] METHOD - PATCH
+[2023-05-03 07:08:30][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/72a8e29f-9b8f-4567-9de1-c3010e078366/languages/1122402/
+[2023-05-03 07:08:30][INFO] wp_json_encode: {"idiom":"EN","writing":"4","speaking":"4","reading":"5","id":"1122402"}
+[2023-05-03 07:08:30][WARN] Retry request attempt 1
+[2023-05-03 07:08:30][ERROR] Can't acess Jobconvo API, error:
+[2023-05-03 07:08:30][ERROR] Code: 404
+[2023-05-03 07:08:30][ERROR] Message: Not Found
+[2023-05-03 07:08:30][ERROR] Body details: {"detail":"Não encontrado."}
+[2023-05-03 07:08:30][INFO] Response:
+[2023-05-03 07:08:30][INFO] 
+[2023-05-03 07:08:30][INFO] Languages Now:
+[2023-05-03 07:08:30][INFO] Array
+(
+    [0] => Array
+        (
+            [idiom] => EN
+            [writing] => 4
+            [speaking] => 4
+            [reading] => 5
+            [id] => 1122402
+        )
+
+)
+
+[2023-05-03 07:08:30][INFO] Checking User Websites
+[2023-05-03 07:08:30][INFO] Websites found on Wordpress:
+[2023-05-03 07:08:30][INFO] Array
+(
+    [0] => Array
+        (
+            [website] => Site teste
+            [link] => http://testase.com.br
+            [id] => 159383
+        )
+
+)
+
+[2023-05-03 07:08:30][INFO] Website 159383 found on JobConvo, Updating...
+[2023-05-03 07:08:30][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:30][INFO] METHOD - PATCH
+[2023-05-03 07:08:30][INFO] URL - https://test-homolog.jobconvo.com//pt-br/api/companycandidate/72a8e29f-9b8f-4567-9de1-c3010e078366/websites/159383/
+[2023-05-03 07:08:30][INFO] wp_json_encode: {"website":"Site teste","link":"http:\/\/testase.com.br","id":"159383"}
+[2023-05-03 07:08:31][WARN] Retry request attempt 1
+[2023-05-03 07:08:31][ERROR] Can't acess Jobconvo API, error:
+[2023-05-03 07:08:31][ERROR] Code: 404
+[2023-05-03 07:08:31][ERROR] Message: Not Found
+[2023-05-03 07:08:31][ERROR] Body details: {"detail":"Não encontrado."}
+[2023-05-03 07:08:31][INFO] Response:
+[2023-05-03 07:08:31][INFO] 
+[2023-05-03 07:08:31][INFO] Websites Now:
+[2023-05-03 07:08:31][INFO] Array
+(
+    [0] => Array
+        (
+            [website] => Site teste
+            [link] => http://testase.com.br
+            [id] => 159383
+        )
+
+)
+
+[2023-05-03 07:08:31][INFO] Candidate id: 72a8e29f-9b8f-4567-9de1-c3010e078366 - Updating ...
+[2023-05-03 07:08:31][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:31][INFO] METHOD - PATCH
+[2023-05-03 07:08:31][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/72a8e29f-9b8f-4567-9de1-c3010e078366/
+[2023-05-03 07:08:31][INFO] wp_json_encode: {"profile":{"email":"admin@alfasoft.pt","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":"99999999","not_brazilian":true}}
+[2023-05-03 07:08:31][WARN] Retry request attempt 1
+[2023-05-03 07:08:31][INFO] Candidate id: 72a8e29f-9b8f-4567-9de1-c3010e078366 - Updating ...
+[2023-05-03 07:08:31][INFO] JobconvoApiClient - Request method
+[2023-05-03 07:08:31][INFO] METHOD - PATCH
+[2023-05-03 07:08:31][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/72a8e29f-9b8f-4567-9de1-c3010e078366/
+[2023-05-03 07:08:31][INFO] wp_json_encode: {"first_name":"alfasoft","last_name":"alfasoft","full_name":"alfasoft","country_code":"351","area_code":"0","phone1":"11845252547","phone2":"00000000000","social_status":"3","born_sex":"4"}
+[2023-05-03 07:08:31][WARN] Retry request attempt 1
+[2023-05-03 07:08:31][INFO] Candidate updated.
+[2023-05-03 07:08:31][INFO] Array
+(
+    [id] => 72a8e29f-9b8f-4567-9de1-c3010e078366
+    [profile] => Array
+        (
+            [first_name] => alfasoft
+            [last_name] => alfasoft
+            [full_name] => alfasoft alfasoft
+            [email] => admin@alfasoft.pt
+            [birthday] => 2001-03-05
+            [social_status] => Outro
+            [gender] => Nao informado
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 0
+            [phone1] => 11845252547
+            [phone2] => 00000000000
+            [public_place_type] => 
+            [address] => Rua A
+            [adddressnumber] => 25
+            [complement] => -
+            [neighbourhood] => Lisboa
+            [state] => 
+            [city] => Lisboa
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 1000001
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => [&apos;Cartão de Cidadão&apos;]
+            [rg] => 99999999
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6343001
+                    [status] => Incompleto
+                    [status_id] => 3
+                    [level] => Do 6º ao 9º ano do Ensino Fundamental
+                    [level_id] => 1
+                    [title] => Não se aplica
+                    [school] => Não se aplica
+                    [start] => 2023-03-29
+                )
+
+            [1] => Array
+                (
+                    [id] => 6343000
+                    [status] => Cursando
+                    [status_id] => 2
+                    [level] => Ensino Superior
+                    [level_id] => 6
+                    [title] => Ciência da Computação
+                    [school] => Universidade Federal do Espírito Santo
+                    [start] => 2019-06-05
+                )
+
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1122471
+                    [idiom] => Búlgaro
+                    [level] => Todos
+                    [writing] => 4
+                    [speaking] => 6
+                    [reading] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 1122438
+                    [idiom] => Irlandês
+                    [level] => Todos
+                    [writing] => 5
+                    [speaking] => 5
+                    [reading] => 5
+                )
+
+        )
+
+    [work_experiences] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6855516
+                    [title] => Desenvolvedor Web
+                    [detail] => Desenvolvia páginas em Wordpress
+                    [employer] => Agência Lefoco
+                    [start] => 2021-01-10
+                    [end] => 2021-12-20
+                )
+
+            [1] => Array
+                (
+                    [id] => 6855517
+                    [title] => Desenvolvedor Web
+                    [detail] => Desenvolvia páginas em Wordpress
+                    [employer] => Agência Lefoco
+                    [start] => 2021-01-10
+                    [end] => 2021-12-20
+                )
+
+            [2] => Array
+                (
+                    [id] => 6855518
+                    [title] => Desenvolvedor Web
+                    [detail] => Desenvolvia páginas web
+                    [employer] => Agência Lefoco
+                    [start] => 2021-01-10
+                    [end] => 2021-12-20
+                )
+
+            [3] => Array
+                (
+                    [id] => 6855519
+                    [title] => Desenvolvedor Web
+                    [detail] => Desenvolvia páginas web
+                    [employer] => Agência Lefoco
+                    [start] => 2021-01-10
+                    [end] => 2021-12-20
+                )
+
+            [4] => Array
+                (
+                    [id] => 6938917
+                    [title] => Desenvolvedor Web
+                    [detail] => Desenvolvia páginas em Wordpress
+                    [employer] => Agência Lefoco
+                    [start] => 2020-03-29
+                    [end] => 2021-03-29
+                )
+
+        )
+
+    [resume_file] => https://jobquiz.s3.amazonaws.com/resumes/2023-05-03/73477904-2690-4098-ac49-184fc33842ec.pdf?AWSAccessKeyId=AKIAZKSAQCLUMNZ2255T&Signature=g28fLxkJyaFooHsY6hTP2JDvIu8%3D&Expires=1683101311
+    [date] => 2022-12-28T15:31:53-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3069902
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-05-03 07:08:31][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 07:08:31][INFO] User Create/Update routine finished
+[2023-05-03 07:08:31][INFO] *------------------------------------------------------------------------------------------------------*
+[03-May-2023 07:08:32 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 08:38:00 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 08:38:04 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 13:40:44 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 13:41:27 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 13:41:33 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 13:41:57 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 13:42:06 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 13:42:14 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 13:42:27 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 14:20:55 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 14:20:56 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 14:21:00 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[2023-05-03 17:25:41][INFO] New user registered with ID: 101
+[2023-05-03 17:25:41][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 17:25:41][INFO] User Create/Update routine started
+[2023-05-03 17:25:41][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 17:25:41][INFO] Get candidate by email - mourabmm@hotmail.com
+[2023-05-03 17:25:41][INFO] JobconvoApiClient - Request method
+[2023-05-03 17:25:41][INFO] METHOD - GET
+[2023-05-03 17:25:41][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=mourabmm@hotmail.com
+[2023-05-03 17:25:41][INFO] GET Methods enter: GET
+[2023-05-03 17:25:41][WARN] Retry request attempt 1
+[2023-05-03 17:25:41][ERROR] Can't acess Jobconvo API, error:
+[2023-05-03 17:25:41][ERROR] Code: 404
+[2023-05-03 17:25:41][ERROR] Message: Not Found
+[2023-05-03 17:25:41][ERROR] Body details: {"detail":"Não encontrado."}
+[2023-05-03 17:25:41][INFO] User - mourabmm@hotmail.com not found on JobConvo, creating new one...
+[2023-05-03 17:25:41][INFO] Candidate - Creating...
+[2023-05-03 17:25:41][INFO] JobconvoApiClient - Request method
+[2023-05-03 17:25:41][INFO] METHOD - POST
+[2023-05-03 17:25:41][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/
+[2023-05-03 17:25:41][INFO] wp_json_encode: {"profile":{"first_name":"Margarida","last_name":"Maria Moura Bernardino","email":"mourabmm@hotmail.com"}}
+[2023-05-03 17:25:42][WARN] Retry request attempt 1
+[2023-05-03 17:25:42][INFO] Candidate created.
+[2023-05-03 17:25:42][INFO] Array
+(
+    [pk] => c65c4b67-1fa4-4943-9a5c-68a1f36b6642
+    [date] => 2023-05-03T14:25:42.643219-03:00
+    [source] => Página de Carreiras
+    [favorite] => 
+    [blacklist] => 
+    [by_recruiter] => 
+    [referral] => Array
+        (
+            [by_name] => 
+            [by_email] => 
+            [confirmed] => 
+            [answer_date] => 
+            [answer_comments] => 
+        )
+
+    [profile] => Array
+        (
+            [first_name] => Margarida
+            [last_name] => Maria Moura Bernardino
+            [full_name] => Margarida Maria Moura Bernardino
+            [email] => mourabmm@hotmail.com
+            [birthday] => 
+            [social_status] => 
+            [gender] => 
+            [rais] => 
+            [photo] => 
+            [nationality] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 
+            [area_code] => 
+            [phone1] => 
+            [phone2] => 
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => 
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => 
+            [latitude] => 
+            [longitude] => 
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [skills] => Array
+        (
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [website] => Array
+        (
+        )
+
+    [applications] => Array
+        (
+        )
+
+    [resume_file] => 
+)
+
+[2023-05-03 17:25:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 17:25:42][INFO] User Create/Update routine finished
+[2023-05-03 17:25:42][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 17:29:32][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 17:29:32][INFO] User Update By CV routine - BEGIN
+[2023-05-03 17:29:32][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-05-03 17:29:32][INFO] Sending CV file to Google Document AI
+[2023-05-03 17:29:32][ERROR] Failed to load Google DocumentAI:
+[2023-05-03 17:29:32][ERROR] Error Object
+(
+    [message:protected] => Class 'Google\Cloud\DocumentAI\V1\DocumentProcessorServiceClient' not found
+    [string:Error:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/DocumentAI.php
+    [line:protected] => 12
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/plugins/knower-jobconvo-api-wordpress-plugin/AlfasoftJobconvo.php
+                    [line] => 150
+                    [function] => __construct
+                    [class] => AS_Google_DocumentAI
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 308
+                    [function] => get_cv_info
+                    [class] => AlfasoftJobconvo
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 7886
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/class-wp-hook.php
+                    [line] => 332
+                    [function] => apply_filters
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 
+                            [1] => Array
+                                (
+                                    [0] => 7886
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/plugin.php
+                    [line] => 517
+                    [function] => do_action
+                    [class] => WP_Hook
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 7886
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                    [line] => 473
+                    [function] => do_action
+                    [args] => Array
+                        (
+                            [0] => user_uploaded_cv
+                            [1] => 7886
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                    [line] => 25
+                    [function] => alfasoft_update_cvfile
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/theme-user-cv-main.php
+                    [line] => 10
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/functions/edit-profile.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [7] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-content/themes/st4rt3r_theme-child/theme-user-cv-main.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => /home/knowerpt/public_html/wp-blog-header.php
+                    [line] => 19
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-includes/template-loader.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [9] => Array
+                (
+                    [file] => /home/knowerpt/public_html/index.php
+                    [line] => 17
+                    [args] => Array
+                        (
+                            [0] => /home/knowerpt/public_html/wp-blog-header.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+
+[03-May-2023 18:45:54 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 18:46:32 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309
+[03-May-2023 18:48:16 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/knowerpt/public_html/wp-includes/functions.php on line 5309

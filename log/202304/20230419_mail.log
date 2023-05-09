@@ -1,0 +1,2757 @@
+[2023-04-19 08:33:09][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:33:09 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=5471&amp;action=edit&amp;lang=pt-pt'>Equipa de Suporte</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:39:02][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:39:02 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:39:12][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:39:12 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Featured</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:39:22][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:39:22 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Display Featured Image</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:39:32][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:39:32 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:52:43][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:52:43 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:52:53][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:52:53 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Display Featured Image</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:53:03][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:53:03 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Featured</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:53:13][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:53:13 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Post Intro</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:53:23][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:53:23 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:53:33][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:53:33 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Text</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:53:43][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:53:43 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Image</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:53:53][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:53:53 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Image Caption</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:54:03][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:54:03 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>columns</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:54:08][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:54:08 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:54:13][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:54:13 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Main Title</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:54:23][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:54:23 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Column 01</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:54:33][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:54:33 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Column 02</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:54:43][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:54:43 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:56:46][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:56:46 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:56:57][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:56:57 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Table title</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:57:07][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:57:07 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Table Type</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:57:17][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:57:17 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:58:54][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:58:54 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:59:04][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:59:04 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Gallery Type</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:59:14][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:59:14 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Thumb Type</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:59:24][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:59:24 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Columns</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 08:59:34][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 08:59:34 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:01:59][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:01:59 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:02:09][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:02:09 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Thumb Type</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:02:19][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:02:19 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3998&amp;action=edit&amp;lang=pt-pt'>Post Blocks</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:04:00][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:04:00 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:12:47][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:12:47 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:13:52][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:13:52 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:14:19][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:14:19 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:44:49][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:44:49 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => bruno.franquet@websystems.pt
+                        )
+
+                    [subject] => [Knower] Registo de novo utilizador
+                    [message] => Registo de novo utilizador no seu site Knower:
+
+Nome de utilizador: WS_Editor
+
+Email: suporte@websystems.pt
+
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:53:14][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:53:14 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=4402&amp;action=edit&amp;lang=pt-pt'>Knower<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Brands</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:54:36][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:54:36 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3962&amp;action=edit&amp;lang=pt-pt'>Hero Slider</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:54:47][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:54:47 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3962&amp;action=edit&amp;lang=pt-pt'>Hero Slider</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:55:38][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:55:38 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3989&amp;action=edit&amp;lang=pt-pt'>Page Sidebar</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:55:48][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:55:48 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3989&amp;action=edit&amp;lang=pt-pt'>Page Sidebar</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:59:45][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:59:45 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3985&amp;action=edit&amp;lang=pt-pt'>Newsletter</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 09:59:55][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 09:59:55 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href=''>Academy Newsletter</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:00:05][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:00:05 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=3985&amp;action=edit&amp;lang=pt-pt'>Newsletter</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:00:45][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:00:45 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=4021&amp;action=edit&amp;lang=pt-pt'>Sections</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:00:55][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:00:55 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=4021&amp;action=edit&amp;lang=pt-pt'>Sections</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:07:35][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:07:35 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=4021&amp;action=edit&amp;lang=pt-pt'>Sections</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:07:45][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:07:45 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Slider</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:07:55][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:07:55 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Photo</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:08:05][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:08:05 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Name</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:08:15][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:08:15 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Role</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:08:25][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:08:25 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Excerpt</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:08:35][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:08:35 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Content</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:08:45][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:08:45 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Linkedin</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:08:55][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:08:55 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=4021&amp;action=edit&amp;lang=pt-pt'>Sections</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:10:44][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:10:44 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=4021&amp;action=edit&amp;lang=pt-pt'>Sections</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:10:54][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:10:54 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='&amp;lang=pt-pt'>Team Members</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:11:04][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:11:04 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=4021&amp;action=edit&amp;lang=pt-pt'>Sections</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:47:52][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:47:52 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:51:26][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:51:26 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:53:01][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:53:01 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=330&amp;action=edit&amp;lang=pt-pt'>Article Template</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:58:02][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:58:02 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=5355&amp;action=edit&amp;lang=pt-pt'>Notícia 01</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 10:59:21][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 10:59:21 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=5355&amp;action=edit&amp;lang=pt-pt'>Notícia 01</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[2023-04-19 11:00:07][ERROR] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+
+[19-Apr-2023 11:00:07 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => SMTP Error: Could not connect to SMTP host. Failed to connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => development@alfasoft.pt
+                        )
+
+                    [subject] => Uma oferta de trabalho foi atualizada
+                    [message] => <h2>A seguinte oferta de trabalho foi atualizada, favor, revisar a oferta e suas traduções:</h2><a href='https://cpahosting.net/kn0wer4sversion/wp-admin/post.php?post=5355&amp;action=edit&amp;lang=pt-pt'>Notícia 01</a>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+

@@ -1,0 +1,70 @@
+.jobconvo-container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.jobconvo-container .card {
+    padding: 10px 25px;
+    max-width: 90%;
+}
+
+.jobconvo-container .title {
+    margin-bottom: 0.5em;
+}
+
+.jobconvo-container .data-empty {
+    margin: 20px 10px 20px 10px;
+    font-weight: bold;
+}
+
+/******* Logs Start *******/
+
+.jobconvo-container.logs label {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.log-content {
+    margin-top: 20px;
+}
+
+.jobconvo-container.logs textarea {
+    margin-top: 10px;
+    min-width: 100%;
+    min-height: 50px;
+}
+
+.jobconvo-container.logs .accordion {
+    background-color: #ccc;
+    margin: 1px 0;
+    padding: 5px 0;
+}
+
+.jobconvo-container.logs .panel {
+    border: solid 1px #444;
+    padding: 0 5px;
+}
+
+/******* Logs Start *******/
+
+/******* Footer Start *******/
+.jobconvo-container .footer p {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+.jobconvo-container .footer span {
+    vertical-align: middle;
+}
+
+.jobconvo-container .footer img {
+    width: 150px;
+    max-width: 150px;
+    height: 22.38px;
+    margin-left: 5px;
+    vertical-align: middle
+}
+
+/******** Footer End ********/

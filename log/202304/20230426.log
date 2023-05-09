@@ -1,0 +1,330 @@
+[2023-04-26 09:25:05][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 09:25:05][INFO] Job Offer - 7 updated, notifying admin - BEGIN
+[2023-04-26 09:25:05][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 09:25:05][INFO] Mail sent successfully
+[2023-04-26 09:25:05][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 09:25:05][INFO] Job Offer - 7 updated, notifying admin - END
+[2023-04-26 09:25:05][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 09:25:05][INFO] Post ID 7 saved, status is publish , parent is 0
+[2023-04-26 09:25:05][INFO] Post ID 7 saved, status is publish , parent is 0
+[2023-04-26 13:16:53][INFO] Post ID 7698 saved, status is publish , parent is 0
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Job Offer - 5152 updated, notifying admin - BEGIN
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Mail sent successfully
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Job Offer - 5152 updated, notifying admin - END
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Post auto-draft
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Job Offer - 5082 updated, notifying admin - BEGIN
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Mail sent successfully
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Job Offer - 5082 updated, notifying admin - END
+[2023-04-26 13:18:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 13:18:37][INFO] Post auto-draft
+[2023-04-26 17:22:57][INFO] Post ID 7698 saved, status is publish , parent is 0
+[2023-04-26 17:26:36][INFO] New user registered with ID: 98
+[2023-04-26 17:26:36][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 17:26:36][INFO] User Create/Update routine started
+[2023-04-26 17:26:36][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 17:26:36][INFO] Get candidate by email - gustavo.araujo@alfasoft.pt
+[2023-04-26 17:26:36][INFO] JobconvoApiClient - Request method
+[2023-04-26 17:26:36][INFO] METHOD - GET
+[2023-04-26 17:26:36][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=gustavo.araujo@alfasoft.pt
+[2023-04-26 17:26:36][INFO] GET Methods enter: GET
+[2023-04-26 17:26:36][WARN] Retry request attempt 1
+[2023-04-26 17:26:36][ERROR] Can't acess Jobconvo API, error:
+[2023-04-26 17:26:36][ERROR] Code: 404
+[2023-04-26 17:26:36][ERROR] Message: Not Found
+[2023-04-26 17:26:36][ERROR] Body details: {"detail":"Não encontrado."}
+[2023-04-26 17:26:36][INFO] User - gustavo.araujo@alfasoft.pt not found on JobConvo, creating new one...
+[2023-04-26 17:26:36][INFO] Candidate - Creating...
+[2023-04-26 17:26:36][INFO] JobconvoApiClient - Request method
+[2023-04-26 17:26:36][INFO] METHOD - POST
+[2023-04-26 17:26:36][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/
+[2023-04-26 17:26:36][INFO] wp_json_encode: {"profile":{"first_name":"alfasoft","last_name":"editor","email":"gustavo.araujo@alfasoft.pt"}}
+[2023-04-26 17:26:37][WARN] Retry request attempt 1
+[2023-04-26 17:26:37][INFO] Candidate created.
+[2023-04-26 17:26:37][INFO] Array
+(
+    [pk] => 2f2d3adf-28d9-4b19-bf51-84f88d0d85a3
+    [date] => 2023-04-26T14:26:38.972843-03:00
+    [source] => Página de Carreiras
+    [favorite] => 
+    [blacklist] => 
+    [by_recruiter] => 
+    [referral] => Array
+        (
+            [by_name] => 
+            [by_email] => 
+            [confirmed] => 
+            [answer_date] => 
+            [answer_comments] => 
+        )
+
+    [profile] => Array
+        (
+            [first_name] => alfasoft
+            [last_name] => editor
+            [full_name] => alfasoft editor
+            [email] => gustavo.araujo@alfasoft.pt
+            [birthday] => 
+            [social_status] => 
+            [gender] => 
+            [rais] => 
+            [photo] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 
+            [area_code] => 
+            [phone1] => 
+            [phone2] => 
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => 
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => 
+            [latitude] => 
+            [longitude] => 
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+            [nationality] => 
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [skills] => Array
+        (
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [website] => Array
+        (
+        )
+
+    [applications] => Array
+        (
+        )
+
+    [resume_file] => 
+)
+
+[2023-04-26 17:26:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 17:26:37][INFO] User Create/Update routine finished
+[2023-04-26 17:26:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 17:26:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 17:26:37][INFO] User Create/Update routine started
+[2023-04-26 17:26:37][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 17:26:37][INFO] Get candidate by email - gustavo.araujo@alfasoft.pt
+[2023-04-26 17:26:37][INFO] JobconvoApiClient - Request method
+[2023-04-26 17:26:37][INFO] METHOD - GET
+[2023-04-26 17:26:37][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/?candidate=gustavo.araujo@alfasoft.pt
+[2023-04-26 17:26:37][INFO] GET Methods enter: GET
+[2023-04-26 17:26:38][WARN] Retry request attempt 1
+[2023-04-26 17:26:38][INFO] User - gustavo.araujo@alfasoft.pt and pk - 2f2d3adf-28d9-4b19-bf51-84f88d0d85a3 found on JobConvo, updating...
+[2023-04-26 17:26:38][INFO] Checking User Educations
+[2023-04-26 17:26:38][INFO] Educations found on Wordpress:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Educations Now:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Checking User Work Experiences
+[2023-04-26 17:26:38][INFO] Work Experiences found on Wordpress:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Work Experiences Now:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Checking User Languages
+[2023-04-26 17:26:38][INFO] Languages found on Wordpress:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Languages Now:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Checking User Websites
+[2023-04-26 17:26:38][INFO] Websites found on Wordpress:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Websites Now:
+[2023-04-26 17:26:38][INFO] Array
+(
+)
+
+[2023-04-26 17:26:38][INFO] Candidate id: 2f2d3adf-28d9-4b19-bf51-84f88d0d85a3 - Updating ...
+[2023-04-26 17:26:38][INFO] JobconvoApiClient - Request method
+[2023-04-26 17:26:38][INFO] METHOD - PATCH
+[2023-04-26 17:26:38][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/companycandidate/2f2d3adf-28d9-4b19-bf51-84f88d0d85a3/
+[2023-04-26 17:26:38][INFO] wp_json_encode: {"profile":{"email":"gustavo.araujo@alfasoft.pt","birthday":null,"address":"","adddressnumber":null,"complement":"-","neighbourhood":null,"city":null,"country":"Portugal","cep":null},"documents":{"doctype":null,"rg":null,"not_brazilian":true}}
+[2023-04-26 17:26:38][WARN] Retry request attempt 1
+[2023-04-26 17:26:38][INFO] Candidate id: 2f2d3adf-28d9-4b19-bf51-84f88d0d85a3 - Updating ...
+[2023-04-26 17:26:38][INFO] JobconvoApiClient - Request method
+[2023-04-26 17:26:38][INFO] METHOD - PATCH
+[2023-04-26 17:26:38][INFO] URL - https://test-homolog.jobconvo.com/pt-br/api/userprofile/2f2d3adf-28d9-4b19-bf51-84f88d0d85a3/
+[2023-04-26 17:26:38][INFO] wp_json_encode: {"first_name":"alfasoft","last_name":"editor","full_name":"alfasoft_editor","country_code":"351","area_code":"0","phone1":"00000000000","phone2":"00000000000","social_status":"1","born_sex":"4"}
+[2023-04-26 17:26:39][WARN] Retry request attempt 1
+[2023-04-26 17:26:39][INFO] Candidate updated.
+[2023-04-26 17:26:39][INFO] Array
+(
+    [id] => 2f2d3adf-28d9-4b19-bf51-84f88d0d85a3
+    [profile] => Array
+        (
+            [first_name] => alfasoft
+            [last_name] => editor
+            [full_name] => alfasoft editor
+            [email] => gustavo.araujo@alfasoft.pt
+            [birthday] => 
+            [social_status] => 
+            [gender] => 
+            [rais] => 
+            [photo] => 
+            [social_name] => 
+            [sexuality] => 0
+            [ethnicity] => 0
+            [pronoun] => 0
+            [country_code] => 351
+            [area_code] => 
+            [phone1] => 
+            [phone2] => 
+            [public_place_type] => 
+            [address] => 
+            [adddressnumber] => 
+            [complement] => -
+            [neighbourhood] => 
+            [state] => 
+            [city] => 
+            [country] => Portugal
+            [latitude] => 40.0332629
+            [longitude] => -7.8896263
+            [cep] => 
+            [user_language] => pt-br
+            [complete_cv] => 
+            [nationality] => 
+        )
+
+    [documents] => Array
+        (
+            [cpf] => 
+            [doctype] => 
+            [rg] => 
+            [pis] => 
+            [not_brazilian] => 1
+        )
+
+    [disability] => Array
+        (
+            [disability] => Não
+            [disability_id] => 0
+        )
+
+    [salary] => Array
+        (
+            [last_salary] => 
+            [min_salary] => 
+            [max_salary] => 
+            [currency] => 
+        )
+
+    [educations] => Array
+        (
+        )
+
+    [career_objectives] => Array
+        (
+            [career_objective] => 
+            [range_of_experience] => 
+            [last_salary] => 
+            [min_salary] => 
+            [currency] => 
+        )
+
+    [languages] => Array
+        (
+        )
+
+    [work_experiences] => Array
+        (
+        )
+
+    [resume_file] => 
+    [date] => 2023-04-26T14:26:39-03:00
+    [source] => Página de Carreiras
+    [referred_by] => 
+    [referred_by_email] => 
+    [favorite] => 
+    [blacklist] => 
+    [confirmed_referral] => 
+    [referral_answer_date] => 
+    [referral_answer_comments] => 
+    [candidate] => 3169420
+    [career_page_source] => 
+    [by_recruiter] => 
+)
+
+[2023-04-26 17:26:39][INFO] *------------------------------------------------------------------------------------------------------*
+[2023-04-26 17:26:39][INFO] User Create/Update routine finished
+[2023-04-26 17:26:39][INFO] *------------------------------------------------------------------------------------------------------*
